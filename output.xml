@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.10.7 on linux)" generated="20230623 07:11:01.388" rpa="false" schemaversion="3">
+<suite id="s1" name="1" source="/home/automatetest/Desktop/automate/1.robot">
+<test id="s1-t1" name="Login Dev Env" line="22">
+<kw name="Login">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${urluat}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230623 07:11:01.810" level="INFO">Opening browser 'chrome' to base url 'https://uatgosaas.app/login'.</msg>
+<msg timestamp="20230623 07:11:02.175" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20230623 07:11:02.176" level="FAIL">WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Stacktrace:
+#0 0x562eef3504e3 &lt;unknown&gt;
+#1 0x562eef07fc76 &lt;unknown&gt;
+#2 0x562eef0a8d78 &lt;unknown&gt;
+#3 0x562eef0a5029 &lt;unknown&gt;
+#4 0x562eef0e3ccc &lt;unknown&gt;
+#5 0x562eef0e347f &lt;unknown&gt;
+#6 0x562eef0dade3 &lt;unknown&gt;
+#7 0x562eef0b02dd &lt;unknown&gt;
+#8 0x562eef0b134e &lt;unknown&gt;
+#9 0x562eef3103e4 &lt;unknown&gt;
+#10 0x562eef3143d7 &lt;unknown&gt;
+#11 0x562eef31eb20 &lt;unknown&gt;
+#12 0x562eef315023 &lt;unknown&gt;
+#13 0x562eef2e31aa &lt;unknown&gt;
+#14 0x562eef3396b8 &lt;unknown&gt;
+#15 0x562eef339847 &lt;unknown&gt;
+#16 0x562eef349243 &lt;unknown&gt;
+#17 0x7f89ece90402 &lt;unknown&gt;
+</msg>
+<status status="FAIL" starttime="20230623 07:11:01.809" endtime="20230623 07:11:02.182"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20230623 07:11:02.182" endtime="20230623 07:11:02.182"/>
+</kw>
+<kw name="Element Should Be Visible" library="SeleniumLibrary">
+<arg>${email}</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20230623 07:11:02.183" endtime="20230623 07:11:02.183"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${email}</arg>
+<arg>thanawin@atcreative.co.th</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 07:11:02.183" endtime="20230623 07:11:02.183"/>
+</kw>
+<kw name="Element Should Be Visible" library="SeleniumLibrary">
+<arg>${password}</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20230623 07:11:02.183" endtime="20230623 07:11:02.183"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${password}</arg>
+<arg>!@#Win123</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 07:11:02.183" endtime="20230623 07:11:02.183"/>
+</kw>
+<kw name="Element Should Be Visible" library="SeleniumLibrary">
+<arg>${loginbutton}</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20230623 07:11:02.183" endtime="20230623 07:11:02.183"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${loginbutton}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 07:11:02.184" endtime="20230623 07:11:02.184"/>
+</kw>
+<status status="FAIL" starttime="20230623 07:11:01.808" endtime="20230623 07:11:02.185"/>
+</kw>
+<status status="FAIL" starttime="20230623 07:11:01.806" endtime="20230623 07:11:02.185">WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Stacktrace:
+#0 0x562eef3504e3 &lt;unknown&gt;
+#1 0x562eef07fc76 &lt;unknown&gt;
+#2 0x562eef0a8d78 &lt;unknown&gt;
+#3 0x562eef0a5029 &lt;unknown&gt;
+#4 0x562eef0e3ccc &lt;unknown&gt;
+#5 0x562eef0e347f &lt;unknown&gt;
+#6 0x562eef0dade3 &lt;unknown&gt;
+#7 0x562eef0b02dd &lt;unknown&gt;
+#8 0x562eef0b134e &lt;unknown&gt;
+#9 0x562eef3103e4 &lt;unknown&gt;
+#10 0x562eef3143d7 &lt;unknown&gt;
+#11 0x562eef31eb20 &lt;unknown&gt;
+#12 0x562eef315023 &lt;unknown&gt;
+#13 0x562eef2e31aa &lt;unknown&gt;
+#14 0x562eef3396b8 &lt;unknown&gt;
+#15 0x562eef339847 &lt;unknown&gt;
+#16 0x562eef349243 &lt;unknown&gt;
+#17 0x7f89ece90402 &lt;unknown&gt;
+</status>
+</test>
+<test id="s1-t2" name="Click shop" line="25">
+<kw name="Click Shop">
+<kw name="Sleep" library="BuiltIn">
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 07:11:12.189" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20230623 07:11:02.188" endtime="20230623 07:11:12.189"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>//*[normalize-space(text()) = 'Hamster Shop']</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<msg timestamp="20230623 07:11:12.192" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20230623 07:11:12.192" level="FAIL">No browser is open.</msg>
+<status status="FAIL" starttime="20230623 07:11:12.190" endtime="20230623 07:11:12.193"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[normalize-space(text()) = 'Hamstr Shop']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 07:11:12.193" endtime="20230623 07:11:12.194"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 07:11:12.194" endtime="20230623 07:11:12.194"/>
+</kw>
+<status status="FAIL" starttime="20230623 07:11:02.187" endtime="20230623 07:11:12.194"/>
+</kw>
+<status status="FAIL" starttime="20230623 07:11:02.186" endtime="20230623 07:11:12.194">No browser is open.</status>
+</test>
+<status status="FAIL" starttime="20230623 07:11:01.390" endtime="20230623 07:11:12.196"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="2" skip="0" id="s1" name="1">1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
