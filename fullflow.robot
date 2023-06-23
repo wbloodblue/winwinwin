@@ -42,7 +42,6 @@ Add Order 1
     Wait until element is visible       ${userbox}
     Click element                       ${userbox}
     sleep   2s
-    Wait until element is visible       ${firstuser}
     Click element                       ${firstuser}
     Press Keys                           xpath=//body        \ue00f
     sleep   2s
@@ -60,7 +59,7 @@ Add Order 1
     sleep   2s
     Wait Until Page Contains Element    ${uploadfield}
     sleep   2s
-    Choose File                         ${uploadfield}          ${testpic}
+    Choose File                         ${uploadfield}          ${testpic1}
     sleep   1s
     Press Keys                           xpath=//body        \ue00f
     sleep   1s
@@ -190,7 +189,7 @@ Confirm Order 2
     sleep   2s
     Wait Until Page Contains Element    ${uploadfield}
     sleep   2s
-    Choose File                         ${uploadfield}          ${testpic}
+    Choose File                         ${uploadfield}          ${testpic1}
     sleep   5s
     Wait until element is visible       ${confirmpaymentbutton}
     Click element                       ${confirmpaymentbutton}

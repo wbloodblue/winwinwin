@@ -25,7 +25,7 @@ ${fromweb}                  //*[@id="order_form_modal"]/div/div[3]/form/div[2]/d
 ${fromcall}                 //*[@id="order_form_modal"]/div/div[3]/form/div[2]/div[1]/div[2]/div/div/div[2]/div/div/div/div/div[11]/label/div
 ${fromcrm}                  //*[@id="order_form_modal"]/div/div[3]/form/div[2]/div[1]/div[2]/div/div/div[2]/div/div/div/div/div[12]/label/div   
 ${userbox}                  //*[@id="customer-search"]/div/span/span[1]/span/ul/li/input
-${firstuser}                //*[@id="select2--results"]/li
+${firstuser}                //*[@id="select2--results"]/li[1]/div
 ${addpayment}               //*[@id="is_payment_status"]/div
 ${uploadfield}              //*[@id="myIdUpload"]                          
 ${paymentcompleted}         //*[@id="payment-component"]/div[4]/div/div[5]/div/div
@@ -71,7 +71,8 @@ ${confirmcod}               //html/body/section/div[2]/div[4]/div[4]/div/div[1]/
 ${announcementconfirm}      //*[@id="announcement"]/div/div/div[1]/button
 ${pagedown}                 xpath=//body        \ue00f
 @{random}                   ${fromfacebook}     ${fromline}     ${fromig}       ${fromtiktok}       ${fromother}        ${fromyoutube}      ${fromtv}       ${fromweb}      ${fromcrm}      ${fromcall}   
-${testpic}                  /var/lib/jenkins/workspace/robot/slip.jpg
+${testpic1}                 C:/Users/Thanawin/robot/ubuntu/winwinwin/slip.jpg
+${testpic2}                 /var/lib/jenkins/workspace/robot/slip.jpg
 ${packingcheckbox}          //html/body/section/div[2]/div[4]/div[4]/div/div[1]/div[2]/div[3]/div[1]/div/div/div/table/tbody/tr[1]/td[1]
 ${print}                    //*[@id="bulk-actions"]/div/button[3]
 ${printdetail}              //*[@id="bulk-actions"]/div/div/a[1]
