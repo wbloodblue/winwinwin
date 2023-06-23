@@ -71,7 +71,7 @@ ${confirmcod}               //html/body/section/div[2]/div[4]/div[4]/div/div[1]/
 ${announcementconfirm}      //*[@id="announcement"]/div/div/div[1]/button
 ${pagedown}                 xpath=//body        \ue00f
 @{random}                   ${fromfacebook}     ${fromline}     ${fromig}       ${fromtiktok}       ${fromother}        ${fromyoutube}      ${fromtv}       ${fromweb}      ${fromcrm}      ${fromcall}   
-${testpic}                  /home/automatetest/Desktop/automate/slip.jpg
+${testpic}                  /var/lib/jenkins/workspace/robot/slip.jpg
 ${packingcheckbox}          //html/body/section/div[2]/div[4]/div[4]/div/div[1]/div[2]/div[3]/div[1]/div/div/div/table/tbody/tr[1]/td[1]
 ${print}                    //*[@id="bulk-actions"]/div/button[3]
 ${printdetail}              //*[@id="bulk-actions"]/div/div/a[1]
