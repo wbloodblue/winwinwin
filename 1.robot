@@ -18,6 +18,7 @@ Click Shop
     Wait until element is visible       //*[normalize-space(text()) = 'Hamster Shop']
     Click Element                       //*[normalize-space(text()) = 'Hamstr Shop']
     sleep   10s
+    
 ***Test Cases ***
 Login Dev Env
     Login

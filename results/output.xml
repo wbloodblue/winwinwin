@@ -1,0 +1,2129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.10.7 on linux)" generated="20230623 10:45:02.423" rpa="false" schemaversion="3">
+<suite id="s1" name="Fullflow" source="/home/automatetest/Desktop/winwinwin/fullflow.robot">
+<test id="s1-t1" name="Login Dev Env" line="308">
+<kw name="Login">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${urlprod}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230623 10:45:02.721" level="INFO">Opening browser 'chrome' to base url 'https://gosaas.app/login'.</msg>
+<status status="PASS" starttime="20230623 10:45:02.720" endtime="20230623 10:45:05.367"/>
+</kw>
+<kw name="Element Should Be Visible" library="SeleniumLibrary">
+<arg>${email}</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<msg timestamp="20230623 10:45:05.437" level="INFO">Element '//*[@id="LoginForm"]/div[1]/input' is displayed.</msg>
+<status status="PASS" starttime="20230623 10:45:05.367" endtime="20230623 10:45:05.438"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${email}</arg>
+<arg>thanawin@atcreative.co.th</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230623 10:45:05.439" level="INFO">Typing text 'thanawin@atcreative.co.th' into text field '//*[@id="LoginForm"]/div[1]/input'.</msg>
+<status status="PASS" starttime="20230623 10:45:05.438" endtime="20230623 10:45:05.595"/>
+</kw>
+<kw name="Element Should Be Visible" library="SeleniumLibrary">
+<arg>${password}</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<msg timestamp="20230623 10:45:05.627" level="INFO">Element '//*[@id="LoginForm"]/div[2]/input' is displayed.</msg>
+<status status="PASS" starttime="20230623 10:45:05.595" endtime="20230623 10:45:05.627"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${password}</arg>
+<arg>!@#Win123</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230623 10:45:05.628" level="INFO">Typing text '!@#Win123' into text field '//*[@id="LoginForm"]/div[2]/input'.</msg>
+<status status="PASS" starttime="20230623 10:45:05.627" endtime="20230623 10:45:05.755"/>
+</kw>
+<kw name="Element Should Be Visible" library="SeleniumLibrary">
+<arg>${loginbutton}</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<msg timestamp="20230623 10:45:05.782" level="INFO">Element '//*[@id="LoginForm"]/div[4]/button' is displayed.</msg>
+<status status="PASS" starttime="20230623 10:45:05.755" endtime="20230623 10:45:05.783"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${loginbutton}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:45:05.783" level="INFO">Clicking element '//*[@id="LoginForm"]/div[4]/button'.</msg>
+<status status="PASS" starttime="20230623 10:45:05.783" endtime="20230623 10:45:05.860"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${winwinwinshop}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:45:05.860" endtime="20230623 10:45:08.426"/>
+</kw>
+<status status="PASS" starttime="20230623 10:45:02.719" endtime="20230623 10:45:08.426"/>
+</kw>
+<status status="PASS" starttime="20230623 10:45:02.718" endtime="20230623 10:45:08.427"/>
+</test>
+<test id="s1-t2" name="Click shop" line="311">
+<kw name="Click Shop">
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 10:45:10.429" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20230623 10:45:08.428" endtime="20230623 10:45:10.429"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${winwinwinshop}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:45:10.429" endtime="20230623 10:45:10.458"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${winwinwinshop}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:45:10.459" level="INFO">Clicking element '//*[contains(text(), "winwinwin shop")]'.</msg>
+<status status="PASS" starttime="20230623 10:45:10.458" endtime="20230623 10:45:10.547"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${confirmbutton}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:45:10.547" endtime="20230623 10:45:11.021"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${confirmbutton}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:45:11.022" level="INFO">Clicking element '//html/body/div[2]/div/div[6]/button[1]'.</msg>
+<status status="PASS" starttime="20230623 10:45:11.021" endtime="20230623 10:45:11.097"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 10:45:21.098" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20230623 10:45:11.097" endtime="20230623 10:45:21.098"/>
+</kw>
+<kw name="Get Element Count" library="SeleniumLibrary">
+<var>${p}</var>
+<arg>${confirmpack}</arg>
+<doc>Returns the number of elements matching ``locator``.</doc>
+<msg timestamp="20230623 10:45:21.118" level="INFO">${p} = 0</msg>
+<status status="PASS" starttime="20230623 10:45:21.098" endtime="20230623 10:45:21.119"/>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<arg>${p}&gt;0</arg>
+<arg>Click pack</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" starttime="20230623 10:45:21.119" endtime="20230623 10:45:21.119"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 10:45:24.120" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20230623 10:45:21.119" endtime="20230623 10:45:24.120"/>
+</kw>
+<kw name="Get Element Count" library="SeleniumLibrary">
+<var>${c}</var>
+<arg>${announcementconfirm}</arg>
+<doc>Returns the number of elements matching ``locator``.</doc>
+<msg timestamp="20230623 10:45:24.139" level="INFO">${c} = 1</msg>
+<status status="PASS" starttime="20230623 10:45:24.120" endtime="20230623 10:45:24.139"/>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<arg>${c}&gt;0</arg>
+<arg>Click announcement</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<kw name="Click announcement" library="resource">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${announcementconfirm}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:45:24.141" level="INFO">Clicking element '//*[@id="announcement"]/div/div/div[1]/button'.</msg>
+<status status="PASS" starttime="20230623 10:45:24.140" endtime="20230623 10:45:24.214"/>
+</kw>
+<status status="PASS" starttime="20230623 10:45:24.139" endtime="20230623 10:45:24.214"/>
+</kw>
+<status status="PASS" starttime="20230623 10:45:24.139" endtime="20230623 10:45:24.214"/>
+</kw>
+<status status="PASS" starttime="20230623 10:45:08.428" endtime="20230623 10:45:24.214"/>
+</kw>
+<status status="PASS" starttime="20230623 10:45:08.427" endtime="20230623 10:45:24.214"/>
+</test>
+<test id="s1-t3" name="Click Order Menu" line="314">
+<kw name="Click Order Menu">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${ordermenu}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:45:24.216" endtime="20230623 10:45:24.262"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${ordermenu}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:45:24.263" level="INFO">Clicking element '//html/body/section/div[2]/div[2]/div[2]/div/ul/li[3]/a'.</msg>
+<status status="PASS" starttime="20230623 10:45:24.262" endtime="20230623 10:45:24.573"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${createorder}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:45:24.573" endtime="20230623 10:45:25.348"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${createorder}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:45:25.348" level="INFO">Clicking element '//html/body/section/div[2]/div[4]/div[4]/div/div[2]/div/div[1]/div[2]/div/div/div[1]/div[1]/button'.</msg>
+<status status="PASS" starttime="20230623 10:45:25.348" endtime="20230623 10:45:25.546"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 10:45:27.547" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20230623 10:45:25.546" endtime="20230623 10:45:27.547"/>
+</kw>
+<status status="PASS" starttime="20230623 10:45:24.215" endtime="20230623 10:45:27.547"/>
+</kw>
+<status status="PASS" starttime="20230623 10:45:24.215" endtime="20230623 10:45:27.547"/>
+</test>
+<test id="s1-t4" name="Add Order 1" line="317">
+<kw name="Add Order 1">
+<kw name="Evaluate" library="BuiltIn">
+<var>${value}</var>
+<arg>random.choice($random)</arg>
+<arg>random</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<msg timestamp="20230623 10:45:27.552" level="INFO">${value} = //*[@id="order_form_modal"]/div/div[3]/form/div[2]/div[1]/div[2]/div/div/div[2]/div/div/div/div/div[1]/label/div</msg>
+<status status="PASS" starttime="20230623 10:45:27.549" endtime="20230623 10:45:27.552"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${fromfacebook}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:45:27.553" endtime="20230623 10:45:27.582"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${value}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:45:27.583" level="INFO">Clicking element '//*[@id="order_form_modal"]/div/div[3]/form/div[2]/div[1]/div[2]/div/div/div[2]/div/div/div/div/div[1]/label/div'.</msg>
+<status status="PASS" starttime="20230623 10:45:27.582" endtime="20230623 10:45:27.657"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 10:45:29.658" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20230623 10:45:27.657" endtime="20230623 10:45:29.659"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${userbox}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:45:29.659" endtime="20230623 10:45:29.700"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${userbox}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:45:29.701" level="INFO">Clicking element '//*[@id="customer-search"]/div/span/span[1]/span/ul/li/input'.</msg>
+<status status="PASS" starttime="20230623 10:45:29.700" endtime="20230623 10:45:29.822"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 10:45:31.823" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20230623 10:45:29.822" endtime="20230623 10:45:31.823"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${firstuser}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:45:31.823" endtime="20230623 10:45:31.861"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${firstuser}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:45:31.862" level="INFO">Clicking element '//*[@id="select2--results"]/li'.</msg>
+<status status="PASS" starttime="20230623 10:45:31.861" endtime="20230623 10:45:31.975"/>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<arg>xpath=//body</arg>
+<arg>\ue00f</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<msg timestamp="20230623 10:45:31.976" level="INFO">Sending key(s) ('\ue00f',) to xpath=//body element.</msg>
+<msg timestamp="20230623 10:45:32.296" level="INFO">Sending key </msg>
+<status status="PASS" starttime="20230623 10:45:31.975" endtime="20230623 10:45:32.308"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 10:45:34.308" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20230623 10:45:32.308" endtime="20230623 10:45:34.309"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${selectproduct}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:45:34.310" level="INFO">Clicking element '//*[@id="tb-product"]/tr/td/div/div[2]/button'.</msg>
+<status status="PASS" starttime="20230623 10:45:34.309" endtime="20230623 10:45:34.426"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${basicproduct}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:45:34.426" endtime="20230623 10:45:34.495"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${basicproduct}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:45:34.496" level="INFO">Clicking element '//*[@id="product_promotion"]/div[2]/div[2]/div/div/div[1]/div/ul/li[2]/a'.</msg>
+<status status="PASS" starttime="20230623 10:45:34.495" endtime="20230623 10:45:34.733"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${firstproduct}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:45:34.734" endtime="20230623 10:45:34.990"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${firstproduct}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:45:34.991" level="INFO">Clicking element '//*[@id="table_product_promotion"]/div/div/div/table/tbody/tr/td[1]/input'.</msg>
+<status status="PASS" starttime="20230623 10:45:34.990" endtime="20230623 10:45:35.071"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${confirmselectproduct}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:45:35.071" endtime="20230623 10:45:35.108"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${confirmselectproduct}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:45:35.110" level="INFO">Clicking element '//*[@id="product_promotion"]/div[3]/div/button[1]'.</msg>
+<status status="PASS" starttime="20230623 10:45:35.109" endtime="20230623 10:45:35.239"/>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<arg>xpath=//body</arg>
+<arg>\ue00e</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<msg timestamp="20230623 10:45:35.240" level="INFO">Sending key(s) ('\ue00e',) to xpath=//body element.</msg>
+<msg timestamp="20230623 10:45:35.539" level="INFO">Sending key </msg>
+<status status="PASS" starttime="20230623 10:45:35.239" endtime="20230623 10:45:35.547"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 10:45:37.548" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20230623 10:45:35.547" endtime="20230623 10:45:37.548"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${addpayment}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:45:37.548" endtime="20230623 10:45:37.578"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${addpayment}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:45:37.579" level="INFO">Clicking element '//*[@id="is_payment_status"]/div'.</msg>
+<status status="PASS" starttime="20230623 10:45:37.578" endtime="20230623 10:45:37.698"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 10:45:39.699" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20230623 10:45:37.699" endtime="20230623 10:45:39.700"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>${uploadfield}</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230623 10:45:39.700" endtime="20230623 10:45:39.725"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 10:45:41.726" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20230623 10:45:39.725" endtime="20230623 10:45:41.726"/>
+</kw>
+<kw name="Choose File" library="SeleniumLibrary">
+<arg>${uploadfield}</arg>
+<arg>${testpic}</arg>
+<doc>Inputs the ``file_path`` into the file input field ``locator``.</doc>
+<msg timestamp="20230623 10:45:41.727" level="INFO">Sending /var/lib/jenkins/workspace/robot/slip.jpg to browser.</msg>
+<status status="PASS" starttime="20230623 10:45:41.726" endtime="20230623 10:45:41.809"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 10:45:42.810" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20230623 10:45:41.810" endtime="20230623 10:45:42.810"/>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<arg>xpath=//body</arg>
+<arg>\ue00f</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<msg timestamp="20230623 10:45:42.811" level="INFO">Sending key(s) ('\ue00f',) to xpath=//body element.</msg>
+<msg timestamp="20230623 10:45:43.098" level="INFO">Sending key </msg>
+<status status="PASS" starttime="20230623 10:45:42.811" endtime="20230623 10:45:43.106"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 10:45:44.107" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20230623 10:45:43.106" endtime="20230623 10:45:44.107"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${paymentcompleted}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:45:44.107" endtime="20230623 10:45:44.139"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${paymentcompleted}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:45:44.140" level="INFO">Clicking element '//*[@id="payment-component"]/div[4]/div/div[5]/div/div'.</msg>
+<status status="PASS" starttime="20230623 10:45:44.140" endtime="20230623 10:45:44.214"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${confirmandreorder}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:45:44.214" endtime="20230623 10:45:44.245"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${confirmandreorder}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:45:44.246" level="INFO">Clicking element '//*[@id="order_form_modal"]/div/div[3]/form/div[2]/div[1]/div[6]/button[2]'.</msg>
+<status status="PASS" starttime="20230623 10:45:44.245" endtime="20230623 10:45:44.330"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 10:45:46.331" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20230623 10:45:44.330" endtime="20230623 10:45:46.331"/>
+</kw>
+<status status="PASS" starttime="20230623 10:45:27.548" endtime="20230623 10:45:46.331"/>
+</kw>
+<status status="PASS" starttime="20230623 10:45:27.548" endtime="20230623 10:45:46.331"/>
+</test>
+<test id="s1-t5" name="Add Order 2" line="320">
+<kw name="Add Order 2">
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 10:45:48.333" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20230623 10:45:46.333" endtime="20230623 10:45:48.333"/>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<var>${value}</var>
+<arg>random.choice($random)</arg>
+<arg>random</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<msg timestamp="20230623 10:45:48.334" level="INFO">${value} = //*[@id="order_form_modal"]/div/div[3]/form/div[2]/div[1]/div[2]/div/div/div[2]/div/div/div/div/div[11]/label/div</msg>
+<status status="PASS" starttime="20230623 10:45:48.334" endtime="20230623 10:45:48.334"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${fromfacebook}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:45:48.334" endtime="20230623 10:45:48.362"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${value}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:45:48.363" level="INFO">Clicking element '//*[@id="order_form_modal"]/div/div[3]/form/div[2]/div[1]/div[2]/div/div/div[2]/div/div/div/div/div[11]/label/div'.</msg>
+<status status="PASS" starttime="20230623 10:45:48.362" endtime="20230623 10:45:48.454"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 10:45:50.455" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20230623 10:45:48.454" endtime="20230623 10:45:50.455"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${userbox}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:45:50.455" endtime="20230623 10:45:50.489"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${userbox}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:45:50.490" level="INFO">Clicking element '//*[@id="customer-search"]/div/span/span[1]/span/ul/li/input'.</msg>
+<status status="PASS" starttime="20230623 10:45:50.490" endtime="20230623 10:45:50.600"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 10:45:52.600" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20230623 10:45:50.600" endtime="20230623 10:45:52.601"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${firstuser}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:45:52.601" endtime="20230623 10:45:52.627"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${firstuser}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:45:52.628" level="INFO">Clicking element '//*[@id="select2--results"]/li'.</msg>
+<status status="PASS" starttime="20230623 10:45:52.627" endtime="20230623 10:45:52.706"/>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<arg>xpath=//body</arg>
+<arg>\ue00f</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<msg timestamp="20230623 10:45:52.707" level="INFO">Sending key(s) ('\ue00f',) to xpath=//body element.</msg>
+<msg timestamp="20230623 10:45:53.019" level="INFO">Sending key </msg>
+<status status="PASS" starttime="20230623 10:45:52.706" endtime="20230623 10:45:53.026"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 10:45:56.027" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20230623 10:45:53.027" endtime="20230623 10:45:56.027"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${searchproduct}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:45:56.028" endtime="20230623 10:45:56.058"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${searchproduct}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:45:56.059" level="INFO">Clicking element '//*[@id="product-search"]/div/span/span[1]/span/ul/li'.</msg>
+<status status="PASS" starttime="20230623 10:45:56.058" endtime="20230623 10:45:56.144"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 10:45:57.145" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20230623 10:45:56.144" endtime="20230623 10:45:57.145"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${searchresult1}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:45:57.146" endtime="20230623 10:45:57.177"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${searchresult1}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:45:57.178" level="INFO">Clicking element '//*[@id="select2--results"]/li'.</msg>
+<status status="PASS" starttime="20230623 10:45:57.177" endtime="20230623 10:45:57.300"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 10:45:59.300" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20230623 10:45:57.300" endtime="20230623 10:45:59.300"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${confirmandreorder}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:45:59.301" endtime="20230623 10:45:59.328"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${confirmandreorder}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:45:59.329" level="INFO">Clicking element '//*[@id="order_form_modal"]/div/div[3]/form/div[2]/div[1]/div[6]/button[2]'.</msg>
+<status status="PASS" starttime="20230623 10:45:59.328" endtime="20230623 10:45:59.391"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 10:46:01.392" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20230623 10:45:59.391" endtime="20230623 10:46:01.392"/>
+</kw>
+<status status="PASS" starttime="20230623 10:45:46.332" endtime="20230623 10:46:01.392"/>
+</kw>
+<status status="PASS" starttime="20230623 10:45:46.332" endtime="20230623 10:46:01.392"/>
+</test>
+<test id="s1-t6" name="Add Order 3" line="323">
+<kw name="Add Order 3">
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 10:46:03.394" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20230623 10:46:01.394" endtime="20230623 10:46:03.395"/>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<var>${value}</var>
+<arg>random.choice($random)</arg>
+<arg>random</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<msg timestamp="20230623 10:46:03.395" level="INFO">${value} = //*[@id="order_form_modal"]/div/div[3]/form/div[2]/div[1]/div[2]/div/div/div[2]/div/div/div/div/div[6]/label/div</msg>
+<status status="PASS" starttime="20230623 10:46:03.395" endtime="20230623 10:46:03.395"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${fromfacebook}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:46:03.396" endtime="20230623 10:46:03.432"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${value}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:46:03.433" level="INFO">Clicking element '//*[@id="order_form_modal"]/div/div[3]/form/div[2]/div[1]/div[2]/div/div/div[2]/div/div/div/div/div[6]/label/div'.</msg>
+<status status="PASS" starttime="20230623 10:46:03.432" endtime="20230623 10:46:03.526"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 10:46:05.527" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20230623 10:46:03.526" endtime="20230623 10:46:05.527"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${userbox}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:46:05.527" endtime="20230623 10:46:05.555"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${userbox}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:46:05.555" level="INFO">Clicking element '//*[@id="customer-search"]/div/span/span[1]/span/ul/li/input'.</msg>
+<status status="PASS" starttime="20230623 10:46:05.555" endtime="20230623 10:46:05.642"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 10:46:07.643" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20230623 10:46:05.642" endtime="20230623 10:46:07.643"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${firstuser}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:46:07.643" endtime="20230623 10:46:07.669"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${firstuser}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:46:07.670" level="INFO">Clicking element '//*[@id="select2--results"]/li'.</msg>
+<status status="PASS" starttime="20230623 10:46:07.670" endtime="20230623 10:46:07.752"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 10:46:08.753" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20230623 10:46:07.752" endtime="20230623 10:46:08.753"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${cod}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:46:08.753" endtime="20230623 10:46:08.783"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${cod}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:46:08.783" level="INFO">Clicking element '//*[@id="payment-component"]/div[1]/div/div/div[2]/button'.</msg>
+<status status="PASS" starttime="20230623 10:46:08.783" endtime="20230623 10:46:08.891"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 10:46:09.892" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20230623 10:46:08.891" endtime="20230623 10:46:09.892"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${checkboxcod}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:46:09.893" endtime="20230623 10:46:09.922"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${checkboxcod}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:46:09.923" level="INFO">Clicking element '//*[@id="payment-component"]/div[2]/div/div'.</msg>
+<status status="PASS" starttime="20230623 10:46:09.923" endtime="20230623 10:46:09.991"/>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<arg>xpath=//body</arg>
+<arg>\ue00f</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<msg timestamp="20230623 10:46:09.992" level="INFO">Sending key(s) ('\ue00f',) to xpath=//body element.</msg>
+<msg timestamp="20230623 10:46:10.315" level="INFO">Sending key </msg>
+<status status="PASS" starttime="20230623 10:46:09.991" endtime="20230623 10:46:10.332"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 10:46:13.333" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20230623 10:46:10.332" endtime="20230623 10:46:13.333"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${selectproduct}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:46:13.333" endtime="20230623 10:46:13.360"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${selectproduct}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:46:13.363" level="INFO">Clicking element '//*[@id="tb-product"]/tr/td/div/div[2]/button'.</msg>
+<status status="PASS" starttime="20230623 10:46:13.361" endtime="20230623 10:46:13.489"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${basicproduct}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:46:13.489" endtime="20230623 10:46:13.523"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${basicproduct}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:46:13.524" level="INFO">Clicking element '//*[@id="product_promotion"]/div[2]/div[2]/div/div/div[1]/div/ul/li[2]/a'.</msg>
+<status status="PASS" starttime="20230623 10:46:13.523" endtime="20230623 10:46:13.782"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${firstproduct}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:46:13.782" endtime="20230623 10:46:14.248"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${firstproduct}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:46:14.250" level="INFO">Clicking element '//*[@id="table_product_promotion"]/div/div/div/table/tbody/tr/td[1]/input'.</msg>
+<status status="PASS" starttime="20230623 10:46:14.249" endtime="20230623 10:46:14.328"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 10:46:16.329" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20230623 10:46:14.328" endtime="20230623 10:46:16.329"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${confirmselectproduct}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:46:16.329" endtime="20230623 10:46:16.361"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${confirmselectproduct}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:46:16.362" level="INFO">Clicking element '//*[@id="product_promotion"]/div[3]/div/button[1]'.</msg>
+<status status="PASS" starttime="20230623 10:46:16.361" endtime="20230623 10:46:16.489"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 10:46:18.490" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20230623 10:46:16.489" endtime="20230623 10:46:18.490"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${confirmandreorder}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:46:18.490" endtime="20230623 10:46:18.525"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${confirmandreorder}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:46:18.526" level="INFO">Clicking element '//*[@id="order_form_modal"]/div/div[3]/form/div[2]/div[1]/div[6]/button[2]'.</msg>
+<status status="PASS" starttime="20230623 10:46:18.525" endtime="20230623 10:46:18.586"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 10:46:20.587" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20230623 10:46:18.586" endtime="20230623 10:46:20.587"/>
+</kw>
+<status status="PASS" starttime="20230623 10:46:01.393" endtime="20230623 10:46:20.587"/>
+</kw>
+<status status="PASS" starttime="20230623 10:46:01.393" endtime="20230623 10:46:20.587"/>
+</test>
+<test id="s1-t7" name="Add Order 4" line="326">
+<kw name="Add Order 4">
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 10:46:22.590" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20230623 10:46:20.589" endtime="20230623 10:46:22.590"/>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<var>${value}</var>
+<arg>random.choice($random)</arg>
+<arg>random</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<msg timestamp="20230623 10:46:22.590" level="INFO">${value} = //*[@id="order_form_modal"]/div/div[3]/form/div[2]/div[1]/div[2]/div/div/div[2]/div/div/div/div/div[1]/label/div</msg>
+<status status="PASS" starttime="20230623 10:46:22.590" endtime="20230623 10:46:22.590"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${fromfacebook}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:46:22.591" endtime="20230623 10:46:22.619"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${value}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:46:22.620" level="INFO">Clicking element '//*[@id="order_form_modal"]/div/div[3]/form/div[2]/div[1]/div[2]/div/div/div[2]/div/div/div/div/div[1]/label/div'.</msg>
+<status status="PASS" starttime="20230623 10:46:22.619" endtime="20230623 10:46:22.698"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 10:46:24.699" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20230623 10:46:22.699" endtime="20230623 10:46:24.699"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${userbox}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:46:24.700" endtime="20230623 10:46:24.728"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${userbox}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:46:24.729" level="INFO">Clicking element '//*[@id="customer-search"]/div/span/span[1]/span/ul/li/input'.</msg>
+<status status="PASS" starttime="20230623 10:46:24.728" endtime="20230623 10:46:24.821"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 10:46:26.822" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20230623 10:46:24.821" endtime="20230623 10:46:26.822"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${firstuser}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:46:26.822" endtime="20230623 10:46:26.849"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${firstuser}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:46:26.850" level="INFO">Clicking element '//*[@id="select2--results"]/li'.</msg>
+<status status="PASS" starttime="20230623 10:46:26.849" endtime="20230623 10:46:26.939"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 10:46:27.940" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20230623 10:46:26.940" endtime="20230623 10:46:27.940"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${cod}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:46:27.940" endtime="20230623 10:46:27.968"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${cod}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:46:27.969" level="INFO">Clicking element '//*[@id="payment-component"]/div[1]/div/div/div[2]/button'.</msg>
+<status status="PASS" starttime="20230623 10:46:27.968" endtime="20230623 10:46:28.037"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 10:46:29.037" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20230623 10:46:28.037" endtime="20230623 10:46:29.038"/>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<arg>xpath=//body</arg>
+<arg>\ue00f</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<msg timestamp="20230623 10:46:29.039" level="INFO">Sending key(s) ('\ue00f',) to xpath=//body element.</msg>
+<msg timestamp="20230623 10:46:29.360" level="INFO">Sending key </msg>
+<status status="PASS" starttime="20230623 10:46:29.038" endtime="20230623 10:46:29.372"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 10:46:32.372" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20230623 10:46:29.372" endtime="20230623 10:46:32.373"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${selectproduct}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:46:32.373" endtime="20230623 10:46:32.404"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${selectproduct}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:46:32.405" level="INFO">Clicking element '//*[@id="tb-product"]/tr/td/div/div[2]/button'.</msg>
+<status status="PASS" starttime="20230623 10:46:32.405" endtime="20230623 10:46:32.491"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${basicproduct}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:46:32.491" endtime="20230623 10:46:32.530"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${basicproduct}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:46:32.531" level="INFO">Clicking element '//*[@id="product_promotion"]/div[2]/div[2]/div/div/div[1]/div/ul/li[2]/a'.</msg>
+<status status="PASS" starttime="20230623 10:46:32.530" endtime="20230623 10:46:32.819"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${firstproduct}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:46:32.819" endtime="20230623 10:46:33.280"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${firstproduct}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:46:33.281" level="INFO">Clicking element '//*[@id="table_product_promotion"]/div/div/div/table/tbody/tr/td[1]/input'.</msg>
+<status status="PASS" starttime="20230623 10:46:33.280" endtime="20230623 10:46:33.367"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 10:46:35.368" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20230623 10:46:33.367" endtime="20230623 10:46:35.368"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${confirmselectproduct}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:46:35.368" endtime="20230623 10:46:35.397"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${confirmselectproduct}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:46:35.398" level="INFO">Clicking element '//*[@id="product_promotion"]/div[3]/div/button[1]'.</msg>
+<status status="PASS" starttime="20230623 10:46:35.397" endtime="20230623 10:46:35.517"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 10:46:37.517" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20230623 10:46:35.517" endtime="20230623 10:46:37.518"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${confirmorder}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:46:37.518" endtime="20230623 10:46:37.549"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${confirmorder}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:46:37.550" level="INFO">Clicking element '//*[@id="order_form_modal"]/div/div[3]/form/div[2]/div[1]/div[6]/button[1]'.</msg>
+<status status="PASS" starttime="20230623 10:46:37.550" endtime="20230623 10:46:37.613"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 10:46:39.614" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20230623 10:46:37.613" endtime="20230623 10:46:39.614"/>
+</kw>
+<status status="PASS" starttime="20230623 10:46:20.588" endtime="20230623 10:46:39.614"/>
+</kw>
+<status status="PASS" starttime="20230623 10:46:20.588" endtime="20230623 10:46:39.615"/>
+</test>
+<test id="s1-t8" name="Confirm Order 4" line="329">
+<kw name="Confirm Order 4">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${selectorder1}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:46:39.616" endtime="20230623 10:46:39.651"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${selectorder1}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:46:39.652" level="INFO">Clicking element '//*[@id="table-order"]/div/div/div/table/tbody/tr[1]/td[5]/div/span/a'.</msg>
+<msg timestamp="20230623 10:46:40.948" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-13.png"&gt;&lt;img src="selenium-screenshot-13.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20230623 10:46:40.949" level="FAIL">ElementClickInterceptedException: Message: element click intercepted: Element &lt;a data-v-7fdf6238="" href="/app/orders/43" target="_blank" class="text-dark"&gt;...&lt;/a&gt; is not clickable at point (702, 427). Other element would receive the click: &lt;button type="button" class="text-center btn-lg w-100 btn-block btn-nonActive-payment-method"&gt;...&lt;/button&gt;
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x5606436c44e3 &lt;unknown&gt;
+#1 0x5606433f3c76 &lt;unknown&gt;
+#2 0x5606434359d4 &lt;unknown&gt;
+#3 0x560643433cbd &lt;unknown&gt;
+#4 0x560643431d2e &lt;unknown&gt;
+#5 0x56064343110f &lt;unknown&gt;
+#6 0x5606434261da &lt;unknown&gt;
+#7 0x56064344f012 &lt;unknown&gt;
+#8 0x560643425b03 &lt;unknown&gt;
+#9 0x56064344f1de &lt;unknown&gt;
+#10 0x56064346730e &lt;unknown&gt;
+#11 0x56064344ede3 &lt;unknown&gt;
+#12 0x5606434242dd &lt;unknown&gt;
+#13 0x56064342534e &lt;unknown&gt;
+#14 0x5606436843e4 &lt;unknown&gt;
+#15 0x5606436883d7 &lt;unknown&gt;
+#16 0x560643692b20 &lt;unknown&gt;
+#17 0x560643689023 &lt;unknown&gt;
+#18 0x5606436571aa &lt;unknown&gt;
+#19 0x5606436ad6b8 &lt;unknown&gt;
+#20 0x5606436ad847 &lt;unknown&gt;
+#21 0x5606436bd243 &lt;unknown&gt;
+#22 0x7fe769290402 &lt;unknown&gt;
+</msg>
+<status status="FAIL" starttime="20230623 10:46:39.652" endtime="20230623 10:46:40.951"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:40.951" endtime="20230623 10:46:40.951"/>
+</kw>
+<kw name="Get Window Handles" library="SeleniumLibrary">
+<var>${windows}</var>
+<doc>Returns all child window handles of the selected browser as a list.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:40.952" endtime="20230623 10:46:40.952"/>
+</kw>
+<kw name="Switch Window" library="SeleniumLibrary">
+<arg>${windows}[1]</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:40.952" endtime="20230623 10:46:40.952"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${option}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:40.952" endtime="20230623 10:46:40.952"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${option}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:40.953" endtime="20230623 10:46:40.953"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:40.953" endtime="20230623 10:46:40.953"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${confirmcod}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:40.953" endtime="20230623 10:46:40.953"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${confirmcod}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:40.953" endtime="20230623 10:46:40.953"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:40.953" endtime="20230623 10:46:40.953"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${confirmbutton}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:40.953" endtime="20230623 10:46:40.954"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${confirmbutton}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:40.954" endtime="20230623 10:46:40.954"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:40.954" endtime="20230623 10:46:40.954"/>
+</kw>
+<kw name="Close Window" library="SeleniumLibrary">
+<doc>Closes currently opened and selected browser window/tab.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:40.954" endtime="20230623 10:46:40.954"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:40.954" endtime="20230623 10:46:40.954"/>
+</kw>
+<kw name="Switch Window" library="SeleniumLibrary">
+<arg>${windows}[0]</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:40.954" endtime="20230623 10:46:40.954"/>
+</kw>
+<status status="FAIL" starttime="20230623 10:46:39.616" endtime="20230623 10:46:40.955"/>
+</kw>
+<status status="FAIL" starttime="20230623 10:46:39.615" endtime="20230623 10:46:40.955">ElementClickInterceptedException: Message: element click intercepted: Element &lt;a data-v-7fdf6238="" href="/app/orders/43" target="_blank" class="text-dark"&gt;...&lt;/a&gt; is not clickable at point (702, 427). Other element would receive the click: &lt;button type="button" class="text-center btn-lg w-100 btn-block btn-nonActive-payment-method"&gt;...&lt;/button&gt;
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x5606436c44e3 &lt;unknown&gt;
+#1 0x5606433f3c76 &lt;unknown&gt;
+#2 0x5606434359d4 &lt;unknown&gt;
+#3 0x560643433cbd &lt;unknown&gt;
+#4 0x560643431d2e &lt;unknown&gt;
+#5 0x56064343110f &lt;unknown&gt;
+#6 0x5606434261da &lt;unknown&gt;
+#7 0x56064344f012 &lt;unknown&gt;
+#8 0x560643425b03 &lt;unknown&gt;
+#9 0x56064344f1de &lt;unknown&gt;
+#10 0x56064346730e &lt;unknown&gt;
+#11 0x56064344ede3 &lt;unknown&gt;
+#12 0x5606434242dd &lt;unknown&gt;
+#13 0x56064342534e &lt;unknown&gt;
+#14 0x5606436843e4 &lt;unknown&gt;
+#15 0x5606436883d7 &lt;unknown&gt;
+#16 0x560643692b20 &lt;unknown&gt;
+#17 0x560643689023 &lt;unknown&gt;
+#18 0x5606436571aa &lt;unknown&gt;
+#19 0x5606436ad6b8 &lt;unknown&gt;
+#20 0x5606436ad847 &lt;unknown&gt;
+#21 0x5606436bd243 &lt;unknown&gt;
+#22 0x7fe769290402 &lt;unknown&gt;
+</status>
+</test>
+<test id="s1-t9" name="Confirm Order 2" line="332">
+<kw name="Confirm Order 2">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${ordermenu}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:46:40.957" endtime="20230623 10:46:40.990"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${ordermenu}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:46:40.991" level="INFO">Clicking element '//html/body/section/div[2]/div[2]/div[2]/div/ul/li[3]/a'.</msg>
+<msg timestamp="20230623 10:46:42.303" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-14.png"&gt;&lt;img src="selenium-screenshot-14.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20230623 10:46:42.304" level="FAIL">ElementClickInterceptedException: Message: element click intercepted: Element &lt;a data-v-275a151c="" href="/app/orders/index" class="nav-link actives router-link-exact-active router-link-active" aria-current="page"&gt;...&lt;/a&gt; is not clickable at point (136, 175). Other element would receive the click: &lt;div data-v-0d2c9002="" class="col-lg-12"&gt;...&lt;/div&gt;
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x5606436c44e3 &lt;unknown&gt;
+#1 0x5606433f3c76 &lt;unknown&gt;
+#2 0x5606434359d4 &lt;unknown&gt;
+#3 0x560643433cbd &lt;unknown&gt;
+#4 0x560643431d2e &lt;unknown&gt;
+#5 0x56064343110f &lt;unknown&gt;
+#6 0x5606434261da &lt;unknown&gt;
+#7 0x56064344f012 &lt;unknown&gt;
+#8 0x560643425b03 &lt;unknown&gt;
+#9 0x56064344f1de &lt;unknown&gt;
+#10 0x56064346730e &lt;unknown&gt;
+#11 0x56064344ede3 &lt;unknown&gt;
+#12 0x5606434242dd &lt;unknown&gt;
+#13 0x56064342534e &lt;unknown&gt;
+#14 0x5606436843e4 &lt;unknown&gt;
+#15 0x5606436883d7 &lt;unknown&gt;
+#16 0x560643692b20 &lt;unknown&gt;
+#17 0x560643689023 &lt;unknown&gt;
+#18 0x5606436571aa &lt;unknown&gt;
+#19 0x5606436ad6b8 &lt;unknown&gt;
+#20 0x5606436ad847 &lt;unknown&gt;
+#21 0x5606436bd243 &lt;unknown&gt;
+#22 0x7fe769290402 &lt;unknown&gt;
+</msg>
+<status status="FAIL" starttime="20230623 10:46:40.990" endtime="20230623 10:46:42.304"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:42.304" endtime="20230623 10:46:42.304"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${selectorder3}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:42.305" endtime="20230623 10:46:42.305"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${selectorder3}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:42.305" endtime="20230623 10:46:42.305"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:42.305" endtime="20230623 10:46:42.305"/>
+</kw>
+<kw name="Get Window Handles" library="SeleniumLibrary">
+<var>${windows}</var>
+<doc>Returns all child window handles of the selected browser as a list.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:42.305" endtime="20230623 10:46:42.305"/>
+</kw>
+<kw name="Switch Window" library="SeleniumLibrary">
+<arg>${windows}[1]</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:42.305" endtime="20230623 10:46:42.305"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${paymentbutton}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:42.305" endtime="20230623 10:46:42.306"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${paymentbutton}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:42.306" endtime="20230623 10:46:42.306"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:42.306" endtime="20230623 10:46:42.306"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${selectbank}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:42.306" endtime="20230623 10:46:42.306"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${selectbank}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:42.306" endtime="20230623 10:46:42.306"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:42.306" endtime="20230623 10:46:42.306"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${firstbank}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:42.306" endtime="20230623 10:46:42.306"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:42.306" endtime="20230623 10:46:42.306"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>${uploadfield}</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:42.307" endtime="20230623 10:46:42.307"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:42.307" endtime="20230623 10:46:42.307"/>
+</kw>
+<kw name="Choose File" library="SeleniumLibrary">
+<arg>${uploadfield}</arg>
+<arg>${testpic}</arg>
+<doc>Inputs the ``file_path`` into the file input field ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:42.307" endtime="20230623 10:46:42.307"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:42.307" endtime="20230623 10:46:42.307"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${confirmpaymentbutton}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:42.307" endtime="20230623 10:46:42.307"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${confirmpaymentbutton}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:42.307" endtime="20230623 10:46:42.307"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:42.307" endtime="20230623 10:46:42.307"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${paymentbutton}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:42.307" endtime="20230623 10:46:42.307"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${paymentbutton}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:42.307" endtime="20230623 10:46:42.307"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${confirmallpayment}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:42.307" endtime="20230623 10:46:42.307"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${confirmallpayment}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:42.308" endtime="20230623 10:46:42.308"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:42.308" endtime="20230623 10:46:42.308"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${confirmallpayment2}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:42.308" endtime="20230623 10:46:42.308"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${confirmallpayment2}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:42.308" endtime="20230623 10:46:42.308"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:42.308" endtime="20230623 10:46:42.308"/>
+</kw>
+<kw name="Close Window" library="SeleniumLibrary">
+<doc>Closes currently opened and selected browser window/tab.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:42.308" endtime="20230623 10:46:42.308"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:42.308" endtime="20230623 10:46:42.308"/>
+</kw>
+<kw name="Switch Window" library="SeleniumLibrary">
+<arg>${windows}[0]</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:42.308" endtime="20230623 10:46:42.308"/>
+</kw>
+<status status="FAIL" starttime="20230623 10:46:40.956" endtime="20230623 10:46:42.309"/>
+</kw>
+<status status="FAIL" starttime="20230623 10:46:40.956" endtime="20230623 10:46:42.309">ElementClickInterceptedException: Message: element click intercepted: Element &lt;a data-v-275a151c="" href="/app/orders/index" class="nav-link actives router-link-exact-active router-link-active" aria-current="page"&gt;...&lt;/a&gt; is not clickable at point (136, 175). Other element would receive the click: &lt;div data-v-0d2c9002="" class="col-lg-12"&gt;...&lt;/div&gt;
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x5606436c44e3 &lt;unknown&gt;
+#1 0x5606433f3c76 &lt;unknown&gt;
+#2 0x5606434359d4 &lt;unknown&gt;
+#3 0x560643433cbd &lt;unknown&gt;
+#4 0x560643431d2e &lt;unknown&gt;
+#5 0x56064343110f &lt;unknown&gt;
+#6 0x5606434261da &lt;unknown&gt;
+#7 0x56064344f012 &lt;unknown&gt;
+#8 0x560643425b03 &lt;unknown&gt;
+#9 0x56064344f1de &lt;unknown&gt;
+#10 0x56064346730e &lt;unknown&gt;
+#11 0x56064344ede3 &lt;unknown&gt;
+#12 0x5606434242dd &lt;unknown&gt;
+#13 0x56064342534e &lt;unknown&gt;
+#14 0x5606436843e4 &lt;unknown&gt;
+#15 0x5606436883d7 &lt;unknown&gt;
+#16 0x560643692b20 &lt;unknown&gt;
+#17 0x560643689023 &lt;unknown&gt;
+#18 0x5606436571aa &lt;unknown&gt;
+#19 0x5606436ad6b8 &lt;unknown&gt;
+#20 0x5606436ad847 &lt;unknown&gt;
+#21 0x5606436bd243 &lt;unknown&gt;
+#22 0x7fe769290402 &lt;unknown&gt;
+</status>
+</test>
+<test id="s1-t10" name="Shipment2" line="338">
+<kw name="Shipment2">
+<kw name="Sleep" library="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 10:46:47.311" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20230623 10:46:42.311" endtime="20230623 10:46:47.311"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${shipmentmenu}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:46:47.312" level="INFO">Clicking element '//html/body/section/div[2]/div[2]/div[2]/div/ul/li[5]'.</msg>
+<msg timestamp="20230623 10:46:48.654" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-15.png"&gt;&lt;img src="selenium-screenshot-15.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20230623 10:46:48.655" level="FAIL">ElementClickInterceptedException: Message: element click intercepted: Element &lt;li data-v-275a151c="" class="nav-item"&gt;...&lt;/li&gt; is not clickable at point (136, 265). Other element would receive the click: &lt;div class="col-lg-6" data-select2-id="52"&gt;...&lt;/div&gt;
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x5606436c44e3 &lt;unknown&gt;
+#1 0x5606433f3c76 &lt;unknown&gt;
+#2 0x5606434359d4 &lt;unknown&gt;
+#3 0x560643433cbd &lt;unknown&gt;
+#4 0x560643431d2e &lt;unknown&gt;
+#5 0x56064343110f &lt;unknown&gt;
+#6 0x5606434261da &lt;unknown&gt;
+#7 0x56064344f012 &lt;unknown&gt;
+#8 0x560643425b03 &lt;unknown&gt;
+#9 0x56064344f1de &lt;unknown&gt;
+#10 0x56064346730e &lt;unknown&gt;
+#11 0x56064344ede3 &lt;unknown&gt;
+#12 0x5606434242dd &lt;unknown&gt;
+#13 0x56064342534e &lt;unknown&gt;
+#14 0x5606436843e4 &lt;unknown&gt;
+#15 0x5606436883d7 &lt;unknown&gt;
+#16 0x560643692b20 &lt;unknown&gt;
+#17 0x560643689023 &lt;unknown&gt;
+#18 0x5606436571aa &lt;unknown&gt;
+#19 0x5606436ad6b8 &lt;unknown&gt;
+#20 0x5606436ad847 &lt;unknown&gt;
+#21 0x5606436bd243 &lt;unknown&gt;
+#22 0x7fe769290402 &lt;unknown&gt;
+</msg>
+<status status="FAIL" starttime="20230623 10:46:47.311" endtime="20230623 10:46:48.655"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:48.655" endtime="20230623 10:46:48.655"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${shipmentmenu}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:48.655" endtime="20230623 10:46:48.655"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:48.656" endtime="20230623 10:46:48.656"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${selectshipment}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:48.656" endtime="20230623 10:46:48.656"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${selectshipment}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:48.656" endtime="20230623 10:46:48.656"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:48.656" endtime="20230623 10:46:48.656"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${selectshipment2}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:48.656" endtime="20230623 10:46:48.656"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${selectshipment2}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:48.656" endtime="20230623 10:46:48.656"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:48.656" endtime="20230623 10:46:48.657"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${shipthaipost}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:48.657" endtime="20230623 10:46:48.657"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${shipthaipost}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:48.657" endtime="20230623 10:46:48.657"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:48.657" endtime="20230623 10:46:48.657"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${confirmselectship}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:48.657" endtime="20230623 10:46:48.657"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${confirmselectship}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:48.657" endtime="20230623 10:46:48.657"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:48.658" endtime="20230623 10:46:48.658"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${paymentship}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:48.658" endtime="20230623 10:46:48.658"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:48.658" endtime="20230623 10:46:48.658"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${confirmreadyship}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:48.658" endtime="20230623 10:46:48.658"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${confirmreadyship}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:48.658" endtime="20230623 10:46:48.658"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>20s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:48.658" endtime="20230623 10:46:48.659"/>
+</kw>
+<status status="FAIL" starttime="20230623 10:46:42.310" endtime="20230623 10:46:48.659"/>
+</kw>
+<status status="FAIL" starttime="20230623 10:46:42.310" endtime="20230623 10:46:48.659">ElementClickInterceptedException: Message: element click intercepted: Element &lt;li data-v-275a151c="" class="nav-item"&gt;...&lt;/li&gt; is not clickable at point (136, 265). Other element would receive the click: &lt;div class="col-lg-6" data-select2-id="52"&gt;...&lt;/div&gt;
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x5606436c44e3 &lt;unknown&gt;
+#1 0x5606433f3c76 &lt;unknown&gt;
+#2 0x5606434359d4 &lt;unknown&gt;
+#3 0x560643433cbd &lt;unknown&gt;
+#4 0x560643431d2e &lt;unknown&gt;
+#5 0x56064343110f &lt;unknown&gt;
+#6 0x5606434261da &lt;unknown&gt;
+#7 0x56064344f012 &lt;unknown&gt;
+#8 0x560643425b03 &lt;unknown&gt;
+#9 0x56064344f1de &lt;unknown&gt;
+#10 0x56064346730e &lt;unknown&gt;
+#11 0x56064344ede3 &lt;unknown&gt;
+#12 0x5606434242dd &lt;unknown&gt;
+#13 0x56064342534e &lt;unknown&gt;
+#14 0x5606436843e4 &lt;unknown&gt;
+#15 0x5606436883d7 &lt;unknown&gt;
+#16 0x560643692b20 &lt;unknown&gt;
+#17 0x560643689023 &lt;unknown&gt;
+#18 0x5606436571aa &lt;unknown&gt;
+#19 0x5606436ad6b8 &lt;unknown&gt;
+#20 0x5606436ad847 &lt;unknown&gt;
+#21 0x5606436bd243 &lt;unknown&gt;
+#22 0x7fe769290402 &lt;unknown&gt;
+</status>
+</test>
+<test id="s1-t11" name="Shipment3" line="340">
+<kw name="Shipment3">
+<kw name="Sleep" library="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 10:46:53.662" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20230623 10:46:48.661" endtime="20230623 10:46:53.662"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${shipmentmenu}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:46:53.663" level="INFO">Clicking element '//html/body/section/div[2]/div[2]/div[2]/div/ul/li[5]'.</msg>
+<msg timestamp="20230623 10:46:54.962" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-16.png"&gt;&lt;img src="selenium-screenshot-16.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20230623 10:46:54.962" level="FAIL">ElementClickInterceptedException: Message: element click intercepted: Element &lt;li data-v-275a151c="" class="nav-item"&gt;...&lt;/li&gt; is not clickable at point (136, 265). Other element would receive the click: &lt;div class="col-lg-6" data-select2-id="52"&gt;...&lt;/div&gt;
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x5606436c44e3 &lt;unknown&gt;
+#1 0x5606433f3c76 &lt;unknown&gt;
+#2 0x5606434359d4 &lt;unknown&gt;
+#3 0x560643433cbd &lt;unknown&gt;
+#4 0x560643431d2e &lt;unknown&gt;
+#5 0x56064343110f &lt;unknown&gt;
+#6 0x5606434261da &lt;unknown&gt;
+#7 0x56064344f012 &lt;unknown&gt;
+#8 0x560643425b03 &lt;unknown&gt;
+#9 0x56064344f1de &lt;unknown&gt;
+#10 0x56064346730e &lt;unknown&gt;
+#11 0x56064344ede3 &lt;unknown&gt;
+#12 0x5606434242dd &lt;unknown&gt;
+#13 0x56064342534e &lt;unknown&gt;
+#14 0x5606436843e4 &lt;unknown&gt;
+#15 0x5606436883d7 &lt;unknown&gt;
+#16 0x560643692b20 &lt;unknown&gt;
+#17 0x560643689023 &lt;unknown&gt;
+#18 0x5606436571aa &lt;unknown&gt;
+#19 0x5606436ad6b8 &lt;unknown&gt;
+#20 0x5606436ad847 &lt;unknown&gt;
+#21 0x5606436bd243 &lt;unknown&gt;
+#22 0x7fe769290402 &lt;unknown&gt;
+</msg>
+<status status="FAIL" starttime="20230623 10:46:53.662" endtime="20230623 10:46:54.962"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:54.963" endtime="20230623 10:46:54.963"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${shipmentmenu}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:54.963" endtime="20230623 10:46:54.963"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:54.963" endtime="20230623 10:46:54.963"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${selectshipment}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:54.963" endtime="20230623 10:46:54.963"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${selectshipment}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:54.963" endtime="20230623 10:46:54.963"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:54.963" endtime="20230623 10:46:54.963"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${selectshipment2}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:54.963" endtime="20230623 10:46:54.964"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${selectshipment2}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:54.964" endtime="20230623 10:46:54.964"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:54.964" endtime="20230623 10:46:54.964"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${shipflash}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:54.964" endtime="20230623 10:46:54.964"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${shipflash}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:54.964" endtime="20230623 10:46:54.964"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:54.964" endtime="20230623 10:46:54.964"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${confirmselectship}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:54.964" endtime="20230623 10:46:54.964"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${confirmselectship}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:54.964" endtime="20230623 10:46:54.964"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:54.964" endtime="20230623 10:46:54.964"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${paymentship}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:54.964" endtime="20230623 10:46:54.964"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:54.964" endtime="20230623 10:46:54.964"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${confirmreadyship}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:54.964" endtime="20230623 10:46:54.964"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${confirmreadyship}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:54.965" endtime="20230623 10:46:54.965"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>20s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:46:54.965" endtime="20230623 10:46:54.965"/>
+</kw>
+<status status="FAIL" starttime="20230623 10:46:48.661" endtime="20230623 10:46:54.965"/>
+</kw>
+<status status="FAIL" starttime="20230623 10:46:48.660" endtime="20230623 10:46:54.965">ElementClickInterceptedException: Message: element click intercepted: Element &lt;li data-v-275a151c="" class="nav-item"&gt;...&lt;/li&gt; is not clickable at point (136, 265). Other element would receive the click: &lt;div class="col-lg-6" data-select2-id="52"&gt;...&lt;/div&gt;
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x5606436c44e3 &lt;unknown&gt;
+#1 0x5606433f3c76 &lt;unknown&gt;
+#2 0x5606434359d4 &lt;unknown&gt;
+#3 0x560643433cbd &lt;unknown&gt;
+#4 0x560643431d2e &lt;unknown&gt;
+#5 0x56064343110f &lt;unknown&gt;
+#6 0x5606434261da &lt;unknown&gt;
+#7 0x56064344f012 &lt;unknown&gt;
+#8 0x560643425b03 &lt;unknown&gt;
+#9 0x56064344f1de &lt;unknown&gt;
+#10 0x56064346730e &lt;unknown&gt;
+#11 0x56064344ede3 &lt;unknown&gt;
+#12 0x5606434242dd &lt;unknown&gt;
+#13 0x56064342534e &lt;unknown&gt;
+#14 0x5606436843e4 &lt;unknown&gt;
+#15 0x5606436883d7 &lt;unknown&gt;
+#16 0x560643692b20 &lt;unknown&gt;
+#17 0x560643689023 &lt;unknown&gt;
+#18 0x5606436571aa &lt;unknown&gt;
+#19 0x5606436ad6b8 &lt;unknown&gt;
+#20 0x5606436ad847 &lt;unknown&gt;
+#21 0x5606436bd243 &lt;unknown&gt;
+#22 0x7fe769290402 &lt;unknown&gt;
+</status>
+</test>
+<test id="s1-t12" name="Click Shipment Thaipost" line="353">
+<kw name="Thaipost Shipment 1" library="resource">
+<kw name="Sleep" library="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 10:46:59.967" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20230623 10:46:54.966" endtime="20230623 10:46:59.967"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${shipmentmenu}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:46:59.967" endtime="20230623 10:47:00.004"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${shipmentmenu}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:47:00.006" level="INFO">Clicking element '//html/body/section/div[2]/div[2]/div[2]/div/ul/li[5]'.</msg>
+<msg timestamp="20230623 10:47:01.365" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-17.png"&gt;&lt;img src="selenium-screenshot-17.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20230623 10:47:01.365" level="FAIL">ElementClickInterceptedException: Message: element click intercepted: Element &lt;li data-v-275a151c="" class="nav-item"&gt;...&lt;/li&gt; is not clickable at point (136, 265). Other element would receive the click: &lt;div class="col-lg-6" data-select2-id="52"&gt;...&lt;/div&gt;
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x5606436c44e3 &lt;unknown&gt;
+#1 0x5606433f3c76 &lt;unknown&gt;
+#2 0x5606434359d4 &lt;unknown&gt;
+#3 0x560643433cbd &lt;unknown&gt;
+#4 0x560643431d2e &lt;unknown&gt;
+#5 0x56064343110f &lt;unknown&gt;
+#6 0x5606434261da &lt;unknown&gt;
+#7 0x56064344f012 &lt;unknown&gt;
+#8 0x560643425b03 &lt;unknown&gt;
+#9 0x56064344f1de &lt;unknown&gt;
+#10 0x56064346730e &lt;unknown&gt;
+#11 0x56064344ede3 &lt;unknown&gt;
+#12 0x5606434242dd &lt;unknown&gt;
+#13 0x56064342534e &lt;unknown&gt;
+#14 0x5606436843e4 &lt;unknown&gt;
+#15 0x5606436883d7 &lt;unknown&gt;
+#16 0x560643692b20 &lt;unknown&gt;
+#17 0x560643689023 &lt;unknown&gt;
+#18 0x5606436571aa &lt;unknown&gt;
+#19 0x5606436ad6b8 &lt;unknown&gt;
+#20 0x5606436ad847 &lt;unknown&gt;
+#21 0x5606436bd243 &lt;unknown&gt;
+#22 0x7fe769290402 &lt;unknown&gt;
+</msg>
+<status status="FAIL" starttime="20230623 10:47:00.005" endtime="20230623 10:47:01.366"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:01.366" endtime="20230623 10:47:01.366"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${packing}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:01.366" endtime="20230623 10:47:01.366"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${packing}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:01.366" endtime="20230623 10:47:01.366"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:01.366" endtime="20230623 10:47:01.366"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${packingcheckbox}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:01.366" endtime="20230623 10:47:01.367"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${packingcheckbox}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:01.367" endtime="20230623 10:47:01.367"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:01.367" endtime="20230623 10:47:01.367"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${print}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:01.367" endtime="20230623 10:47:01.367"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${print}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:01.367" endtime="20230623 10:47:01.367"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${printdetail}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:01.367" endtime="20230623 10:47:01.367"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${printdetail}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:01.367" endtime="20230623 10:47:01.367"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${firstdropcarrier}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:01.367" endtime="20230623 10:47:01.367"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${firstdropcarrier}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:01.367" endtime="20230623 10:47:01.367"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:01.367" endtime="20230623 10:47:01.368"/>
+</kw>
+<kw name="Get Window Handles" library="SeleniumLibrary">
+<var>${windows}</var>
+<doc>Returns all child window handles of the selected browser as a list.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:01.368" endtime="20230623 10:47:01.368"/>
+</kw>
+<kw name="Switch Window" library="SeleniumLibrary">
+<arg>${windows}[1]</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:01.368" endtime="20230623 10:47:01.368"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:01.368" endtime="20230623 10:47:01.368"/>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:01.368" endtime="20230623 10:47:01.368"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:01.368" endtime="20230623 10:47:01.368"/>
+</kw>
+<kw name="Close Window" library="SeleniumLibrary">
+<doc>Closes currently opened and selected browser window/tab.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:01.368" endtime="20230623 10:47:01.368"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:01.368" endtime="20230623 10:47:01.368"/>
+</kw>
+<kw name="Switch Window" library="SeleniumLibrary">
+<arg>${windows}[0]</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:01.368" endtime="20230623 10:47:01.368"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:01.369" endtime="20230623 10:47:01.369"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${settingmenu}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:01.369" endtime="20230623 10:47:01.369"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${settingmenu}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:01.369" endtime="20230623 10:47:01.369"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:01.369" endtime="20230623 10:47:01.369"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${settingshipdetail}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:01.369" endtime="20230623 10:47:01.369"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:01.369" endtime="20230623 10:47:01.370"/>
+</kw>
+<kw name="Mouse Over" library="SeleniumLibrary">
+<arg>${makedefaultthaipost2}</arg>
+<doc>Simulates hovering the mouse over the element ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:01.370" endtime="20230623 10:47:01.370"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:01.370" endtime="20230623 10:47:01.370"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${makedefaultthaipost2}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:01.370" endtime="20230623 10:47:01.370"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:01.370" endtime="20230623 10:47:01.370"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${confirmbutton}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:01.370" endtime="20230623 10:47:01.370"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${confirmbutton}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:01.370" endtime="20230623 10:47:01.371"/>
+</kw>
+<status status="FAIL" starttime="20230623 10:46:54.966" endtime="20230623 10:47:01.371"/>
+</kw>
+<kw name="Thaipost Shipment 2" library="resource">
+<status status="NOT RUN" starttime="20230623 10:47:01.371" endtime="20230623 10:47:01.371"/>
+</kw>
+<kw name="Thaipost Shipment 3" library="resource">
+<status status="NOT RUN" starttime="20230623 10:47:01.371" endtime="20230623 10:47:01.371"/>
+</kw>
+<kw name="Thaipost Shipment 4" library="resource">
+<status status="NOT RUN" starttime="20230623 10:47:01.371" endtime="20230623 10:47:01.371"/>
+</kw>
+<kw name="Thaipost Shipment 5" library="resource">
+<status status="NOT RUN" starttime="20230623 10:47:01.371" endtime="20230623 10:47:01.371"/>
+</kw>
+<kw name="Packing" library="resource">
+<status status="NOT RUN" starttime="20230623 10:47:01.372" endtime="20230623 10:47:01.372"/>
+</kw>
+<status status="FAIL" starttime="20230623 10:46:54.966" endtime="20230623 10:47:01.372">ElementClickInterceptedException: Message: element click intercepted: Element &lt;li data-v-275a151c="" class="nav-item"&gt;...&lt;/li&gt; is not clickable at point (136, 265). Other element would receive the click: &lt;div class="col-lg-6" data-select2-id="52"&gt;...&lt;/div&gt;
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x5606436c44e3 &lt;unknown&gt;
+#1 0x5606433f3c76 &lt;unknown&gt;
+#2 0x5606434359d4 &lt;unknown&gt;
+#3 0x560643433cbd &lt;unknown&gt;
+#4 0x560643431d2e &lt;unknown&gt;
+#5 0x56064343110f &lt;unknown&gt;
+#6 0x5606434261da &lt;unknown&gt;
+#7 0x56064344f012 &lt;unknown&gt;
+#8 0x560643425b03 &lt;unknown&gt;
+#9 0x56064344f1de &lt;unknown&gt;
+#10 0x56064346730e &lt;unknown&gt;
+#11 0x56064344ede3 &lt;unknown&gt;
+#12 0x5606434242dd &lt;unknown&gt;
+#13 0x56064342534e &lt;unknown&gt;
+#14 0x5606436843e4 &lt;unknown&gt;
+#15 0x5606436883d7 &lt;unknown&gt;
+#16 0x560643692b20 &lt;unknown&gt;
+#17 0x560643689023 &lt;unknown&gt;
+#18 0x5606436571aa &lt;unknown&gt;
+#19 0x5606436ad6b8 &lt;unknown&gt;
+#20 0x5606436ad847 &lt;unknown&gt;
+#21 0x5606436bd243 &lt;unknown&gt;
+#22 0x7fe769290402 &lt;unknown&gt;
+</status>
+</test>
+<test id="s1-t13" name="Click Shipment Flash" line="361">
+<kw name="Flash Shipment 1" library="resource">
+<kw name="Sleep" library="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230623 10:47:06.375" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20230623 10:47:01.374" endtime="20230623 10:47:06.375"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${shipmentmenu}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230623 10:47:06.375" endtime="20230623 10:47:06.400"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${shipmentmenu}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230623 10:47:06.401" level="INFO">Clicking element '//html/body/section/div[2]/div[2]/div[2]/div/ul/li[5]'.</msg>
+<msg timestamp="20230623 10:47:07.678" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-18.png"&gt;&lt;img src="selenium-screenshot-18.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20230623 10:47:07.678" level="FAIL">ElementClickInterceptedException: Message: element click intercepted: Element &lt;li data-v-275a151c="" class="nav-item"&gt;...&lt;/li&gt; is not clickable at point (136, 265). Other element would receive the click: &lt;div class="col-lg-6" data-select2-id="52"&gt;...&lt;/div&gt;
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x5606436c44e3 &lt;unknown&gt;
+#1 0x5606433f3c76 &lt;unknown&gt;
+#2 0x5606434359d4 &lt;unknown&gt;
+#3 0x560643433cbd &lt;unknown&gt;
+#4 0x560643431d2e &lt;unknown&gt;
+#5 0x56064343110f &lt;unknown&gt;
+#6 0x5606434261da &lt;unknown&gt;
+#7 0x56064344f012 &lt;unknown&gt;
+#8 0x560643425b03 &lt;unknown&gt;
+#9 0x56064344f1de &lt;unknown&gt;
+#10 0x56064346730e &lt;unknown&gt;
+#11 0x56064344ede3 &lt;unknown&gt;
+#12 0x5606434242dd &lt;unknown&gt;
+#13 0x56064342534e &lt;unknown&gt;
+#14 0x5606436843e4 &lt;unknown&gt;
+#15 0x5606436883d7 &lt;unknown&gt;
+#16 0x560643692b20 &lt;unknown&gt;
+#17 0x560643689023 &lt;unknown&gt;
+#18 0x5606436571aa &lt;unknown&gt;
+#19 0x5606436ad6b8 &lt;unknown&gt;
+#20 0x5606436ad847 &lt;unknown&gt;
+#21 0x5606436bd243 &lt;unknown&gt;
+#22 0x7fe769290402 &lt;unknown&gt;
+</msg>
+<status status="FAIL" starttime="20230623 10:47:06.400" endtime="20230623 10:47:07.679"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:07.679" endtime="20230623 10:47:07.679"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${packing}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:07.679" endtime="20230623 10:47:07.679"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${packing}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:07.679" endtime="20230623 10:47:07.679"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:07.679" endtime="20230623 10:47:07.679"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${packingcheckbox}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:07.679" endtime="20230623 10:47:07.679"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${packingcheckbox}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:07.679" endtime="20230623 10:47:07.679"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:07.680" endtime="20230623 10:47:07.680"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${print}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:07.680" endtime="20230623 10:47:07.680"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${print}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:07.680" endtime="20230623 10:47:07.680"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${printdetail}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:07.680" endtime="20230623 10:47:07.680"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${printdetail}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:07.680" endtime="20230623 10:47:07.680"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${firstdropcarrier}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:07.680" endtime="20230623 10:47:07.680"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${firstdropcarrier}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:07.681" endtime="20230623 10:47:07.681"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:07.681" endtime="20230623 10:47:07.681"/>
+</kw>
+<kw name="Get Window Handles" library="SeleniumLibrary">
+<var>${windows}</var>
+<doc>Returns all child window handles of the selected browser as a list.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:07.681" endtime="20230623 10:47:07.681"/>
+</kw>
+<kw name="Switch Window" library="SeleniumLibrary">
+<arg>${windows}[1]</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:07.681" endtime="20230623 10:47:07.681"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:07.681" endtime="20230623 10:47:07.681"/>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:07.681" endtime="20230623 10:47:07.681"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:07.681" endtime="20230623 10:47:07.681"/>
+</kw>
+<kw name="Close Window" library="SeleniumLibrary">
+<doc>Closes currently opened and selected browser window/tab.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:07.681" endtime="20230623 10:47:07.681"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:07.681" endtime="20230623 10:47:07.681"/>
+</kw>
+<kw name="Switch Window" library="SeleniumLibrary">
+<arg>${windows}[0]</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:07.681" endtime="20230623 10:47:07.681"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:07.681" endtime="20230623 10:47:07.681"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${settingmenu}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:07.682" endtime="20230623 10:47:07.682"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${settingmenu}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:07.682" endtime="20230623 10:47:07.682"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:07.682" endtime="20230623 10:47:07.682"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${settingshipdetail}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:07.682" endtime="20230623 10:47:07.682"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:07.682" endtime="20230623 10:47:07.682"/>
+</kw>
+<kw name="Mouse Over" library="SeleniumLibrary">
+<arg>${makedefaultflash2}</arg>
+<doc>Simulates hovering the mouse over the element ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:07.682" endtime="20230623 10:47:07.682"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:07.682" endtime="20230623 10:47:07.682"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${makedefaultflash2}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:07.682" endtime="20230623 10:47:07.682"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:07.682" endtime="20230623 10:47:07.682"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${confirmbutton}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:07.682" endtime="20230623 10:47:07.682"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${confirmbutton}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230623 10:47:07.682" endtime="20230623 10:47:07.683"/>
+</kw>
+<status status="FAIL" starttime="20230623 10:47:01.373" endtime="20230623 10:47:07.683"/>
+</kw>
+<kw name="Flash Shipment 2" library="resource">
+<status status="NOT RUN" starttime="20230623 10:47:07.683" endtime="20230623 10:47:07.683"/>
+</kw>
+<kw name="Flash Shipment 3" library="resource">
+<status status="NOT RUN" starttime="20230623 10:47:07.683" endtime="20230623 10:47:07.683"/>
+</kw>
+<kw name="Flash Shipment 4" library="resource">
+<status status="NOT RUN" starttime="20230623 10:47:07.683" endtime="20230623 10:47:07.683"/>
+</kw>
+<kw name="Flash Shipment 5" library="resource">
+<status status="NOT RUN" starttime="20230623 10:47:07.683" endtime="20230623 10:47:07.683"/>
+</kw>
+<kw name="Packing" library="resource">
+<status status="NOT RUN" starttime="20230623 10:47:07.683" endtime="20230623 10:47:07.683"/>
+</kw>
+<status status="FAIL" starttime="20230623 10:47:01.372" endtime="20230623 10:47:07.684">ElementClickInterceptedException: Message: element click intercepted: Element &lt;li data-v-275a151c="" class="nav-item"&gt;...&lt;/li&gt; is not clickable at point (136, 265). Other element would receive the click: &lt;div class="col-lg-6" data-select2-id="52"&gt;...&lt;/div&gt;
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x5606436c44e3 &lt;unknown&gt;
+#1 0x5606433f3c76 &lt;unknown&gt;
+#2 0x5606434359d4 &lt;unknown&gt;
+#3 0x560643433cbd &lt;unknown&gt;
+#4 0x560643431d2e &lt;unknown&gt;
+#5 0x56064343110f &lt;unknown&gt;
+#6 0x5606434261da &lt;unknown&gt;
+#7 0x56064344f012 &lt;unknown&gt;
+#8 0x560643425b03 &lt;unknown&gt;
+#9 0x56064344f1de &lt;unknown&gt;
+#10 0x56064346730e &lt;unknown&gt;
+#11 0x56064344ede3 &lt;unknown&gt;
+#12 0x5606434242dd &lt;unknown&gt;
+#13 0x56064342534e &lt;unknown&gt;
+#14 0x5606436843e4 &lt;unknown&gt;
+#15 0x5606436883d7 &lt;unknown&gt;
+#16 0x560643692b20 &lt;unknown&gt;
+#17 0x560643689023 &lt;unknown&gt;
+#18 0x5606436571aa &lt;unknown&gt;
+#19 0x5606436ad6b8 &lt;unknown&gt;
+#20 0x5606436ad847 &lt;unknown&gt;
+#21 0x5606436bd243 &lt;unknown&gt;
+#22 0x7fe769290402 &lt;unknown&gt;
+</status>
+</test>
+<status status="FAIL" starttime="20230623 10:45:02.425" endtime="20230623 10:47:07.685"/>
+</suite>
+<statistics>
+<total>
+<stat pass="7" fail="6" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="7" fail="6" skip="0" id="s1" name="Fullflow">Fullflow</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
