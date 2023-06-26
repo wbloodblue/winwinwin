@@ -59,7 +59,7 @@ Add Order 1
     sleep   2s
     Wait Until Page Contains Element    ${uploadfield}
     sleep   2s
-    Choose File                         ${uploadfield}          ${testpic1}
+    Choose File                         ${uploadfield}          ${testpic2}
     sleep   1s
     Press Keys                           xpath=//body        \ue00f
     sleep   1s
@@ -189,7 +189,7 @@ Confirm Order 2
     sleep   2s
     Wait Until Page Contains Element    ${uploadfield}
     sleep   2s
-    Choose File                         ${uploadfield}          ${testpic1}
+    Choose File                         ${uploadfield}          ${testpic2}
     sleep   5s
     Wait until element is visible       ${confirmpaymentbutton}
     Click element                       ${confirmpaymentbutton}
