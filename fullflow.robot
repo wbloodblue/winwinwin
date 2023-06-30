@@ -4,7 +4,7 @@ Resource        resource.robot
 
 *** Keywords ***
 Login
-    Open Browser                        ${urlprod}          chrome
+    Open Browser                        ${urlprod}           chrome
     #Maximize Browser Window
     Element should be visible           ${email}
     Input Text                          ${email}            thanawin@atcreative.co.th
@@ -15,7 +15,7 @@ Login
     Wait Until Element Is Visible       ${winwinwinshop}
 
 Click Shop
-    sleep   2s
+    sleep   4s
     Wait until element is visible       ${winwinwinshop}
     Click element                       ${winwinwinshop}
     Wait until element is visible       ${confirmbutton}
@@ -32,19 +32,19 @@ Click Order Menu
     Click element                       ${ordermenu}
     Wait until element is visible       ${createorder}
     Click element                       ${createorder}
-    sleep   2s
+    sleep   4s
 
 Add Order 1
     ${value}=  Evaluate  random.choice($random)  random
     Wait until element is visible       ${fromfacebook}
     Click element                       ${value}
-    sleep   2s
+    sleep   4s
     Wait until element is visible       ${userbox}
     Click element                       ${userbox}
-    sleep   2s
+    sleep   4s
     Click element                       ${firstuser}
     Press Keys                           xpath=//body        \ue00f
-    sleep   2s
+    sleep   4s
     Click element                       ${selectproduct}
     Wait until element is visible       ${basicproduct}
     Click element                       ${basicproduct}
@@ -53,105 +53,103 @@ Add Order 1
     Wait until element is visible       ${confirmselectproduct}
     Click element                       ${confirmselectproduct}
     Press Keys                           xpath=//body        \ue00e
-    sleep   2s
+    sleep   4s
     Wait until element is visible       ${addpayment}
     Click element                       ${addpayment}
-    sleep   2s
+    sleep   4s
     Wait Until Page Contains Element    ${uploadfield}
-    sleep   2s
+    sleep   4s
     Choose File                         ${uploadfield}          ${testpic2}
-    sleep   1s
+    sleep   3s
     Press Keys                           xpath=//body        \ue00f
-    sleep   1s
+    sleep   3s
     Wait until element is visible       ${paymentcompleted}
     Click element                       ${paymentcompleted}
     Wait until element is visible       ${confirmandreorder}
     Click element                       ${confirmandreorder}
-    sleep   2s
+    sleep   4s
 Add Order 2
-    sleep   2s
+    sleep   4s
     ${value}=  Evaluate  random.choice($random)  random
     Wait until element is visible       ${fromfacebook}
     Click element                       ${value}
-    sleep   2s
+    sleep   4s
     Wait until element is visible       ${userbox}
     Click element                       ${userbox}
-    sleep   2s
+    sleep   4s
     Wait until element is visible       ${firstuser}
     Click element                       ${firstuser}
     Press Keys                          xpath=//body        \ue00f
     sleep   3s
     Wait until element is visible       ${searchproduct}
     Click element                       ${searchproduct}
-    sleep   1s
+    sleep   3s
     Wait until element is visible       ${searchresult1}
     Click element                       ${searchresult1}
-    sleep   2s
+    sleep   4s
     Wait until element is visible       ${confirmandreorder}
     Click element                       ${confirmandreorder}
-    sleep   2s
+    sleep   4s
 Add Order 3
-    sleep   2s
+    sleep   4s
     ${value}=  Evaluate  random.choice($random)  random
     Wait until element is visible       ${fromfacebook}
     Click element                       ${value}
-    sleep   2s
+    sleep   4s
     Wait until element is visible       ${userbox}
     Click element                       ${userbox}
-    sleep   2s
+    sleep   4s
     Wait until element is visible       ${firstuser}
     Click element                       ${firstuser}
-    sleep   1s
+    sleep   3s
     Wait until element is visible       ${cod}
     Click element                       ${cod}
-    sleep   1s
+    sleep   3s
     Wait until element is visible       ${checkboxcod}
     Click element                       ${checkboxcod}
     Press Keys                          xpath=//body        \ue00f
     sleep   3s
-    Wait until element is visible       ${selectproduct}
     Click element                       ${selectproduct}
     Wait until element is visible       ${basicproduct}
     Click element                       ${basicproduct}
     Wait until element is visible       ${firstproduct}
     Click element                       ${firstproduct}
-    sleep   2s
     Wait until element is visible       ${confirmselectproduct}
     Click element                       ${confirmselectproduct}
-    sleep   2s
+    Press Keys                           xpath=//body        \ue00e
+    sleep   4s
     Wait until element is visible       ${confirmandreorder}
     Click element                       ${confirmandreorder}
-    sleep   2s
+    sleep   4s
 Add Order 4
-    sleep   2s
+    sleep   4s
     ${value}=  Evaluate  random.choice($random)  random
     Wait until element is visible       ${fromfacebook}
     Click element                       ${value}
-    sleep   2s
+    sleep   4s
     Wait until element is visible       ${userbox}
     Click element                       ${userbox}
-    sleep   2s
+    sleep   4s
     Wait until element is visible       ${firstuser}
     Click element                       ${firstuser}
-    sleep   1s
+    sleep   3s
     Wait until element is visible       ${cod}
     Click element                       ${cod}
-    sleep   1s
+    sleep   3s
     Press Keys                          xpath=//body        \ue00f
     sleep   3s
-    Wait until element is visible       ${selectproduct}
     Click element                       ${selectproduct}
     Wait until element is visible       ${basicproduct}
     Click element                       ${basicproduct}
     Wait until element is visible       ${firstproduct}
     Click element                       ${firstproduct}
-    sleep   2s
     Wait until element is visible       ${confirmselectproduct}
     Click element                       ${confirmselectproduct}
-    sleep   2s
+    Press Keys                           xpath=//body        \ue00e
+    sleep   4s
     Wait until element is visible       ${confirmorder}
     Click element                       ${confirmorder}
-    sleep   2s
+    sleep   4s
 Confirm Order 4
     Wait until element is visible       ${selectorder1}
     Click element                       ${selectorder1}
@@ -160,20 +158,20 @@ Confirm Order 4
     Switch Window                       ${windows}[1]
     Wait until element is visible       ${option}
     Click element                       ${option}
-    sleep   2s
+    sleep   4s
     Wait until element is visible       ${confirmcod}
     Click element                       ${confirmcod}
-    sleep   2s
+    sleep   4s
     Wait until element is visible       ${confirmbutton}
     Click element                       ${confirmbutton}
     sleep   5s
     Close window
-    sleep   2s
+    sleep   4s
     Switch Window                       ${windows}[0]
 Confirm Order 2
     Wait until element is visible       ${ordermenu}
     Click element                       ${ordermenu}
-    sleep   2s
+    sleep   4s
     Wait until element is visible       ${selectorder3}
     Click element                       ${selectorder3}
     sleep   10s
@@ -181,14 +179,14 @@ Confirm Order 2
     Switch Window                       ${windows}[1]
     Wait until element is visible       ${paymentbutton}
     Click element                       ${paymentbutton}
-    sleep   2s
+    sleep   4s
     Wait until element is visible       ${selectbank}
     Click element                       ${selectbank}
-    sleep   2s
+    sleep   4s
     Click element                       ${firstbank}
-    sleep   2s
+    sleep   4s
     Wait Until Page Contains Element    ${uploadfield}
-    sleep   2s
+    sleep   4s
     Choose File                         ${uploadfield}          ${testpic2}
     sleep   5s
     Wait until element is visible       ${confirmpaymentbutton}
@@ -203,22 +201,22 @@ Confirm Order 2
     Click element                       ${confirmallpayment2}
     sleep   10s
     Close window
-    sleep   2s
+    sleep   4s
     Switch Window                       ${windows}[0]
 
 
 Shipment1
     sleep   5s
     Click element                       ${shipmentmenu}
-    sleep   2s
+    sleep   4s
     Click element                       ${shipmentmenu}
-    sleep   2s
+    sleep   4s
     Wait until element is visible       ${selectshipment}
     Click element                       ${selectshipment}
-    sleep   1s
+    sleep   3s
     Wait until element is visible       ${selectshipment2}
     Click element                       ${selectshipment2}
-    sleep   2s
+    sleep   4s
     Wait until element is visible       ${shipkerry}
     Click element                       ${shipkerry}
     sleep   5s
@@ -234,15 +232,15 @@ Shipment1
 Shipment2
     sleep   5s
     Click element                       ${shipmentmenu}
-    sleep   2s
+    sleep   4s
     Click element                       ${shipmentmenu}
-    sleep   2s
+    sleep   4s
     Wait until element is visible       ${selectshipment}
     Click element                       ${selectshipment}
-    sleep   1s
+    sleep   3s
     Wait until element is visible       ${selectshipment2}
     Click element                       ${selectshipment2}
-    sleep   2s
+    sleep   4s
     Wait until element is visible       ${shipthaipost}
     Click element                       ${shipthaipost}
     sleep   5s
@@ -258,15 +256,15 @@ Shipment2
 Shipment3
     sleep   5s
     Click element                       ${shipmentmenu}
-    sleep   2s
+    sleep   4s
     Click element                       ${shipmentmenu}
-    sleep   2s
+    sleep   4s
     Wait until element is visible       ${selectshipment}
     Click element                       ${selectshipment}
-    sleep   1s
+    sleep   3s
     Wait until element is visible       ${selectshipment2}
     Click element                       ${selectshipment2}
-    sleep   2s
+    sleep   4s
     Wait until element is visible       ${shipflash}
     Click element                       ${shipflash}
     sleep   5s
@@ -282,15 +280,15 @@ Shipment3
 Shipment4
     sleep   5s
     Click element                       ${shipmentmenu}
-    sleep   2s
+    sleep   4s
     Click element                       ${shipmentmenu}
-    sleep   2s
+    sleep   4s
     Wait until element is visible       ${selectshipment}
     Click element                       ${selectshipment}
-    sleep   1s
+    sleep   3s
     Wait until element is visible       ${selectshipment2}
     Click element                       ${selectshipment2}
-    sleep   2s
+    sleep   4s
     Wait until element is visible       ${shipninjavan}
     Click element                       ${shipninjavan}
     sleep   5s
@@ -302,6 +300,7 @@ Shipment4
     Wait until element is visible       ${confirmreadyship}
     Click element                       ${confirmreadyship}
     sleep   10s
+
 
 ***Test Cases ***
 Login Dev Env
@@ -372,3 +371,33 @@ Click Shipment Flash
 #     Ninja Shipment 4
 #     Ninja Shipment 5
 #     Packing
+
+Open Upsale
+    Upsale
+
+Click Salepage
+    Click Sale Page
+
+Add Salepage
+    Add Salepage
+
+Confirm Order
+    Confirm buy COD
+    Confirm buy transfer
+
+Upsale transfer
+    Upsale transfer
+
+Upsale cod
+    Upsale cod
+
+Shipment1
+    Shipment
+    Packing
+
+Shipment2
+    Shipment
+    Packing
+
+Open Upsale
+    Upsale
