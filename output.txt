@@ -1,0 +1,2054 @@
+==============================================================================
+1                                                                             
+==============================================================================
+Login Dev Env                                                         | PASS |
+------------------------------------------------------------------------------
+Click shop                                                            | FAIL |
+Element '//*[normalize-space(text()) = 'Hamster Shop']' not visible after 5 seconds.
+------------------------------------------------------------------------------
+1                                                                     | FAIL |
+2 tests, 1 passed, 1 failed
+==============================================================================
+Output:  /home/automatetest/Desktop/winwinwin/results/output.xml
+Log:     /home/automatetest/Desktop/winwinwin/results/log.html
+Report:  /home/automatetest/Desktop/winwinwin/results/report.html
+==============================================================================
+1                                                                             
+==============================================================================
+Login Dev Env                                                         | PASS |
+------------------------------------------------------------------------------
+Click shop                                                            | FAIL |
+Element '//*[normalize-space(text()) = 'Hamster Shop']' not visible after 5 seconds.
+------------------------------------------------------------------------------
+1                                                                     | FAIL |
+2 tests, 1 passed, 1 failed
+==============================================================================
+Output:  /home/automatetest/Desktop/winwinwin/results/output.xml
+Log:     /home/automatetest/Desktop/winwinwin/results/log.html
+Report:  /home/automatetest/Desktop/winwinwin/results/report.html
+==============================================================================
+1                                                                             
+==============================================================================
+Login Dev Env                                                         | PASS |
+------------------------------------------------------------------------------
+Click shop                                                            | FAIL |
+Element '//*[normalize-space(text()) = 'Hamster Shop']' not visible after 5 seconds.
+------------------------------------------------------------------------------
+1                                                                     | FAIL |
+2 tests, 1 passed, 1 failed
+==============================================================================
+Output:  /home/automatetest/Desktop/winwinwin/results/output.xml
+Log:     /home/automatetest/Desktop/winwinwin/results/log.html
+Report:  /home/automatetest/Desktop/winwinwin/results/report.html
+==============================================================================
+1                                                                             
+==============================================================================
+Login Dev Env                                                         | PASS |
+------------------------------------------------------------------------------
+Click shop                                                            | FAIL |
+Element '//*[normalize-space(text()) = 'Hamster Shop']' not visible after 5 seconds.
+------------------------------------------------------------------------------
+1                                                                     | FAIL |
+2 tests, 1 passed, 1 failed
+==============================================================================
+Output:  /home/automatetest/Desktop/winwinwin/results/output.xml
+Log:     /home/automatetest/Desktop/winwinwin/results/log.html
+Report:  /home/automatetest/Desktop/winwinwin/results/report.html
+==============================================================================
+1                                                                             
+==============================================================================
+Login Dev Env                                                         | PASS |
+------------------------------------------------------------------------------
+Click shop                                                            | FAIL |
+Element '//*[normalize-space(text()) = 'Hamster Shop']' not visible after 5 seconds.
+------------------------------------------------------------------------------
+1                                                                     | FAIL |
+2 tests, 1 passed, 1 failed
+==============================================================================
+Output:  /home/automatetest/Desktop/winwinwin/results/output.xml
+Log:     /home/automatetest/Desktop/winwinwin/results/log.html
+Report:  /home/automatetest/Desktop/winwinwin/results/report.html
+==============================================================================
+1                                                                             
+==============================================================================
+Login Dev Env                                                         | PASS |
+------------------------------------------------------------------------------
+Click shop                                                            | FAIL |
+Element '//*[normalize-space(text()) = 'Hamster Shop']' not visible after 5 seconds.
+------------------------------------------------------------------------------
+1                                                                     | FAIL |
+2 tests, 1 passed, 1 failed
+==============================================================================
+Output:  /home/automatetest/Desktop/winwinwin/results/output.xml
+Log:     /home/automatetest/Desktop/winwinwin/results/log.html
+Report:  /home/automatetest/Desktop/winwinwin/results/report.html
+==============================================================================
+1                                                                             
+==============================================================================
+Login Dev Env                                                         | PASS |
+------------------------------------------------------------------------------
+Click shop                                                            | FAIL |
+Element '//*[normalize-space(text()) = 'Hamster Shop']' not visible after 5 seconds.
+------------------------------------------------------------------------------
+1                                                                     | FAIL |
+2 tests, 1 passed, 1 failed
+==============================================================================
+Output:  /home/automatetest/Desktop/winwinwin/results/output.xml
+Log:     /home/automatetest/Desktop/winwinwin/results/log.html
+Report:  /home/automatetest/Desktop/winwinwin/results/report.html
+==============================================================================
+1                                                                             
+==============================================================================
+Login Dev Env                                                         | PASS |
+------------------------------------------------------------------------------
+Click shop                                                            | FAIL |
+Element '//*[normalize-space(text()) = 'Hamster Shop']' not visible after 5 seconds.
+------------------------------------------------------------------------------
+1                                                                     | FAIL |
+2 tests, 1 passed, 1 failed
+==============================================================================
+Output:  /home/automatetest/Desktop/winwinwin/results/output.xml
+Log:     /home/automatetest/Desktop/winwinwin/results/log.html
+Report:  /home/automatetest/Desktop/winwinwin/results/report.html
+==============================================================================
+1                                                                             
+==============================================================================
+Login Dev Env                                                         | PASS |
+------------------------------------------------------------------------------
+Click shop                                                            | FAIL |
+Element '//*[normalize-space(text()) = 'Hamster Shop']' not visible after 5 seconds.
+------------------------------------------------------------------------------
+1                                                                     | FAIL |
+2 tests, 1 passed, 1 failed
+==============================================================================
+Output:  /home/automatetest/Desktop/winwinwin/results/output.xml
+Log:     /home/automatetest/Desktop/winwinwin/results/log.html
+Report:  /home/automatetest/Desktop/winwinwin/results/report.html
+==============================================================================
+1                                                                             
+==============================================================================
+Login Dev Env                                                         | PASS |
+------------------------------------------------------------------------------
+Click shop                                                            | FAIL |
+Element '//*[normalize-space(text()) = 'Hamster Shop']' not visible after 5 seconds.
+------------------------------------------------------------------------------
+1                                                                     | FAIL |
+2 tests, 1 passed, 1 failed
+==============================================================================
+Output:  /home/automatetest/Desktop/winwinwin/results/output.xml
+Log:     /home/automatetest/Desktop/winwinwin/results/log.html
+Report:  /home/automatetest/Desktop/winwinwin/results/report.html
+==============================================================================
+1                                                                             
+==============================================================================
+Login Dev Env                                                         | PASS |
+------------------------------------------------------------------------------
+Click shop                                                            | FAIL |
+Element '//*[normalize-space(text()) = 'Hamster Shop']' not visible after 5 seconds.
+------------------------------------------------------------------------------
+1                                                                     | FAIL |
+2 tests, 1 passed, 1 failed
+==============================================================================
+Output:  /home/automatetest/Desktop/winwinwin/results/output.xml
+Log:     /home/automatetest/Desktop/winwinwin/results/log.html
+Report:  /home/automatetest/Desktop/winwinwin/results/report.html
+==============================================================================
+1                                                                             
+==============================================================================
+Login Dev Env                                                         | PASS |
+------------------------------------------------------------------------------
+Click shop                                                            | FAIL |
+Element '//*[normalize-space(text()) = 'Hamster Shop']' not visible after 5 seconds.
+------------------------------------------------------------------------------
+1                                                                     | FAIL |
+2 tests, 1 passed, 1 failed
+==============================================================================
+Output:  /home/automatetest/Desktop/winwinwin/results/output.xml
+Log:     /home/automatetest/Desktop/winwinwin/results/log.html
+Report:  /home/automatetest/Desktop/winwinwin/results/report.html
+==============================================================================
+Fullflow                                                                      
+==============================================================================
+Login Dev Env                                                         | PASS |
+------------------------------------------------------------------------------
+Click shop                                                            | PASS |
+------------------------------------------------------------------------------
+Click Order Menu                                                      | PASS |
+------------------------------------------------------------------------------
+Add Order 1                                                           ==============================================================================
+Fullflow                                                                      
+==============================================================================
+Login Dev Env                                                         | PASS |
+------------------------------------------------------------------------------
+Click shop                                                            | PASS |
+------------------------------------------------------------------------------
+Add Order 2                                                           | PASS |
+------------------------------------------------------------------------------
+Click Order Menu                                                      | PASS |
+------------------------------------------------------------------------------
+Add Order 1                                                           | PASS |
+------------------------------------------------------------------------------
+Add Order 3                                                           ==============================================================================
+Fullflow                                                                      
+==============================================================================
+Login Dev Env                                                         | PASS |
+------------------------------------------------------------------------------
+Click shop                                                            | PASS |
+------------------------------------------------------------------------------
+Add Order 2                                                           | PASS |
+------------------------------------------------------------------------------
+Add Order 4                                                           | PASS |
+------------------------------------------------------------------------------
+Click Order Menu                                                      | PASS |
+------------------------------------------------------------------------------
+Add Order 1                                                           | PASS |
+------------------------------------------------------------------------------
+Add Order 3                                                           | PASS |
+------------------------------------------------------------------------------
+Confirm Order 4                                                       | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <a data-v-6373fd1d="" href="/app/orders/174" target="_blank" class="text-dark">...</a> is not clickable at point (722, 463). Other element would receive the click: <div id="tags-search">...</div>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x563ff8cf54e3 <unknown>
+#1 0x563ff8a24c76 <unknown>
+#2 0x563ff8a669d4 <unknown>
+#3 0x563ff8a64cbd <unknown>
+#4 0x563ff8a62d2e <unknown>
+#5 0x563ff8a6210f <unknown>
+#6 0x563ff8a571da <unknown>
+#7 0x563ff8a80012 <unknown>
+#8 0x563ff8a56b03 <unknown>
+#9 0x563ff8a801de <unknown>
+#10 0x563ff8a9830e <unknown>
+#11 0x563ff8a7fde3 <unknown>
+#12 0x563ff8a552dd <unknown>
+#13 0x563ff8a5634e <unknown>
+#14 0x563ff8cb53e4 <unknown>
+#15 0x563ff8cb93d7 <unknown>
+#16 0x563ff8cc3b20 <unknown>
+#17 0x563ff8cba023 <unknown>
+#18 0x563ff8c881aa <unknown>
+#19 0x563ff8cde6b8 <unknown>
+#20 0x563ff8cde847 <unknown>
+#21 0x563ff8cee243 <unknown>
+#22 0x7f31ccc90402 <unknown>
+------------------------------------------------------------------------------
+Confirm Order 2                                                       | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <a data-v-7bb16432="" href="/app/orders/index" class="nav-link actives router-link-exact-active router-link-active" aria-current="page">...</a> is not clickable at point (136, 175). Other element would receive the click: <label data-v-0a1212fb="">...</label>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x563ff8cf54e3 <unknown>
+#1 0x563ff8a24c76 <unknown>
+#2 0x563ff8a669d4 <unknown>
+#3 0x563ff8a64cbd <unknown>
+#4 0x563ff8a62d2e <unknown>
+#5 0x563ff8a6210f <unknown>
+#6 0x563ff8a571da <unknown>
+#7 0x563ff8a80012 <unknown>
+#8 0x563ff8a56b03 <unknown>
+#9 0x563ff8a801de <unknown>
+#10 0x563ff8a9830e <unknown>
+#11 0x563ff8a7fde3 <unknown>
+#12 0x563ff8a552dd <unknown>
+#13 0x563ff8a5634e <unknown>
+#14 0x563ff8cb53e4 <unknown>
+#15 0x563ff8cb93d7 <unknown>
+#16 0x563ff8cc3b20 <unknown>
+#17 0x563ff8cba023 <unknown>
+#18 0x563ff8c881aa <unknown>
+#19 0x563ff8cde6b8 <unknown>
+#20 0x563ff8cde847 <unknown>
+#21 0x563ff8cee243 <unknown>
+#22 0x7f31ccc90402 <unknown>
+------------------------------------------------------------------------------
+Shipment2                                                             | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <li data-v-7bb16432="" class="nav-item">...</li> is not clickable at point (136, 265). Other element would receive the click: <textarea data-v-0a1212fb="" rows="5" placeholder="คัดลอกข้อมูลลูกค้าของคุณแล้วจัดวางที่นี่
+ตัวอย่างข้อมูล: สมชาย ขายดี 0909999999 11/12 หมู่ 10 ต.วัดเกต อ.เมือง 
+จ.เชียงใหม่  50000 @SomchaiJD (Social Name @ต่อท้าย ถ้ามี)" class="form-control text-grey"></textarea>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x563ff8cf54e3 <unknown>
+#1 0x563ff8a24c76 <unknown>
+#2 0x563ff8a669d4 <unknown>
+#3 0x563ff8a64cbd <unknown>
+#4 0x563ff8a62d2e <unknown>
+#5 0x563ff8a6210f <unknown>
+#6 0x563ff8a571da <unknown>
+#7 0x563ff8a80012 <unknown>
+#8 0x563ff8a56b03 <unknown>
+#9 0x563ff8a801de <unknown>
+#10 0x563ff8a9830e <unknown>
+#11 0x563ff8a7fde3 <unknown>
+#12 0x563ff8a552dd <unknown>
+#13 0x563ff8a5634e <unknown>
+#14 0x563ff8cb53e4 <unknown>
+#15 0x563ff8cb93d7 <unknown>
+#16 0x563ff8cc3b20 <unknown>
+#17 0x563ff8cba023 <unknown>
+#18 0x563ff8c881aa <unknown>
+#19 0x563ff8cde6b8 <unknown>
+#20 0x563ff8cde847 <unknown>
+#21 0x563ff8cee243 <unknown>
+#22 0x7f31ccc90402 <unknown>
+------------------------------------------------------------------------------
+Shipment3                                                             | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <li data-v-7bb16432="" class="nav-item">...</li> is not clickable at point (136, 265). Other element would receive the click: <textarea data-v-0a1212fb="" rows="5" placeholder="คัดลอกข้อมูลลูกค้าของคุณแล้วจัดวางที่นี่
+ตัวอย่างข้อมูล: สมชาย ขายดี 0909999999 11/12 หมู่ 10 ต.วัดเกต อ.เมือง 
+จ.เชียงใหม่  50000 @SomchaiJD (Social Name @ต่อท้าย ถ้ามี)" class="form-control text-grey"></textarea>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x563ff8cf54e3 <unknown>
+#1 0x563ff8a24c76 <unknown>
+#2 0x563ff8a669d4 <unknown>
+#3 0x563ff8a64cbd <unknown>
+#4 0x563ff8a62d2e <unknown>
+#5 0x563ff8a6210f <unknown>
+#6 0x563ff8a571da <unknown>
+#7 0x563ff8a80012 <unknown>
+#8 0x563ff8a56b03 <unknown>
+#9 0x563ff8a801de <unknown>
+#10 0x563ff8a9830e <unknown>
+#11 0x563ff8a7fde3 <unknown>
+#12 0x563ff8a552dd <unknown>
+#13 0x563ff8a5634e <unknown>
+#14 0x563ff8cb53e4 <unknown>
+#15 0x563ff8cb93d7 <unknown>
+#16 0x563ff8cc3b20 <unknown>
+#17 0x563ff8cba023 <unknown>
+#18 0x563ff8c881aa <unknown>
+#19 0x563ff8cde6b8 <unknown>
+#20 0x563ff8cde847 <unknown>
+#21 0x563ff8cee243 <unknown>
+#22 0x7f31ccc90402 <unknown>
+------------------------------------------------------------------------------
+Click Shipment Thaipost                                               | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <li data-v-7bb16432="" class="nav-item">...</li> is not clickable at point (136, 265). Other element would receive the click: <textarea data-v-0a1212fb="" rows="5" placeholder="คัดลอกข้อมูลลูกค้าของคุณแล้วจัดวางที่นี่
+ตัวอย่างข้อมูล: สมชาย ขายดี 0909999999 11/12 หมู่ 10 ต.วัดเกต อ.เมือง 
+จ.เชียงใหม่  50000 @SomchaiJD (Social Name @ต่อท้าย ถ้ามี)" class="form-control text-grey"></textarea>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x563ff8cf54e3 <unknown>
+#1 0x563ff8a24c76 <unknown>
+#2 0x563ff8a669d4 <unknown>
+#3 0x563ff8a64cbd <unknown>
+#4 0x563ff8a62d2e <unknown>
+#5 0x563ff8a6210f <unknown>
+#6 0x563ff8a571da <unknown>
+#7 0x563ff8a80012 <unknown>
+#8 0x563ff8a56b03 <unknown>
+#9 0x563ff8a801de <unknown>
+#10 0x563ff8a9830e <unknown>
+#11 0x563ff8a7fde3 <unknown>
+#12 0x563ff8a552dd <unknown>
+#13 0x563ff8a5634e <unknown>
+#14 0x563ff8cb53e4 <unknown>
+#15 0x563ff8cb93d7 <unknown>
+#16 0x563ff8cc3b20 <unknown>
+#17 0x563ff8cba023 <unknown>
+#18 0x563ff8c881aa <unknown>
+#19 0x563ff8cde6b8 <unknown>
+#20 0x563ff8cde847 <unknown>
+#21 0x563ff8cee243 <unknown>
+#22 0x7f31ccc90402 <unknown>
+------------------------------------------------------------------------------
+Click Shipment Flash                                                  ==============================================================================
+Fullflow                                                                      
+==============================================================================
+Login Dev Env                                                         | PASS |
+------------------------------------------------------------------------------
+Add Order 4                                                           | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <li data-v-7bb16432="" class="nav-item">...</li> is not clickable at point (136, 265). Other element would receive the click: <textarea data-v-0a1212fb="" rows="5" placeholder="คัดลอกข้อมูลลูกค้าของคุณแล้วจัดวางที่นี่
+ตัวอย่างข้อมูล: สมชาย ขายดี 0909999999 11/12 หมู่ 10 ต.วัดเกต อ.เมือง 
+จ.เชียงใหม่  50000 @SomchaiJD (Social Name @ต่อท้าย ถ้ามี)" class="form-control text-grey"></textarea>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x563ff8cf54e3 <unknown>
+#1 0x563ff8a24c76 <unknown>
+#2 0x563ff8a669d4 <unknown>
+#3 0x563ff8a64cbd <unknown>
+#4 0x563ff8a62d2e <unknown>
+#5 0x563ff8a6210f <unknown>
+#6 0x563ff8a571da <unknown>
+#7 0x563ff8a80012 <unknown>
+#8 0x563ff8a56b03 <unknown>
+#9 0x563ff8a801de <unknown>
+#10 0x563ff8a9830e <unknown>
+#11 0x563ff8a7fde3 <unknown>
+#12 0x563ff8a552dd <unknown>
+#13 0x563ff8a5634e <unknown>
+#14 0x563ff8cb53e4 <unknown>
+#15 0x563ff8cb93d7 <unknown>
+#16 0x563ff8cc3b20 <unknown>
+#17 0x563ff8cba023 <unknown>
+#18 0x563ff8c881aa <unknown>
+#19 0x563ff8cde6b8 <unknown>
+#20 0x563ff8cde847 <unknown>
+#21 0x563ff8cee243 <unknown>
+#22 0x7f31ccc90402 <unknown>
+------------------------------------------------------------------------------
+Open Upsale                                                           | PASS |
+------------------------------------------------------------------------------
+Add Order 2                                                           | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <a data-v-7bb16432="" href="/app/settings" class="nav-link actives">...</a> is not clickable at point (136, 760). Other element would receive the click: <input type="text" placeholder="กรุณากรอกแขวง/ ตำบล..." class="form-control">
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x563ff8cf54e3 <unknown>
+#1 0x563ff8a24c76 <unknown>
+#2 0x563ff8a669d4 <unknown>
+#3 0x563ff8a64cbd <unknown>
+#4 0x563ff8a62d2e <unknown>
+#5 0x563ff8a6210f <unknown>
+#6 0x563ff8a571da <unknown>
+#7 0x563ff8a80012 <unknown>
+#8 0x563ff8a56b03 <unknown>
+#9 0x563ff8a801de <unknown>
+#10 0x563ff8a9830e <unknown>
+#11 0x563ff8a7fde3 <unknown>
+#12 0x563ff8a552dd <unknown>
+#13 0x563ff8a5634e <unknown>
+#14 0x563ff8cb53e4 <unknown>
+#15 0x563ff8cb93d7 <unknown>
+#16 0x563ff8cc3b20 <unknown>
+#17 0x563ff8cba023 <unknown>
+#18 0x563ff8c881aa <unknown>
+#19 0x563ff8cde6b8 <unknown>
+#20 0x563ff8cde847 <unknown>
+#21 0x563ff8cee243 <unknown>
+#22 0x7f31ccc90402 <unknown>
+------------------------------------------------------------------------------
+Click Salepage                                                        | PASS |
+------------------------------------------------------------------------------
+Click shop                                                            | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <li data-v-7bb16432="" class="nav-item nav-item-submenu">...</li> is not clickable at point (136, 445). Other element would receive the click: <input type="text" placeholder="กรุณากรอกเบอร์ติดต่อ..." class="form-control dropdown-toggle input-telephone1" aria-activedescendant="" aria-autocomplete="list" aria-controls="149-suggestions">
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x563ff8cf54e3 <unknown>
+#1 0x563ff8a24c76 <unknown>
+#2 0x563ff8a669d4 <unknown>
+#3 0x563ff8a64cbd <unknown>
+#4 0x563ff8a62d2e <unknown>
+#5 0x563ff8a6210f <unknown>
+#6 0x563ff8a571da <unknown>
+#7 0x563ff8a80012 <unknown>
+#8 0x563ff8a56b03 <unknown>
+#9 0x563ff8a801de <unknown>
+#10 0x563ff8a9830e <unknown>
+#11 0x563ff8a7fde3 <unknown>
+#12 0x563ff8a552dd <unknown>
+#13 0x563ff8a5634e <unknown>
+#14 0x563ff8cb53e4 <unknown>
+#15 0x563ff8cb93d7 <unknown>
+#16 0x563ff8cc3b20 <unknown>
+#17 0x563ff8cba023 <unknown>
+#18 0x563ff8c881aa <unknown>
+#19 0x563ff8cde6b8 <unknown>
+#20 0x563ff8cde847 <unknown>
+#21 0x563ff8cee243 <unknown>
+#22 0x7f31ccc90402 <unknown>
+------------------------------------------------------------------------------
+Add Salepage                                                          | PASS |
+------------------------------------------------------------------------------
+Click Order Menu                                                      | FAIL |
+Element '//html/body/section/div[2]/div[4]/div[4]/div/div/div[1]/div[2]/div[2]/div[1]/a/button' not visible after 20 seconds.
+------------------------------------------------------------------------------
+Confirm Order                                                         | PASS |
+------------------------------------------------------------------------------
+Add Order 1                                                           | PASS |
+------------------------------------------------------------------------------
+Add Order 3                                                           | PASS |
+------------------------------------------------------------------------------
+Confirm Order 4                                                       | FAIL |
+Element '//*[@id="table-order"]/div/div/div/table/tbody/tr/td[9]/a' not visible after 20 seconds.
+------------------------------------------------------------------------------
+Upsale transfer                                                       | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <span data-v-7bb16432="" class="nav-link cursor-pointer">...</span> is not clickable at point (136, 355). Other element would receive the click: <input type="text" placeholder="กรุณากรอกชื่อ - นามสกุล..." class="form-control">
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x563ff8cf54e3 <unknown>
+#1 0x563ff8a24c76 <unknown>
+#2 0x563ff8a669d4 <unknown>
+#3 0x563ff8a64cbd <unknown>
+#4 0x563ff8a62d2e <unknown>
+#5 0x563ff8a6210f <unknown>
+#6 0x563ff8a571da <unknown>
+#7 0x563ff8a80012 <unknown>
+#8 0x563ff8a56b03 <unknown>
+#9 0x563ff8a801de <unknown>
+#10 0x563ff8a9830e <unknown>
+#11 0x563ff8a7fde3 <unknown>
+#12 0x563ff8a552dd <unknown>
+#13 0x563ff8a5634e <unknown>
+#14 0x563ff8cb53e4 <unknown>
+#15 0x563ff8cb93d7 <unknown>
+#16 0x563ff8cc3b20 <unknown>
+#17 0x563ff8cba023 <unknown>
+#18 0x563ff8c881aa <unknown>
+#19 0x563ff8cde6b8 <unknown>
+#20 0x563ff8cde847 <unknown>
+#21 0x563ff8cee243 <unknown>
+#22 0x7f31ccc90402 <unknown>
+------------------------------------------------------------------------------
+Upsale cod                                                            | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <span data-v-7bb16432="" class="nav-link cursor-pointer">...</span> is not clickable at point (136, 355). Other element would receive the click: <input type="text" placeholder="กรุณากรอกชื่อ - นามสกุล..." class="form-control">
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x563ff8cf54e3 <unknown>
+#1 0x563ff8a24c76 <unknown>
+#2 0x563ff8a669d4 <unknown>
+#3 0x563ff8a64cbd <unknown>
+#4 0x563ff8a62d2e <unknown>
+#5 0x563ff8a6210f <unknown>
+#6 0x563ff8a571da <unknown>
+#7 0x563ff8a80012 <unknown>
+#8 0x563ff8a56b03 <unknown>
+#9 0x563ff8a801de <unknown>
+#10 0x563ff8a9830e <unknown>
+#11 0x563ff8a7fde3 <unknown>
+#12 0x563ff8a552dd <unknown>
+#13 0x563ff8a5634e <unknown>
+#14 0x563ff8cb53e4 <unknown>
+#15 0x563ff8cb93d7 <unknown>
+#16 0x563ff8cc3b20 <unknown>
+#17 0x563ff8cba023 <unknown>
+#18 0x563ff8c881aa <unknown>
+#19 0x563ff8cde6b8 <unknown>
+#20 0x563ff8cde847 <unknown>
+#21 0x563ff8cee243 <unknown>
+#22 0x7f31ccc90402 <unknown>
+------------------------------------------------------------------------------
+Shipment1                                                             | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <li data-v-7bb16432="" class="nav-item">...</li> is not clickable at point (136, 265). Other element would receive the click: <textarea data-v-0a1212fb="" rows="5" placeholder="คัดลอกข้อมูลลูกค้าของคุณแล้วจัดวางที่นี่
+ตัวอย่างข้อมูล: สมชาย ขายดี 0909999999 11/12 หมู่ 10 ต.วัดเกต อ.เมือง 
+จ.เชียงใหม่  50000 @SomchaiJD (Social Name @ต่อท้าย ถ้ามี)" class="form-control text-grey"></textarea>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x563ff8cf54e3 <unknown>
+#1 0x563ff8a24c76 <unknown>
+#2 0x563ff8a669d4 <unknown>
+#3 0x563ff8a64cbd <unknown>
+#4 0x563ff8a62d2e <unknown>
+#5 0x563ff8a6210f <unknown>
+#6 0x563ff8a571da <unknown>
+#7 0x563ff8a80012 <unknown>
+#8 0x563ff8a56b03 <unknown>
+#9 0x563ff8a801de <unknown>
+#10 0x563ff8a9830e <unknown>
+#11 0x563ff8a7fde3 <unknown>
+#12 0x563ff8a552dd <unknown>
+#13 0x563ff8a5634e <unknown>
+#14 0x563ff8cb53e4 <unknown>
+#15 0x563ff8cb93d7 <unknown>
+#16 0x563ff8cc3b20 <unknown>
+#17 0x563ff8cba023 <unknown>
+#18 0x563ff8c881aa <unknown>
+#19 0x563ff8cde6b8 <unknown>
+#20 0x563ff8cde847 <unknown>
+#21 0x563ff8cee243 <unknown>
+#22 0x7f31ccc90402 <unknown>
+------------------------------------------------------------------------------
+[ WARN ] Multiple tests with name 'Shipment2' executed in suite 'Fullflow'.
+Shipment2                                                             | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <li data-v-7bb16432="" class="nav-item">...</li> is not clickable at point (136, 265). Other element would receive the click: <textarea data-v-0a1212fb="" rows="5" placeholder="คัดลอกข้อมูลลูกค้าของคุณแล้วจัดวางที่นี่
+ตัวอย่างข้อมูล: สมชาย ขายดี 0909999999 11/12 หมู่ 10 ต.วัดเกต อ.เมือง 
+จ.เชียงใหม่  50000 @SomchaiJD (Social Name @ต่อท้าย ถ้ามี)" class="form-control text-grey"></textarea>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x563ff8cf54e3 <unknown>
+#1 0x563ff8a24c76 <unknown>
+#2 0x563ff8a669d4 <unknown>
+#3 0x563ff8a64cbd <unknown>
+#4 0x563ff8a62d2e <unknown>
+#5 0x563ff8a6210f <unknown>
+#6 0x563ff8a571da <unknown>
+#7 0x563ff8a80012 <unknown>
+#8 0x563ff8a56b03 <unknown>
+#9 0x563ff8a801de <unknown>
+#10 0x563ff8a9830e <unknown>
+#11 0x563ff8a7fde3 <unknown>
+#12 0x563ff8a552dd <unknown>
+#13 0x563ff8a5634e <unknown>
+#14 0x563ff8cb53e4 <unknown>
+#15 0x563ff8cb93d7 <unknown>
+#16 0x563ff8cc3b20 <unknown>
+#17 0x563ff8cba023 <unknown>
+#18 0x563ff8c881aa <unknown>
+#19 0x563ff8cde6b8 <unknown>
+#20 0x563ff8cde847 <unknown>
+#21 0x563ff8cee243 <unknown>
+#22 0x7f31ccc90402 <unknown>
+------------------------------------------------------------------------------
+[ WARN ] Multiple tests with name 'Open Upsale' executed in suite 'Fullflow'.
+Open Upsale                                                           | PASS |
+------------------------------------------------------------------------------
+Add Order 4                                                           | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <a data-v-7bb16432="" href="/app/settings" class="nav-link actives">...</a> is not clickable at point (136, 760). Other element would receive the click: <input type="text" placeholder="กรุณากรอกแขวง/ ตำบล..." class="form-control">
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x563ff8cf54e3 <unknown>
+#1 0x563ff8a24c76 <unknown>
+#2 0x563ff8a669d4 <unknown>
+#3 0x563ff8a64cbd <unknown>
+#4 0x563ff8a62d2e <unknown>
+#5 0x563ff8a6210f <unknown>
+#6 0x563ff8a571da <unknown>
+#7 0x563ff8a80012 <unknown>
+#8 0x563ff8a56b03 <unknown>
+#9 0x563ff8a801de <unknown>
+#10 0x563ff8a9830e <unknown>
+#11 0x563ff8a7fde3 <unknown>
+#12 0x563ff8a552dd <unknown>
+#13 0x563ff8a5634e <unknown>
+#14 0x563ff8cb53e4 <unknown>
+#15 0x563ff8cb93d7 <unknown>
+#16 0x563ff8cc3b20 <unknown>
+#17 0x563ff8cba023 <unknown>
+#18 0x563ff8c881aa <unknown>
+#19 0x563ff8cde6b8 <unknown>
+#20 0x563ff8cde847 <unknown>
+#21 0x563ff8cee243 <unknown>
+#22 0x7f31ccc90402 <unknown>
+------------------------------------------------------------------------------
+Fullflow                                                              | FAIL |
+22 tests, 7 passed, 15 failed
+==============================================================================
+Output:  /home/automatetest/Desktop/winwinwin/results/output.xml
+[ ERROR ] Reading XML source '/home/automatetest/Desktop/winwinwin/results/output.xml' failed: ParseError: not well-formed (invalid token): line 767, column 129
+
+Try --help for usage information.
+| PASS |
+------------------------------------------------------------------------------
+Add Order 2                                                           | FAIL |
+Element '//html/body/section/div[2]/div[4]/div[4]/div/div[1]/div[1]/div[1]/div[2]/div[1]/button' not visible after 20 seconds.
+------------------------------------------------------------------------------
+Confirm Order 2                                                       | FAIL |
+Element '//html/body/section/div[2]/div[2]/div[2]/div/ul/li[3]/a' not visible after 20 seconds.
+------------------------------------------------------------------------------
+Shipment2                                                             | FAIL |
+Element with locator '//html/body/section/div[2]/div[2]/div[2]/div/ul/li[5]' not found.
+------------------------------------------------------------------------------
+Shipment3                                                             | PASS |
+------------------------------------------------------------------------------
+Add Order 3                                                           | PASS |
+------------------------------------------------------------------------------
+Confirm Order 4                                                       | FAIL |
+Element with locator '//html/body/section/div[2]/div[2]/div[2]/div/ul/li[5]' not found.
+------------------------------------------------------------------------------
+Click Shipment Thaipost                                               | FAIL |
+Element '//html/body/section/div[2]/div[2]/div[2]/div/ul/li[5]' not visible after 20 seconds.
+------------------------------------------------------------------------------
+Click Shipment Flash                                                  | PASS |
+------------------------------------------------------------------------------
+Add Order 4                                                           | FAIL |
+Element '//html/body/section/div[2]/div[4]/div[4]/div/div[1]/div[1]/div[1]/div[2]/div[1]/button' not visible after 20 seconds.
+------------------------------------------------------------------------------
+Confirm Order 2                                                       | FAIL |
+Element '//html/body/section/div[2]/div[2]/div[2]/div/ul/li[3]/a' not visible after 20 seconds.
+------------------------------------------------------------------------------
+Shipment2                                                             | FAIL |
+Element '//html/body/section/div[2]/div[2]/div[2]/div/ul/li[5]' not visible after 20 seconds.
+------------------------------------------------------------------------------
+Open Upsale                                                           | FAIL |
+Element with locator '//html/body/section/div[2]/div[2]/div[2]/div/ul/li[5]' not found.
+------------------------------------------------------------------------------
+Shipment3                                                             | PASS |
+------------------------------------------------------------------------------
+Confirm Order 4                                                       | FAIL |
+Element with locator '//html/body/section/div[2]/div[2]/div[2]/div/ul/li[5]' not found.
+------------------------------------------------------------------------------
+Click Shipment Thaipost                                               | FAIL |
+Element '//html/body/section/div[2]/div[2]/div[2]/div/ul/li[17]/a' not visible after 20 seconds.
+------------------------------------------------------------------------------
+Click Salepage                                                        | FAIL |
+Element '//html/body/section/div[2]/div[2]/div[2]/div/ul/li[5]' not visible after 20 seconds.
+------------------------------------------------------------------------------
+Click Shipment Flash                                                  | PASS |
+------------------------------------------------------------------------------
+Confirm Order 2                                                       | FAIL |
+Element '//html/body/section/div[2]/div[2]/div[2]/div/ul/li[9]' not visible after 20 seconds.
+------------------------------------------------------------------------------
+Add Salepage                                                          | FAIL |
+Element '//html/body/section/div[2]/div[2]/div[2]/div/ul/li[5]' not visible after 20 seconds.
+------------------------------------------------------------------------------
+Open Upsale                                                           | FAIL |
+Element '//html/body/section/div[2]/div[4]/div[4]/div/div/div[1]/div[2]/div[2]/div[1]/a/button' not visible after 20 seconds.
+------------------------------------------------------------------------------
+Confirm Order                                                         | FAIL |
+Element '//*[@id="select2--container"]/span/div' not visible after 20 seconds.
+------------------------------------------------------------------------------
+Shipment2                                                             | FAIL |
+Element '//html/body/section/div[2]/div[2]/div[2]/div/ul/li[17]/a' not visible after 20 seconds.
+------------------------------------------------------------------------------
+Click Salepage                                                        | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <li data-v-7bb16432="" class="nav-item">...</li> is not clickable at point (136, 265). Other element would receive the click: <div id="table-payment" class="table-responsive mt-1 table-items mb-3 pb-5">...</div>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x564a09cfc4e3 <unknown>
+#1 0x564a09a2bc76 <unknown>
+#2 0x564a09a6d9d4 <unknown>
+#3 0x564a09a6bcbd <unknown>
+#4 0x564a09a69d2e <unknown>
+#5 0x564a09a6910f <unknown>
+#6 0x564a09a5e1da <unknown>
+#7 0x564a09a87012 <unknown>
+#8 0x564a09a5db03 <unknown>
+#9 0x564a09a871de <unknown>
+#10 0x564a09a9f30e <unknown>
+#11 0x564a09a86de3 <unknown>
+#12 0x564a09a5c2dd <unknown>
+#13 0x564a09a5d34e <unknown>
+#14 0x564a09cbc3e4 <unknown>
+#15 0x564a09cc03d7 <unknown>
+#16 0x564a09ccab20 <unknown>
+#17 0x564a09cc1023 <unknown>
+#18 0x564a09c8f1aa <unknown>
+#19 0x564a09ce56b8 <unknown>
+#20 0x564a09ce5847 <unknown>
+#21 0x564a09cf5243 <unknown>
+#22 0x7f5641e90402 <unknown>
+------------------------------------------------------------------------------
+Shipment3                                                             | FAIL |
+Element '//*[@id="table-order"]/div/div/div/table/tbody/tr/td[9]/a' not visible after 20 seconds.
+------------------------------------------------------------------------------
+Upsale transfer                                                       | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <li data-v-7bb16432="" class="nav-item">...</li> is not clickable at point (136, 265). Other element would receive the click: <div id="table-payment" class="table-responsive mt-1 table-items mb-3 pb-5">...</div>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x564a09cfc4e3 <unknown>
+#1 0x564a09a2bc76 <unknown>
+#2 0x564a09a6d9d4 <unknown>
+#3 0x564a09a6bcbd <unknown>
+#4 0x564a09a69d2e <unknown>
+#5 0x564a09a6910f <unknown>
+#6 0x564a09a5e1da <unknown>
+#7 0x564a09a87012 <unknown>
+#8 0x564a09a5db03 <unknown>
+#9 0x564a09a871de <unknown>
+#10 0x564a09a9f30e <unknown>
+#11 0x564a09a86de3 <unknown>
+#12 0x564a09a5c2dd <unknown>
+#13 0x564a09a5d34e <unknown>
+#14 0x564a09cbc3e4 <unknown>
+#15 0x564a09cc03d7 <unknown>
+#16 0x564a09ccab20 <unknown>
+#17 0x564a09cc1023 <unknown>
+#18 0x564a09c8f1aa <unknown>
+#19 0x564a09ce56b8 <unknown>
+#20 0x564a09ce5847 <unknown>
+#21 0x564a09cf5243 <unknown>
+#22 0x7f5641e90402 <unknown>
+------------------------------------------------------------------------------
+Click Shipment Thaipost                                               | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <li data-v-7bb16432="" class="nav-item">...</li> is not clickable at point (136, 265). Other element would receive the click: <div id="table-payment" class="table-responsive mt-1 table-items mb-3 pb-5">...</div>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x564a09cfc4e3 <unknown>
+#1 0x564a09a2bc76 <unknown>
+#2 0x564a09a6d9d4 <unknown>
+#3 0x564a09a6bcbd <unknown>
+#4 0x564a09a69d2e <unknown>
+#5 0x564a09a6910f <unknown>
+#6 0x564a09a5e1da <unknown>
+#7 0x564a09a87012 <unknown>
+#8 0x564a09a5db03 <unknown>
+#9 0x564a09a871de <unknown>
+#10 0x564a09a9f30e <unknown>
+#11 0x564a09a86de3 <unknown>
+#12 0x564a09a5c2dd <unknown>
+#13 0x564a09a5d34e <unknown>
+#14 0x564a09cbc3e4 <unknown>
+#15 0x564a09cc03d7 <unknown>
+#16 0x564a09ccab20 <unknown>
+#17 0x564a09cc1023 <unknown>
+#18 0x564a09c8f1aa <unknown>
+#19 0x564a09ce56b8 <unknown>
+#20 0x564a09ce5847 <unknown>
+#21 0x564a09cf5243 <unknown>
+#22 0x7f5641e90402 <unknown>
+------------------------------------------------------------------------------
+Click Shipment Flash                                                  | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <li data-v-7bb16432="" class="nav-item">...</li> is not clickable at point (136, 265). Other element would receive the click: <div id="table-payment" class="table-responsive mt-1 table-items mb-3 pb-5">...</div>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x564a09cfc4e3 <unknown>
+#1 0x564a09a2bc76 <unknown>
+#2 0x564a09a6d9d4 <unknown>
+#3 0x564a09a6bcbd <unknown>
+#4 0x564a09a69d2e <unknown>
+#5 0x564a09a6910f <unknown>
+#6 0x564a09a5e1da <unknown>
+#7 0x564a09a87012 <unknown>
+#8 0x564a09a5db03 <unknown>
+#9 0x564a09a871de <unknown>
+#10 0x564a09a9f30e <unknown>
+#11 0x564a09a86de3 <unknown>
+#12 0x564a09a5c2dd <unknown>
+#13 0x564a09a5d34e <unknown>
+#14 0x564a09cbc3e4 <unknown>
+#15 0x564a09cc03d7 <unknown>
+#16 0x564a09ccab20 <unknown>
+#17 0x564a09cc1023 <unknown>
+#18 0x564a09c8f1aa <unknown>
+#19 0x564a09ce56b8 <unknown>
+#20 0x564a09ce5847 <unknown>
+#21 0x564a09cf5243 <unknown>
+#22 0x7f5641e90402 <unknown>
+------------------------------------------------------------------------------
+Open Upsale                                                           | FAIL |
+Element '//html/body/section/div[2]/div[2]/div[2]/div/ul/li[9]' not visible after 20 seconds.
+------------------------------------------------------------------------------
+Add Salepage                                                          | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <a data-v-7bb16432="" href="/app/settings" class="nav-link actives">...</a> is not clickable at point (136, 760). Other element would receive the click: <div class="modal-content">...</div>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x564a09cfc4e3 <unknown>
+#1 0x564a09a2bc76 <unknown>
+#2 0x564a09a6d9d4 <unknown>
+#3 0x564a09a6bcbd <unknown>
+#4 0x564a09a69d2e <unknown>
+#5 0x564a09a6910f <unknown>
+#6 0x564a09a5e1da <unknown>
+#7 0x564a09a87012 <unknown>
+#8 0x564a09a5db03 <unknown>
+#9 0x564a09a871de <unknown>
+#10 0x564a09a9f30e <unknown>
+#11 0x564a09a86de3 <unknown>
+#12 0x564a09a5c2dd <unknown>
+#13 0x564a09a5d34e <unknown>
+#14 0x564a09cbc3e4 <unknown>
+#15 0x564a09cc03d7 <unknown>
+#16 0x564a09ccab20 <unknown>
+#17 0x564a09cc1023 <unknown>
+#18 0x564a09c8f1aa <unknown>
+#19 0x564a09ce56b8 <unknown>
+#20 0x564a09ce5847 <unknown>
+#21 0x564a09cf5243 <unknown>
+#22 0x7f5641e90402 <unknown>
+------------------------------------------------------------------------------
+Click Salepage                                                        | FAIL |
+Element '//html/body/section/div[2]/div[2]/div[2]/div/ul/li[7]/span' not visible after 20 seconds.
+------------------------------------------------------------------------------
+Upsale cod                                                            | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <li data-v-7bb16432="" class="nav-item nav-item-submenu">...</li> is not clickable at point (136, 445). Other element would receive the click: <div class="modal-content">...</div>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x564a09cfc4e3 <unknown>
+#1 0x564a09a2bc76 <unknown>
+#2 0x564a09a6d9d4 <unknown>
+#3 0x564a09a6bcbd <unknown>
+#4 0x564a09a69d2e <unknown>
+#5 0x564a09a6910f <unknown>
+#6 0x564a09a5e1da <unknown>
+#7 0x564a09a87012 <unknown>
+#8 0x564a09a5db03 <unknown>
+#9 0x564a09a871de <unknown>
+#10 0x564a09a9f30e <unknown>
+#11 0x564a09a86de3 <unknown>
+#12 0x564a09a5c2dd <unknown>
+#13 0x564a09a5d34e <unknown>
+#14 0x564a09cbc3e4 <unknown>
+#15 0x564a09cc03d7 <unknown>
+#16 0x564a09ccab20 <unknown>
+#17 0x564a09cc1023 <unknown>
+#18 0x564a09c8f1aa <unknown>
+#19 0x564a09ce56b8 <unknown>
+#20 0x564a09ce5847 <unknown>
+#21 0x564a09cf5243 <unknown>
+#22 0x7f5641e90402 <unknown>
+------------------------------------------------------------------------------
+Add Salepage                                                          | FAIL |
+Element '//html/body/section/div[2]/div[4]/div[4]/div/div/div[1]/div[2]/div[2]/div[1]/a/button' not visible after 20 seconds.
+------------------------------------------------------------------------------
+Confirm Order                                                         | FAIL |
+Element '//html/body/section/div[2]/div[2]/div[2]/div/ul/li[7]/span' not visible after 20 seconds.
+------------------------------------------------------------------------------
+Shipment1                                                             | FAIL |
+Element '//html/body/section/div[2]/div[4]/div[4]/div/div/div[1]/div[2]/div[2]/div[1]/a/button' not visible after 20 seconds.
+------------------------------------------------------------------------------
+Confirm Order                                                         | FAIL |
+Element with locator '//html/body/section/div[2]/div[2]/div[2]/div/ul/li[5]' not found.
+------------------------------------------------------------------------------
+[ WARN ] Multiple tests with name 'Shipment2' executed in suite 'Fullflow'.
+Shipment2                                                             | FAIL |
+Element with locator '//html/body/section/div[2]/div[2]/div[2]/div/ul/li[5]' not found.
+------------------------------------------------------------------------------
+[ WARN ] Multiple tests with name 'Open Upsale' executed in suite 'Fullflow'.
+Open Upsale                                                           | FAIL |
+Element '//*[@id="table-order"]/div/div/div/table/tbody/tr/td[9]/a' not visible after 20 seconds.
+------------------------------------------------------------------------------
+Upsale transfer                                                       | FAIL |
+Element '//*[@id="table-order"]/div/div/div/table/tbody/tr/td[9]/a' not visible after 20 seconds.
+------------------------------------------------------------------------------
+Upsale transfer                                                       | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <span data-v-7bb16432="" class="nav-link cursor-pointer">...</span> is not clickable at point (136, 355). Other element would receive the click: <div class="modal-content">...</div>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x564a09cfc4e3 <unknown>
+#1 0x564a09a2bc76 <unknown>
+#2 0x564a09a6d9d4 <unknown>
+#3 0x564a09a6bcbd <unknown>
+#4 0x564a09a69d2e <unknown>
+#5 0x564a09a6910f <unknown>
+#6 0x564a09a5e1da <unknown>
+#7 0x564a09a87012 <unknown>
+#8 0x564a09a5db03 <unknown>
+#9 0x564a09a871de <unknown>
+#10 0x564a09a9f30e <unknown>
+#11 0x564a09a86de3 <unknown>
+#12 0x564a09a5c2dd <unknown>
+#13 0x564a09a5d34e <unknown>
+#14 0x564a09cbc3e4 <unknown>
+#15 0x564a09cc03d7 <unknown>
+#16 0x564a09ccab20 <unknown>
+#17 0x564a09cc1023 <unknown>
+#18 0x564a09c8f1aa <unknown>
+#19 0x564a09ce56b8 <unknown>
+#20 0x564a09ce5847 <unknown>
+#21 0x564a09cf5243 <unknown>
+#22 0x7f5641e90402 <unknown>
+------------------------------------------------------------------------------
+Upsale cod                                                            | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <span data-v-7bb16432="" class="nav-link cursor-pointer">...</span> is not clickable at point (136, 355). Other element would receive the click: <div class="modal-content">...</div>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x564a09cfc4e3 <unknown>
+#1 0x564a09a2bc76 <unknown>
+#2 0x564a09a6d9d4 <unknown>
+#3 0x564a09a6bcbd <unknown>
+#4 0x564a09a69d2e <unknown>
+#5 0x564a09a6910f <unknown>
+#6 0x564a09a5e1da <unknown>
+#7 0x564a09a87012 <unknown>
+#8 0x564a09a5db03 <unknown>
+#9 0x564a09a871de <unknown>
+#10 0x564a09a9f30e <unknown>
+#11 0x564a09a86de3 <unknown>
+#12 0x564a09a5c2dd <unknown>
+#13 0x564a09a5d34e <unknown>
+#14 0x564a09cbc3e4 <unknown>
+#15 0x564a09cc03d7 <unknown>
+#16 0x564a09ccab20 <unknown>
+#17 0x564a09cc1023 <unknown>
+#18 0x564a09c8f1aa <unknown>
+#19 0x564a09ce56b8 <unknown>
+#20 0x564a09ce5847 <unknown>
+#21 0x564a09cf5243 <unknown>
+#22 0x7f5641e90402 <unknown>
+------------------------------------------------------------------------------
+Shipment1                                                             | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <li data-v-7bb16432="" class="nav-item">...</li> is not clickable at point (136, 265). Other element would receive the click: <div id="table-payment" class="table-responsive mt-1 table-items mb-3 pb-5">...</div>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x564a09cfc4e3 <unknown>
+#1 0x564a09a2bc76 <unknown>
+#2 0x564a09a6d9d4 <unknown>
+#3 0x564a09a6bcbd <unknown>
+#4 0x564a09a69d2e <unknown>
+#5 0x564a09a6910f <unknown>
+#6 0x564a09a5e1da <unknown>
+#7 0x564a09a87012 <unknown>
+#8 0x564a09a5db03 <unknown>
+#9 0x564a09a871de <unknown>
+#10 0x564a09a9f30e <unknown>
+#11 0x564a09a86de3 <unknown>
+#12 0x564a09a5c2dd <unknown>
+#13 0x564a09a5d34e <unknown>
+#14 0x564a09cbc3e4 <unknown>
+#15 0x564a09cc03d7 <unknown>
+#16 0x564a09ccab20 <unknown>
+#17 0x564a09cc1023 <unknown>
+#18 0x564a09c8f1aa <unknown>
+#19 0x564a09ce56b8 <unknown>
+#20 0x564a09ce5847 <unknown>
+#21 0x564a09cf5243 <unknown>
+#22 0x7f5641e90402 <unknown>
+------------------------------------------------------------------------------
+[ WARN ] Multiple tests with name 'Shipment2' executed in suite 'Fullflow'.
+Shipment2                                                             | FAIL |
+Element '//html/body/section/div[2]/div[2]/div[2]/div/ul/li[17]/a' not visible after 20 seconds.
+------------------------------------------------------------------------------
+Fullflow                                                              | FAIL |
+22 tests, 7 passed, 15 failed
+==============================================================================
+Output:  /home/automatetest/Desktop/winwinwin/results/output.xml
+[ ERROR ] Reading XML source '/home/automatetest/Desktop/winwinwin/results/output.xml' failed: ParseError: not well-formed (invalid token): line 1764, column 2
+
+Try --help for usage information.
+| FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <li data-v-7bb16432="" class="nav-item">...</li> is not clickable at point (136, 265). Other element would receive the click: <div id="table-payment" class="table-responsive mt-1 table-items mb-3 pb-5">...</div>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x564a09cfc4e3 <unknown>
+#1 0x564a09a2bc76 <unknown>
+#2 0x564a09a6d9d4 <unknown>
+#3 0x564a09a6bcbd <unknown>
+#4 0x564a09a69d2e <unknown>
+#5 0x564a09a6910f <unknown>
+#6 0x564a09a5e1da <unknown>
+#7 0x564a09a87012 <unknown>
+#8 0x564a09a5db03 <unknown>
+#9 0x564a09a871de <unknown>
+#10 0x564a09a9f30e <unknown>
+#11 0x564a09a86de3 <unknown>
+#12 0x564a09a5c2dd <unknown>
+#13 0x564a09a5d34e <unknown>
+#14 0x564a09cbc3e4 <unknown>
+#15 0x564a09cc03d7 <unknown>
+#16 0x564a09ccab20 <unknown>
+#17 0x564a09cc1023 <unknown>
+#18 0x564a09c8f1aa <unknown>
+#19 0x564a09ce56b8 <unknown>
+#20 0x564a09ce5847 <unknown>
+#21 0x564a09cf5243 <unknown>
+#22 0x7f5641e90402 <unknown>
+------------------------------------------------------------------------------
+[ WARN ] Multiple tests with name 'Open Upsale' executed in suite 'Fullflow'.
+Open Upsale                                                           | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <a data-v-7bb16432="" href="/app/settings" class="nav-link actives">...</a> is not clickable at point (136, 760). Other element would receive the click: <div class="modal-content">...</div>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x564a09cfc4e3 <unknown>
+#1 0x564a09a2bc76 <unknown>
+#2 0x564a09a6d9d4 <unknown>
+#3 0x564a09a6bcbd <unknown>
+#4 0x564a09a69d2e <unknown>
+#5 0x564a09a6910f <unknown>
+#6 0x564a09a5e1da <unknown>
+#7 0x564a09a87012 <unknown>
+#8 0x564a09a5db03 <unknown>
+#9 0x564a09a871de <unknown>
+#10 0x564a09a9f30e <unknown>
+#11 0x564a09a86de3 <unknown>
+#12 0x564a09a5c2dd <unknown>
+#13 0x564a09a5d34e <unknown>
+#14 0x564a09cbc3e4 <unknown>
+#15 0x564a09cc03d7 <unknown>
+#16 0x564a09ccab20 <unknown>
+#17 0x564a09cc1023 <unknown>
+#18 0x564a09c8f1aa <unknown>
+#19 0x564a09ce56b8 <unknown>
+#20 0x564a09ce5847 <unknown>
+#21 0x564a09cf5243 <unknown>
+#22 0x7f5641e90402 <unknown>
+------------------------------------------------------------------------------
+Fullflow                                                              | FAIL |
+22 tests, 8 passed, 14 failed
+==============================================================================
+Output:  /home/automatetest/Desktop/winwinwin/results/output.xml
+[ ERROR ] Reading XML source '/home/automatetest/Desktop/winwinwin/results/output.xml' failed: ParseError: not well-formed (invalid token): line 1764, column 2
+
+Try --help for usage information.
+| FAIL |
+Element '//html/body/section/div[2]/div[2]/div[2]/div/ul/li[7]/span' not visible after 20 seconds.
+------------------------------------------------------------------------------
+Upsale cod                                                            | FAIL |
+Element '//html/body/section/div[2]/div[2]/div[2]/div/ul/li[7]/span' not visible after 20 seconds.
+------------------------------------------------------------------------------
+Shipment1                                                             | FAIL |
+Element with locator '//html/body/section/div[2]/div[2]/div[2]/div/ul/li[5]' not found.
+------------------------------------------------------------------------------
+[ WARN ] Multiple tests with name 'Shipment2' executed in suite 'Fullflow'.
+Shipment2                                                             | FAIL |
+Element with locator '//html/body/section/div[2]/div[2]/div[2]/div/ul/li[5]' not found.
+------------------------------------------------------------------------------
+[ WARN ] Multiple tests with name 'Open Upsale' executed in suite 'Fullflow'.
+Open Upsale                                                           | FAIL |
+Element '//html/body/section/div[2]/div[2]/div[2]/div/ul/li[17]/a' not visible after 20 seconds.
+------------------------------------------------------------------------------
+Fullflow                                                              | FAIL |
+22 tests, 7 passed, 15 failed
+==============================================================================
+Output:  /home/automatetest/Desktop/winwinwin/results/output.xml
+[ ERROR ] Reading XML source '/home/automatetest/Desktop/winwinwin/results/output.xml' failed: ParseError: not well-formed (invalid token): line 1764, column 2
+
+Try --help for usage information.
+==============================================================================
+Fullflow                                                                      
+==============================================================================
+Login Dev Env                                                         | PASS |
+------------------------------------------------------------------------------
+Click shop                                                            | PASS |
+------------------------------------------------------------------------------
+Click Order Menu                                                      | PASS |
+------------------------------------------------------------------------------
+Add Order 1                                                           | PASS |
+------------------------------------------------------------------------------
+Add Order 2                                                           | PASS |
+------------------------------------------------------------------------------
+Add Order 3                                                           | PASS |
+------------------------------------------------------------------------------
+Add Order 4                                                           | PASS |
+------------------------------------------------------------------------------
+Confirm Order 4                                                       | PASS |
+------------------------------------------------------------------------------
+Confirm Order 2                                                       | PASS |
+------------------------------------------------------------------------------
+Shipment2                                                             | FAIL |
+Element '//html/body/div[2]/div/div[6]/button[1]' not visible after 20 seconds.
+------------------------------------------------------------------------------
+Shipment3                                                             | FAIL |
+Element '//html/body/section/div[2]/div[4]/div[4]/div/div[1]/div[2]/div[3]/div[1]/div/div/div/table/tbody/tr[1]/td[1]/input' not visible after 20 seconds.
+------------------------------------------------------------------------------
+Click Shipment Thaipost                                               ==============================================================================
+Fullflow                                                                      
+==============================================================================
+Login Dev Env                                                         | PASS |
+------------------------------------------------------------------------------
+Click shop                                                            | PASS |
+------------------------------------------------------------------------------
+Click Order Menu                                                      | PASS |
+------------------------------------------------------------------------------
+Add Order 1                                                           | PASS |
+------------------------------------------------------------------------------
+Add Order 2                                                           | PASS |
+------------------------------------------------------------------------------
+Add Order 3                                                           | PASS |
+------------------------------------------------------------------------------
+Add Order 4                                                           | PASS |
+------------------------------------------------------------------------------
+Confirm Order 4                                                       | PASS |
+------------------------------------------------------------------------------
+Confirm Order 2                                                       | PASS |
+------------------------------------------------------------------------------
+Shipment2                                                             | FAIL |
+Element '//html/body/div[2]/div/div[6]/button[1]' not visible after 20 seconds.
+------------------------------------------------------------------------------
+Shipment3                                                             ==============================================================================
+Fullflow                                                                      
+==============================================================================
+Login Dev Env                                                         | PASS |
+------------------------------------------------------------------------------
+Click shop                                                            | PASS |
+------------------------------------------------------------------------------
+Click Order Menu                                                      | PASS |
+------------------------------------------------------------------------------
+Add Order 1                                                           | PASS |
+------------------------------------------------------------------------------
+Add Order 2                                                           | PASS |
+------------------------------------------------------------------------------
+Add Order 3                                                           | PASS |
+------------------------------------------------------------------------------
+Add Order 4                                                           | PASS |
+------------------------------------------------------------------------------
+Confirm Order 4                                                       | PASS |
+------------------------------------------------------------------------------
+Confirm Order 2                                                       | PASS |
+------------------------------------------------------------------------------
+Shipment2                                                             | FAIL |
+Element '//html/body/div[2]/div/div[6]/button[1]' not visible after 1 minute 40 seconds.
+------------------------------------------------------------------------------
+Shipment3                                                             ==============================================================================
+Fullflow                                                                      
+==============================================================================
+Login Dev Env                                                         | PASS |
+------------------------------------------------------------------------------
+Click shop                                                            | PASS |
+------------------------------------------------------------------------------
+Click Order Menu                                                      | PASS |
+------------------------------------------------------------------------------
+Add Order 1                                                           | PASS |
+------------------------------------------------------------------------------
+Add Order 2                                                           | PASS |
+------------------------------------------------------------------------------
+Add Order 3                                                           | PASS |
+------------------------------------------------------------------------------
+Add Order 4                                                           | PASS |
+------------------------------------------------------------------------------
+Confirm Order 4                                                       | FAIL |
+Element '//html/body/section/div[2]/div[4]/div[4]/div/div[1]/div[1]/div[1]/div[2]/div[1]/button' not visible after 1 minute 40 seconds.
+------------------------------------------------------------------------------
+Confirm Order 2                                                       | FAIL |
+Element '//html/body/section/div[2]/div[2]/div[2]/div/ul/li[3]/a' not visible after 1 minute 40 seconds.
+------------------------------------------------------------------------------
+Shipment2                                                             | FAIL |
+Element with locator '//html/body/section/div[2]/div[2]/div[2]/div/ul/li[5]' not found.
+------------------------------------------------------------------------------
+Shipment3                                                             | FAIL |
+Element with locator '//html/body/section/div[2]/div[2]/div[2]/div/ul/li[5]' not found.
+------------------------------------------------------------------------------
+Click Shipment Thaipost                                               | FAIL |
+Element '//html/body/section/div[2]/div[2]/div[2]/div/ul/li[5]' not visible after 1 minute 40 seconds.
+------------------------------------------------------------------------------
+Click Shipment Flash                                                  | FAIL |
+Element '//html/body/section/div[2]/div[2]/div[2]/div/ul/li[5]' not visible after 1 minute 40 seconds.
+------------------------------------------------------------------------------
+Open Upsale                                                           | FAIL |
+Element '//html/body/section/div[2]/div[2]/div[2]/div/ul/li[17]/a' not visible after 1 minute 40 seconds.
+------------------------------------------------------------------------------
+Click Salepage                                                        | FAIL |
+Element '//html/body/section/div[2]/div[2]/div[2]/div/ul/li[9]' not visible after 1 minute 40 seconds.
+------------------------------------------------------------------------------
+Add Salepage                                                          | FAIL |
+Element '//html/body/section/div[2]/div[4]/div[4]/div/div/div[1]/div[2]/div[2]/div[1]/a/button' not visible after 1 minute 40 seconds.
+------------------------------------------------------------------------------
+Confirm Order                                                         | FAIL |
+Element '//*[@id="table-order"]/div/div/div/table/tbody/tr/td[9]/a' not visible after 1 minute 40 seconds.
+------------------------------------------------------------------------------
+Upsale transfer                                                       | FAIL |
+Element '//html/body/section/div[2]/div[2]/div[2]/div/ul/li[7]/span' not visible after 1 minute 40 seconds.
+------------------------------------------------------------------------------
+Upsale cod                                                            | FAIL |
+Element '//html/body/section/div[2]/div[2]/div[2]/div/ul/li[7]/span' not visible after 1 minute 40 seconds.
+------------------------------------------------------------------------------
+Shipment1                                                             | FAIL |
+Element with locator '//html/body/section/div[2]/div[2]/div[2]/div/ul/li[5]' not found.
+------------------------------------------------------------------------------
+[ WARN ] Multiple tests with name 'Shipment2' executed in suite 'Fullflow'.
+Shipment2                                                             | FAIL |
+Element with locator '//html/body/section/div[2]/div[2]/div[2]/div/ul/li[5]' not found.
+------------------------------------------------------------------------------
+[ WARN ] Multiple tests with name 'Open Upsale' executed in suite 'Fullflow'.
+Open Upsale                                                           | FAIL |
+Element '//html/body/section/div[2]/div[2]/div[2]/div/ul/li[17]/a' not visible after 1 minute 40 seconds.
+------------------------------------------------------------------------------
+Fullflow                                                              | FAIL |
+22 tests, 7 passed, 15 failed
+==============================================================================
+Output:  /home/automatetest/Desktop/winwinwin/results/output.xml
+Log:     /home/automatetest/Desktop/winwinwin/results/log.html
+Report:  /home/automatetest/Desktop/winwinwin/results/report.html
+==============================================================================
+Fullflow                                                                      
+==============================================================================
+Login Dev Env                                                         | PASS |
+------------------------------------------------------------------------------
+Click shop                                                            | PASS |
+------------------------------------------------------------------------------
+Click Order Menu                                                      | PASS |
+------------------------------------------------------------------------------
+Add Order 1                                                           | PASS |
+------------------------------------------------------------------------------
+Add Order 2                                                           | PASS |
+------------------------------------------------------------------------------
+Add Order 3                                                           | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <a data-v-4a0e1585="" href="#products_simple" data-toggle="tab" class="nav-link align-items-center d-flex cursor-pointer ">...</a> is not clickable at point (257, 194). Other element would receive the click: <div data-v-ef9d08c0="" class="loading">...</div>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x55c7cb01c4e3 <unknown>
+#1 0x55c7cad4bc76 <unknown>
+#2 0x55c7cad8d9d4 <unknown>
+#3 0x55c7cad8bcbd <unknown>
+#4 0x55c7cad89d2e <unknown>
+#5 0x55c7cad8910f <unknown>
+#6 0x55c7cad7e1da <unknown>
+#7 0x55c7cada7012 <unknown>
+#8 0x55c7cad7db03 <unknown>
+#9 0x55c7cada71de <unknown>
+#10 0x55c7cadbf30e <unknown>
+#11 0x55c7cada6de3 <unknown>
+#12 0x55c7cad7c2dd <unknown>
+#13 0x55c7cad7d34e <unknown>
+#14 0x55c7cafdc3e4 <unknown>
+#15 0x55c7cafe03d7 <unknown>
+#16 0x55c7cafeab20 <unknown>
+#17 0x55c7cafe1023 <unknown>
+#18 0x55c7cafaf1aa <unknown>
+#19 0x55c7cb0056b8 <unknown>
+#20 0x55c7cb005847 <unknown>
+#21 0x55c7cb015243 <unknown>
+#22 0x7fe91f090402 <unknown>
+------------------------------------------------------------------------------
+Add Order 4                                                           | FAIL |
+Element '//*[@id="order_form_modal"]/div/div[3]/form/div[2]/div[1]/div[2]/div/div/div[2]/div/div/div/div/div[1]/label/div' not visible after 20 seconds.
+------------------------------------------------------------------------------
+Confirm Order 4                                                       | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <a data-v-6373fd1d="" href="/app/orders/218" target="_blank" class="text-dark">...</a> is not clickable at point (702, 463). Other element would receive the click: <div data-v-4a0e1585="" id="product_promotion" class="mb-5 pb-5">...</div>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x55c7cb01c4e3 <unknown>
+#1 0x55c7cad4bc76 <unknown>
+#2 0x55c7cad8d9d4 <unknown>
+#3 0x55c7cad8bcbd <unknown>
+#4 0x55c7cad89d2e <unknown>
+#5 0x55c7cad8910f <unknown>
+#6 0x55c7cad7e1da <unknown>
+#7 0x55c7cada7012 <unknown>
+#8 0x55c7cad7db03 <unknown>
+#9 0x55c7cada71de <unknown>
+#10 0x55c7cadbf30e <unknown>
+#11 0x55c7cada6de3 <unknown>
+#12 0x55c7cad7c2dd <unknown>
+#13 0x55c7cad7d34e <unknown>
+#14 0x55c7cafdc3e4 <unknown>
+#15 0x55c7cafe03d7 <unknown>
+#16 0x55c7cafeab20 <unknown>
+#17 0x55c7cafe1023 <unknown>
+#18 0x55c7cafaf1aa <unknown>
+#19 0x55c7cb0056b8 <unknown>
+#20 0x55c7cb005847 <unknown>
+#21 0x55c7cb015243 <unknown>
+#22 0x7fe91f090402 <unknown>
+------------------------------------------------------------------------------
+Confirm Order 2                                                       | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <a data-v-7bb16432="" href="/app/orders/index" class="nav-link actives router-link-exact-active router-link-active" aria-current="page">...</a> is not clickable at point (136, 175). Other element would receive the click: <a data-v-4a0e1585="" href="#products_latest" data-toggle="tab" class="nav-link align-items-center d-flex cursor-pointer  active">...</a>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x55c7cb01c4e3 <unknown>
+#1 0x55c7cad4bc76 <unknown>
+#2 0x55c7cad8d9d4 <unknown>
+#3 0x55c7cad8bcbd <unknown>
+#4 0x55c7cad89d2e <unknown>
+#5 0x55c7cad8910f <unknown>
+#6 0x55c7cad7e1da <unknown>
+#7 0x55c7cada7012 <unknown>
+#8 0x55c7cad7db03 <unknown>
+#9 0x55c7cada71de <unknown>
+#10 0x55c7cadbf30e <unknown>
+#11 0x55c7cada6de3 <unknown>
+#12 0x55c7cad7c2dd <unknown>
+#13 0x55c7cad7d34e <unknown>
+#14 0x55c7cafdc3e4 <unknown>
+#15 0x55c7cafe03d7 <unknown>
+#16 0x55c7cafeab20 <unknown>
+#17 0x55c7cafe1023 <unknown>
+#18 0x55c7cafaf1aa <unknown>
+#19 0x55c7cb0056b8 <unknown>
+#20 0x55c7cb005847 <unknown>
+#21 0x55c7cb015243 <unknown>
+#22 0x7fe91f090402 <unknown>
+------------------------------------------------------------------------------
+Shipment2                                                             | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <li data-v-7bb16432="" class="nav-item">...</li> is not clickable at point (136, 265). Other element would receive the click: <th class="vuetable-th-slot-image" style="width: 50px;">...</th>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x55c7cb01c4e3 <unknown>
+#1 0x55c7cad4bc76 <unknown>
+#2 0x55c7cad8d9d4 <unknown>
+#3 0x55c7cad8bcbd <unknown>
+#4 0x55c7cad89d2e <unknown>
+#5 0x55c7cad8910f <unknown>
+#6 0x55c7cad7e1da <unknown>
+#7 0x55c7cada7012 <unknown>
+#8 0x55c7cad7db03 <unknown>
+#9 0x55c7cada71de <unknown>
+#10 0x55c7cadbf30e <unknown>
+#11 0x55c7cada6de3 <unknown>
+#12 0x55c7cad7c2dd <unknown>
+#13 0x55c7cad7d34e <unknown>
+#14 0x55c7cafdc3e4 <unknown>
+#15 0x55c7cafe03d7 <unknown>
+#16 0x55c7cafeab20 <unknown>
+#17 0x55c7cafe1023 <unknown>
+#18 0x55c7cafaf1aa <unknown>
+#19 0x55c7cb0056b8 <unknown>
+#20 0x55c7cb005847 <unknown>
+#21 0x55c7cb015243 <unknown>
+#22 0x7fe91f090402 <unknown>
+------------------------------------------------------------------------------
+Shipment3                                                             | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <li data-v-7bb16432="" class="nav-item">...</li> is not clickable at point (136, 265). Other element would receive the click: <th class="vuetable-th-slot-image" style="width: 50px;">...</th>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x55c7cb01c4e3 <unknown>
+#1 0x55c7cad4bc76 <unknown>
+#2 0x55c7cad8d9d4 <unknown>
+#3 0x55c7cad8bcbd <unknown>
+#4 0x55c7cad89d2e <unknown>
+#5 0x55c7cad8910f <unknown>
+#6 0x55c7cad7e1da <unknown>
+#7 0x55c7cada7012 <unknown>
+#8 0x55c7cad7db03 <unknown>
+#9 0x55c7cada71de <unknown>
+#10 0x55c7cadbf30e <unknown>
+#11 0x55c7cada6de3 <unknown>
+#12 0x55c7cad7c2dd <unknown>
+#13 0x55c7cad7d34e <unknown>
+#14 0x55c7cafdc3e4 <unknown>
+#15 0x55c7cafe03d7 <unknown>
+#16 0x55c7cafeab20 <unknown>
+#17 0x55c7cafe1023 <unknown>
+#18 0x55c7cafaf1aa <unknown>
+#19 0x55c7cb0056b8 <unknown>
+#20 0x55c7cb005847 <unknown>
+#21 0x55c7cb015243 <unknown>
+#22 0x7fe91f090402 <unknown>
+------------------------------------------------------------------------------
+Click Shipment Thaipost                                               | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <li data-v-7bb16432="" class="nav-item">...</li> is not clickable at point (136, 265). Other element would receive the click: <th class="vuetable-th-slot-image" style="width: 50px;">...</th>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x55c7cb01c4e3 <unknown>
+#1 0x55c7cad4bc76 <unknown>
+#2 0x55c7cad8d9d4 <unknown>
+#3 0x55c7cad8bcbd <unknown>
+#4 0x55c7cad89d2e <unknown>
+#5 0x55c7cad8910f <unknown>
+#6 0x55c7cad7e1da <unknown>
+#7 0x55c7cada7012 <unknown>
+#8 0x55c7cad7db03 <unknown>
+#9 0x55c7cada71de <unknown>
+#10 0x55c7cadbf30e <unknown>
+#11 0x55c7cada6de3 <unknown>
+#12 0x55c7cad7c2dd <unknown>
+#13 0x55c7cad7d34e <unknown>
+#14 0x55c7cafdc3e4 <unknown>
+#15 0x55c7cafe03d7 <unknown>
+#16 0x55c7cafeab20 <unknown>
+#17 0x55c7cafe1023 <unknown>
+#18 0x55c7cafaf1aa <unknown>
+#19 0x55c7cb0056b8 <unknown>
+#20 0x55c7cb005847 <unknown>
+#21 0x55c7cb015243 <unknown>
+#22 0x7fe91f090402 <unknown>
+------------------------------------------------------------------------------
+Click Shipment Flash                                                  | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <li data-v-7bb16432="" class="nav-item">...</li> is not clickable at point (136, 265). Other element would receive the click: <th class="vuetable-th-slot-image" style="width: 50px;">...</th>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x55c7cb01c4e3 <unknown>
+#1 0x55c7cad4bc76 <unknown>
+#2 0x55c7cad8d9d4 <unknown>
+#3 0x55c7cad8bcbd <unknown>
+#4 0x55c7cad89d2e <unknown>
+#5 0x55c7cad8910f <unknown>
+#6 0x55c7cad7e1da <unknown>
+#7 0x55c7cada7012 <unknown>
+#8 0x55c7cad7db03 <unknown>
+#9 0x55c7cada71de <unknown>
+#10 0x55c7cadbf30e <unknown>
+#11 0x55c7cada6de3 <unknown>
+#12 0x55c7cad7c2dd <unknown>
+#13 0x55c7cad7d34e <unknown>
+#14 0x55c7cafdc3e4 <unknown>
+#15 0x55c7cafe03d7 <unknown>
+#16 0x55c7cafeab20 <unknown>
+#17 0x55c7cafe1023 <unknown>
+#18 0x55c7cafaf1aa <unknown>
+#19 0x55c7cb0056b8 <unknown>
+#20 0x55c7cb005847 <unknown>
+#21 0x55c7cb015243 <unknown>
+#22 0x7fe91f090402 <unknown>
+------------------------------------------------------------------------------
+Open Upsale                                                           | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <a data-v-7bb16432="" href="/app/settings" class="nav-link actives">...</a> is not clickable at point (136, 760). Other element would receive the click: <div class="modal-content" style="">...</div>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x55c7cb01c4e3 <unknown>
+#1 0x55c7cad4bc76 <unknown>
+#2 0x55c7cad8d9d4 <unknown>
+#3 0x55c7cad8bcbd <unknown>
+#4 0x55c7cad89d2e <unknown>
+#5 0x55c7cad8910f <unknown>
+#6 0x55c7cad7e1da <unknown>
+#7 0x55c7cada7012 <unknown>
+#8 0x55c7cad7db03 <unknown>
+#9 0x55c7cada71de <unknown>
+#10 0x55c7cadbf30e <unknown>
+#11 0x55c7cada6de3 <unknown>
+#12 0x55c7cad7c2dd <unknown>
+#13 0x55c7cad7d34e <unknown>
+#14 0x55c7cafdc3e4 <unknown>
+#15 0x55c7cafe03d7 <unknown>
+#16 0x55c7cafeab20 <unknown>
+#17 0x55c7cafe1023 <unknown>
+#18 0x55c7cafaf1aa <unknown>
+#19 0x55c7cb0056b8 <unknown>
+#20 0x55c7cb005847 <unknown>
+#21 0x55c7cb015243 <unknown>
+#22 0x7fe91f090402 <unknown>
+------------------------------------------------------------------------------
+Click Salepage                                                        | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <li data-v-7bb16432="" class="nav-item nav-item-submenu">...</li> is not clickable at point (136, 445). Other element would receive the click: <div data-v-4a0e1585="" class="border-top card-body tab-content">...</div>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x55c7cb01c4e3 <unknown>
+#1 0x55c7cad4bc76 <unknown>
+#2 0x55c7cad8d9d4 <unknown>
+#3 0x55c7cad8bcbd <unknown>
+#4 0x55c7cad89d2e <unknown>
+#5 0x55c7cad8910f <unknown>
+#6 0x55c7cad7e1da <unknown>
+#7 0x55c7cada7012 <unknown>
+#8 0x55c7cad7db03 <unknown>
+#9 0x55c7cada71de <unknown>
+#10 0x55c7cadbf30e <unknown>
+#11 0x55c7cada6de3 <unknown>
+#12 0x55c7cad7c2dd <unknown>
+#13 0x55c7cad7d34e <unknown>
+#14 0x55c7cafdc3e4 <unknown>
+#15 0x55c7cafe03d7 <unknown>
+#16 0x55c7cafeab20 <unknown>
+#17 0x55c7cafe1023 <unknown>
+#18 0x55c7cafaf1aa <unknown>
+#19 0x55c7cb0056b8 <unknown>
+#20 0x55c7cb005847 <unknown>
+#21 0x55c7cb015243 <unknown>
+#22 0x7fe91f090402 <unknown>
+------------------------------------------------------------------------------
+Add Salepage                                                          | FAIL |
+Element '//html/body/section/div[2]/div[4]/div[4]/div/div/div[1]/div[2]/div[2]/div[1]/a/button' not visible after 20 seconds.
+------------------------------------------------------------------------------
+Confirm Order                                                         | FAIL |
+Element '//*[@id="table-order"]/div/div/div/table/tbody/tr/td[9]/a' not visible after 20 seconds.
+------------------------------------------------------------------------------
+Upsale transfer                                                       | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <span data-v-7bb16432="" class="nav-link cursor-pointer">...</span> is not clickable at point (136, 355). Other element would receive the click: <div data-v-ef9d08c0="" class="datatable-footer p-3">...</div>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x55c7cb01c4e3 <unknown>
+#1 0x55c7cad4bc76 <unknown>
+#2 0x55c7cad8d9d4 <unknown>
+#3 0x55c7cad8bcbd <unknown>
+#4 0x55c7cad89d2e <unknown>
+#5 0x55c7cad8910f <unknown>
+#6 0x55c7cad7e1da <unknown>
+#7 0x55c7cada7012 <unknown>
+#8 0x55c7cad7db03 <unknown>
+#9 0x55c7cada71de <unknown>
+#10 0x55c7cadbf30e <unknown>
+#11 0x55c7cada6de3 <unknown>
+#12 0x55c7cad7c2dd <unknown>
+#13 0x55c7cad7d34e <unknown>
+#14 0x55c7cafdc3e4 <unknown>
+#15 0x55c7cafe03d7 <unknown>
+#16 0x55c7cafeab20 <unknown>
+#17 0x55c7cafe1023 <unknown>
+#18 0x55c7cafaf1aa <unknown>
+#19 0x55c7cb0056b8 <unknown>
+#20 0x55c7cb005847 <unknown>
+#21 0x55c7cb015243 <unknown>
+#22 0x7fe91f090402 <unknown>
+------------------------------------------------------------------------------
+Upsale cod                                                            | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <span data-v-7bb16432="" class="nav-link cursor-pointer">...</span> is not clickable at point (136, 355). Other element would receive the click: <div data-v-ef9d08c0="" class="datatable-footer p-3">...</div>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x55c7cb01c4e3 <unknown>
+#1 0x55c7cad4bc76 <unknown>
+#2 0x55c7cad8d9d4 <unknown>
+#3 0x55c7cad8bcbd <unknown>
+#4 0x55c7cad89d2e <unknown>
+#5 0x55c7cad8910f <unknown>
+#6 0x55c7cad7e1da <unknown>
+#7 0x55c7cada7012 <unknown>
+#8 0x55c7cad7db03 <unknown>
+#9 0x55c7cada71de <unknown>
+#10 0x55c7cadbf30e <unknown>
+#11 0x55c7cada6de3 <unknown>
+#12 0x55c7cad7c2dd <unknown>
+#13 0x55c7cad7d34e <unknown>
+#14 0x55c7cafdc3e4 <unknown>
+#15 0x55c7cafe03d7 <unknown>
+#16 0x55c7cafeab20 <unknown>
+#17 0x55c7cafe1023 <unknown>
+#18 0x55c7cafaf1aa <unknown>
+#19 0x55c7cb0056b8 <unknown>
+#20 0x55c7cb005847 <unknown>
+#21 0x55c7cb015243 <unknown>
+#22 0x7fe91f090402 <unknown>
+------------------------------------------------------------------------------
+Shipment1                                                             | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <li data-v-7bb16432="" class="nav-item">...</li> is not clickable at point (136, 265). Other element would receive the click: <th class="vuetable-th-slot-image" style="width: 50px;">...</th>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x55c7cb01c4e3 <unknown>
+#1 0x55c7cad4bc76 <unknown>
+#2 0x55c7cad8d9d4 <unknown>
+#3 0x55c7cad8bcbd <unknown>
+#4 0x55c7cad89d2e <unknown>
+#5 0x55c7cad8910f <unknown>
+#6 0x55c7cad7e1da <unknown>
+#7 0x55c7cada7012 <unknown>
+#8 0x55c7cad7db03 <unknown>
+#9 0x55c7cada71de <unknown>
+#10 0x55c7cadbf30e <unknown>
+#11 0x55c7cada6de3 <unknown>
+#12 0x55c7cad7c2dd <unknown>
+#13 0x55c7cad7d34e <unknown>
+#14 0x55c7cafdc3e4 <unknown>
+#15 0x55c7cafe03d7 <unknown>
+#16 0x55c7cafeab20 <unknown>
+#17 0x55c7cafe1023 <unknown>
+#18 0x55c7cafaf1aa <unknown>
+#19 0x55c7cb0056b8 <unknown>
+#20 0x55c7cb005847 <unknown>
+#21 0x55c7cb015243 <unknown>
+#22 0x7fe91f090402 <unknown>
+------------------------------------------------------------------------------
+[ WARN ] Multiple tests with name 'Shipment2' executed in suite 'Fullflow'.
+Shipment2                                                             | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <li data-v-7bb16432="" class="nav-item">...</li> is not clickable at point (136, 265). Other element would receive the click: <th class="vuetable-th-slot-image" style="width: 50px;">...</th>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x55c7cb01c4e3 <unknown>
+#1 0x55c7cad4bc76 <unknown>
+#2 0x55c7cad8d9d4 <unknown>
+#3 0x55c7cad8bcbd <unknown>
+#4 0x55c7cad89d2e <unknown>
+#5 0x55c7cad8910f <unknown>
+#6 0x55c7cad7e1da <unknown>
+#7 0x55c7cada7012 <unknown>
+#8 0x55c7cad7db03 <unknown>
+#9 0x55c7cada71de <unknown>
+#10 0x55c7cadbf30e <unknown>
+#11 0x55c7cada6de3 <unknown>
+#12 0x55c7cad7c2dd <unknown>
+#13 0x55c7cad7d34e <unknown>
+#14 0x55c7cafdc3e4 <unknown>
+#15 0x55c7cafe03d7 <unknown>
+#16 0x55c7cafeab20 <unknown>
+#17 0x55c7cafe1023 <unknown>
+#18 0x55c7cafaf1aa <unknown>
+#19 0x55c7cb0056b8 <unknown>
+#20 0x55c7cb005847 <unknown>
+#21 0x55c7cb015243 <unknown>
+#22 0x7fe91f090402 <unknown>
+------------------------------------------------------------------------------
+[ WARN ] Multiple tests with name 'Open Upsale' executed in suite 'Fullflow'.
+Open Upsale                                                           | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <a data-v-7bb16432="" href="/app/settings" class="nav-link actives">...</a> is not clickable at point (136, 760). Other element would receive the click: <div class="modal-content" style="">...</div>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x55c7cb01c4e3 <unknown>
+#1 0x55c7cad4bc76 <unknown>
+#2 0x55c7cad8d9d4 <unknown>
+#3 0x55c7cad8bcbd <unknown>
+#4 0x55c7cad89d2e <unknown>
+#5 0x55c7cad8910f <unknown>
+#6 0x55c7cad7e1da <unknown>
+#7 0x55c7cada7012 <unknown>
+#8 0x55c7cad7db03 <unknown>
+#9 0x55c7cada71de <unknown>
+#10 0x55c7cadbf30e <unknown>
+#11 0x55c7cada6de3 <unknown>
+#12 0x55c7cad7c2dd <unknown>
+#13 0x55c7cad7d34e <unknown>
+#14 0x55c7cafdc3e4 <unknown>
+#15 0x55c7cafe03d7 <unknown>
+#16 0x55c7cafeab20 <unknown>
+#17 0x55c7cafe1023 <unknown>
+#18 0x55c7cafaf1aa <unknown>
+#19 0x55c7cb0056b8 <unknown>
+#20 0x55c7cb005847 <unknown>
+#21 0x55c7cb015243 <unknown>
+#22 0x7fe91f090402 <unknown>
+------------------------------------------------------------------------------
+Fullflow                                                              | FAIL |
+22 tests, 5 passed, 17 failed
+==============================================================================
+Output:  /home/automatetest/Desktop/winwinwin/results/output.xml
+Log:     /home/automatetest/Desktop/winwinwin/results/log.html
+Report:  /home/automatetest/Desktop/winwinwin/results/report.html
+==============================================================================
+Fullflow                                                                      
+==============================================================================
+Login Dev Env                                                         | PASS |
+------------------------------------------------------------------------------
+Click shop                                                            | PASS |
+------------------------------------------------------------------------------
+Click Order Menu                                                      | PASS |
+------------------------------------------------------------------------------
+Add Order 1                                                           | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <a data-v-4a0e1585="" href="#products_simple" data-toggle="tab" class="nav-link align-items-center d-flex cursor-pointer ">...</a> is not clickable at point (257, 194). Other element would receive the click: <div data-v-ef9d08c0="" class="loading">...</div>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x56431956a4e3 <unknown>
+#1 0x564319299c76 <unknown>
+#2 0x5643192db9d4 <unknown>
+#3 0x5643192d9cbd <unknown>
+#4 0x5643192d7d2e <unknown>
+#5 0x5643192d710f <unknown>
+#6 0x5643192cc1da <unknown>
+#7 0x5643192f5012 <unknown>
+#8 0x5643192cbb03 <unknown>
+#9 0x5643192f51de <unknown>
+#10 0x56431930d30e <unknown>
+#11 0x5643192f4de3 <unknown>
+#12 0x5643192ca2dd <unknown>
+#13 0x5643192cb34e <unknown>
+#14 0x56431952a3e4 <unknown>
+#15 0x56431952e3d7 <unknown>
+#16 0x564319538b20 <unknown>
+#17 0x56431952f023 <unknown>
+#18 0x5643194fd1aa <unknown>
+#19 0x5643195536b8 <unknown>
+#20 0x564319553847 <unknown>
+#21 0x564319563243 <unknown>
+#22 0x7f8b4f090402 <unknown>
+------------------------------------------------------------------------------
+Add Order 2                                                           | FAIL |
+Element '//*[@id="order_form_modal"]/div/div[3]/form/div[2]/div[1]/div[2]/div/div/div[2]/div/div/div/div/div[1]/label/div' not visible after 20 seconds.
+------------------------------------------------------------------------------
+Add Order 3                                                           | FAIL |
+Element '//*[@id="order_form_modal"]/div/div[3]/form/div[2]/div[1]/div[2]/div/div/div[2]/div/div/div/div/div[1]/label/div' not visible after 20 seconds.
+------------------------------------------------------------------------------
+Add Order 4                                                           | FAIL |
+Element '//*[@id="order_form_modal"]/div/div[3]/form/div[2]/div[1]/div[2]/div/div/div[2]/div/div/div/div/div[1]/label/div' not visible after 20 seconds.
+------------------------------------------------------------------------------
+Confirm Order 4                                                       | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <a data-v-6373fd1d="" href="/app/orders/220" target="_blank" class="text-dark">...</a> is not clickable at point (694, 463). Other element would receive the click: <div data-v-4a0e1585="" id="product_promotion" class="mb-5 pb-5">...</div>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x56431956a4e3 <unknown>
+#1 0x564319299c76 <unknown>
+#2 0x5643192db9d4 <unknown>
+#3 0x5643192d9cbd <unknown>
+#4 0x5643192d7d2e <unknown>
+#5 0x5643192d710f <unknown>
+#6 0x5643192cc1da <unknown>
+#7 0x5643192f5012 <unknown>
+#8 0x5643192cbb03 <unknown>
+#9 0x5643192f51de <unknown>
+#10 0x56431930d30e <unknown>
+#11 0x5643192f4de3 <unknown>
+#12 0x5643192ca2dd <unknown>
+#13 0x5643192cb34e <unknown>
+#14 0x56431952a3e4 <unknown>
+#15 0x56431952e3d7 <unknown>
+#16 0x564319538b20 <unknown>
+#17 0x56431952f023 <unknown>
+#18 0x5643194fd1aa <unknown>
+#19 0x5643195536b8 <unknown>
+#20 0x564319553847 <unknown>
+#21 0x564319563243 <unknown>
+#22 0x7f8b4f090402 <unknown>
+------------------------------------------------------------------------------
+Confirm Order 2                                                       | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <a data-v-7bb16432="" href="/app/orders/index" class="nav-link actives router-link-exact-active router-link-active" aria-current="page">...</a> is not clickable at point (136, 175). Other element would receive the click: <a data-v-4a0e1585="" href="#products_latest" data-toggle="tab" class="nav-link align-items-center d-flex cursor-pointer  active">...</a>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x56431956a4e3 <unknown>
+#1 0x564319299c76 <unknown>
+#2 0x5643192db9d4 <unknown>
+#3 0x5643192d9cbd <unknown>
+#4 0x5643192d7d2e <unknown>
+#5 0x5643192d710f <unknown>
+#6 0x5643192cc1da <unknown>
+#7 0x5643192f5012 <unknown>
+#8 0x5643192cbb03 <unknown>
+#9 0x5643192f51de <unknown>
+#10 0x56431930d30e <unknown>
+#11 0x5643192f4de3 <unknown>
+#12 0x5643192ca2dd <unknown>
+#13 0x5643192cb34e <unknown>
+#14 0x56431952a3e4 <unknown>
+#15 0x56431952e3d7 <unknown>
+#16 0x564319538b20 <unknown>
+#17 0x56431952f023 <unknown>
+#18 0x5643194fd1aa <unknown>
+#19 0x5643195536b8 <unknown>
+#20 0x564319553847 <unknown>
+#21 0x564319563243 <unknown>
+#22 0x7f8b4f090402 <unknown>
+------------------------------------------------------------------------------
+Shipment2                                                             | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <li data-v-7bb16432="" class="nav-item">...</li> is not clickable at point (136, 265). Other element would receive the click: <th class="vuetable-th-slot-image" style="width: 50px;">...</th>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x56431956a4e3 <unknown>
+#1 0x564319299c76 <unknown>
+#2 0x5643192db9d4 <unknown>
+#3 0x5643192d9cbd <unknown>
+#4 0x5643192d7d2e <unknown>
+#5 0x5643192d710f <unknown>
+#6 0x5643192cc1da <unknown>
+#7 0x5643192f5012 <unknown>
+#8 0x5643192cbb03 <unknown>
+#9 0x5643192f51de <unknown>
+#10 0x56431930d30e <unknown>
+#11 0x5643192f4de3 <unknown>
+#12 0x5643192ca2dd <unknown>
+#13 0x5643192cb34e <unknown>
+#14 0x56431952a3e4 <unknown>
+#15 0x56431952e3d7 <unknown>
+#16 0x564319538b20 <unknown>
+#17 0x56431952f023 <unknown>
+#18 0x5643194fd1aa <unknown>
+#19 0x5643195536b8 <unknown>
+#20 0x564319553847 <unknown>
+#21 0x564319563243 <unknown>
+#22 0x7f8b4f090402 <unknown>
+------------------------------------------------------------------------------
+Shipment3                                                             | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <li data-v-7bb16432="" class="nav-item">...</li> is not clickable at point (136, 265). Other element would receive the click: <th class="vuetable-th-slot-image" style="width: 50px;">...</th>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x56431956a4e3 <unknown>
+#1 0x564319299c76 <unknown>
+#2 0x5643192db9d4 <unknown>
+#3 0x5643192d9cbd <unknown>
+#4 0x5643192d7d2e <unknown>
+#5 0x5643192d710f <unknown>
+#6 0x5643192cc1da <unknown>
+#7 0x5643192f5012 <unknown>
+#8 0x5643192cbb03 <unknown>
+#9 0x5643192f51de <unknown>
+#10 0x56431930d30e <unknown>
+#11 0x5643192f4de3 <unknown>
+#12 0x5643192ca2dd <unknown>
+#13 0x5643192cb34e <unknown>
+#14 0x56431952a3e4 <unknown>
+#15 0x56431952e3d7 <unknown>
+#16 0x564319538b20 <unknown>
+#17 0x56431952f023 <unknown>
+#18 0x5643194fd1aa <unknown>
+#19 0x5643195536b8 <unknown>
+#20 0x564319553847 <unknown>
+#21 0x564319563243 <unknown>
+#22 0x7f8b4f090402 <unknown>
+------------------------------------------------------------------------------
+Click Shipment Thaipost                                               | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <li data-v-7bb16432="" class="nav-item">...</li> is not clickable at point (136, 265). Other element would receive the click: <th class="vuetable-th-slot-image" style="width: 50px;">...</th>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x56431956a4e3 <unknown>
+#1 0x564319299c76 <unknown>
+#2 0x5643192db9d4 <unknown>
+#3 0x5643192d9cbd <unknown>
+#4 0x5643192d7d2e <unknown>
+#5 0x5643192d710f <unknown>
+#6 0x5643192cc1da <unknown>
+#7 0x5643192f5012 <unknown>
+#8 0x5643192cbb03 <unknown>
+#9 0x5643192f51de <unknown>
+#10 0x56431930d30e <unknown>
+#11 0x5643192f4de3 <unknown>
+#12 0x5643192ca2dd <unknown>
+#13 0x5643192cb34e <unknown>
+#14 0x56431952a3e4 <unknown>
+#15 0x56431952e3d7 <unknown>
+#16 0x564319538b20 <unknown>
+#17 0x56431952f023 <unknown>
+#18 0x5643194fd1aa <unknown>
+#19 0x5643195536b8 <unknown>
+#20 0x564319553847 <unknown>
+#21 0x564319563243 <unknown>
+#22 0x7f8b4f090402 <unknown>
+------------------------------------------------------------------------------
+Click Shipment Flash                                                  | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <li data-v-7bb16432="" class="nav-item">...</li> is not clickable at point (136, 265). Other element would receive the click: <th class="vuetable-th-slot-image" style="width: 50px;">...</th>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x56431956a4e3 <unknown>
+#1 0x564319299c76 <unknown>
+#2 0x5643192db9d4 <unknown>
+#3 0x5643192d9cbd <unknown>
+#4 0x5643192d7d2e <unknown>
+#5 0x5643192d710f <unknown>
+#6 0x5643192cc1da <unknown>
+#7 0x5643192f5012 <unknown>
+#8 0x5643192cbb03 <unknown>
+#9 0x5643192f51de <unknown>
+#10 0x56431930d30e <unknown>
+#11 0x5643192f4de3 <unknown>
+#12 0x5643192ca2dd <unknown>
+#13 0x5643192cb34e <unknown>
+#14 0x56431952a3e4 <unknown>
+#15 0x56431952e3d7 <unknown>
+#16 0x564319538b20 <unknown>
+#17 0x56431952f023 <unknown>
+#18 0x5643194fd1aa <unknown>
+#19 0x5643195536b8 <unknown>
+#20 0x564319553847 <unknown>
+#21 0x564319563243 <unknown>
+#22 0x7f8b4f090402 <unknown>
+------------------------------------------------------------------------------
+Open Upsale                                                           | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <a data-v-7bb16432="" href="/app/settings" class="nav-link actives">...</a> is not clickable at point (136, 760). Other element would receive the click: <div class="modal-content" style="">...</div>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x56431956a4e3 <unknown>
+#1 0x564319299c76 <unknown>
+#2 0x5643192db9d4 <unknown>
+#3 0x5643192d9cbd <unknown>
+#4 0x5643192d7d2e <unknown>
+#5 0x5643192d710f <unknown>
+#6 0x5643192cc1da <unknown>
+#7 0x5643192f5012 <unknown>
+#8 0x5643192cbb03 <unknown>
+#9 0x5643192f51de <unknown>
+#10 0x56431930d30e <unknown>
+#11 0x5643192f4de3 <unknown>
+#12 0x5643192ca2dd <unknown>
+#13 0x5643192cb34e <unknown>
+#14 0x56431952a3e4 <unknown>
+#15 0x56431952e3d7 <unknown>
+#16 0x564319538b20 <unknown>
+#17 0x56431952f023 <unknown>
+#18 0x5643194fd1aa <unknown>
+#19 0x5643195536b8 <unknown>
+#20 0x564319553847 <unknown>
+#21 0x564319563243 <unknown>
+#22 0x7f8b4f090402 <unknown>
+------------------------------------------------------------------------------
+Click Salepage                                                        | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <li data-v-7bb16432="" class="nav-item nav-item-submenu">...</li> is not clickable at point (136, 445). Other element would receive the click: <div data-v-4a0e1585="" class="border-top card-body tab-content">...</div>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x56431956a4e3 <unknown>
+#1 0x564319299c76 <unknown>
+#2 0x5643192db9d4 <unknown>
+#3 0x5643192d9cbd <unknown>
+#4 0x5643192d7d2e <unknown>
+#5 0x5643192d710f <unknown>
+#6 0x5643192cc1da <unknown>
+#7 0x5643192f5012 <unknown>
+#8 0x5643192cbb03 <unknown>
+#9 0x5643192f51de <unknown>
+#10 0x56431930d30e <unknown>
+#11 0x5643192f4de3 <unknown>
+#12 0x5643192ca2dd <unknown>
+#13 0x5643192cb34e <unknown>
+#14 0x56431952a3e4 <unknown>
+#15 0x56431952e3d7 <unknown>
+#16 0x564319538b20 <unknown>
+#17 0x56431952f023 <unknown>
+#18 0x5643194fd1aa <unknown>
+#19 0x5643195536b8 <unknown>
+#20 0x564319553847 <unknown>
+#21 0x564319563243 <unknown>
+#22 0x7f8b4f090402 <unknown>
+------------------------------------------------------------------------------
+Add Salepage                                                          | FAIL |
+Element '//html/body/section/div[2]/div[4]/div[4]/div/div/div[1]/div[2]/div[2]/div[1]/a/button' not visible after 20 seconds.
+------------------------------------------------------------------------------
+Confirm Order                                                         | FAIL |
+Element '//*[@id="table-order"]/div/div/div/table/tbody/tr/td[9]/a' not visible after 20 seconds.
+------------------------------------------------------------------------------
+Upsale transfer                                                       | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <span data-v-7bb16432="" class="nav-link cursor-pointer">...</span> is not clickable at point (136, 355). Other element would receive the click: <div data-v-ef9d08c0="" class="datatable-footer p-3">...</div>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x56431956a4e3 <unknown>
+#1 0x564319299c76 <unknown>
+#2 0x5643192db9d4 <unknown>
+#3 0x5643192d9cbd <unknown>
+#4 0x5643192d7d2e <unknown>
+#5 0x5643192d710f <unknown>
+#6 0x5643192cc1da <unknown>
+#7 0x5643192f5012 <unknown>
+#8 0x5643192cbb03 <unknown>
+#9 0x5643192f51de <unknown>
+#10 0x56431930d30e <unknown>
+#11 0x5643192f4de3 <unknown>
+#12 0x5643192ca2dd <unknown>
+#13 0x5643192cb34e <unknown>
+#14 0x56431952a3e4 <unknown>
+#15 0x56431952e3d7 <unknown>
+#16 0x564319538b20 <unknown>
+#17 0x56431952f023 <unknown>
+#18 0x5643194fd1aa <unknown>
+#19 0x5643195536b8 <unknown>
+#20 0x564319553847 <unknown>
+#21 0x564319563243 <unknown>
+#22 0x7f8b4f090402 <unknown>
+------------------------------------------------------------------------------
+Upsale cod                                                            | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <span data-v-7bb16432="" class="nav-link cursor-pointer">...</span> is not clickable at point (136, 355). Other element would receive the click: <div data-v-ef9d08c0="" class="datatable-footer p-3">...</div>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x56431956a4e3 <unknown>
+#1 0x564319299c76 <unknown>
+#2 0x5643192db9d4 <unknown>
+#3 0x5643192d9cbd <unknown>
+#4 0x5643192d7d2e <unknown>
+#5 0x5643192d710f <unknown>
+#6 0x5643192cc1da <unknown>
+#7 0x5643192f5012 <unknown>
+#8 0x5643192cbb03 <unknown>
+#9 0x5643192f51de <unknown>
+#10 0x56431930d30e <unknown>
+#11 0x5643192f4de3 <unknown>
+#12 0x5643192ca2dd <unknown>
+#13 0x5643192cb34e <unknown>
+#14 0x56431952a3e4 <unknown>
+#15 0x56431952e3d7 <unknown>
+#16 0x564319538b20 <unknown>
+#17 0x56431952f023 <unknown>
+#18 0x5643194fd1aa <unknown>
+#19 0x5643195536b8 <unknown>
+#20 0x564319553847 <unknown>
+#21 0x564319563243 <unknown>
+#22 0x7f8b4f090402 <unknown>
+------------------------------------------------------------------------------
+Shipment1                                                             | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <li data-v-7bb16432="" class="nav-item">...</li> is not clickable at point (136, 265). Other element would receive the click: <th class="vuetable-th-slot-image" style="width: 50px;">...</th>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x56431956a4e3 <unknown>
+#1 0x564319299c76 <unknown>
+#2 0x5643192db9d4 <unknown>
+#3 0x5643192d9cbd <unknown>
+#4 0x5643192d7d2e <unknown>
+#5 0x5643192d710f <unknown>
+#6 0x5643192cc1da <unknown>
+#7 0x5643192f5012 <unknown>
+#8 0x5643192cbb03 <unknown>
+#9 0x5643192f51de <unknown>
+#10 0x56431930d30e <unknown>
+#11 0x5643192f4de3 <unknown>
+#12 0x5643192ca2dd <unknown>
+#13 0x5643192cb34e <unknown>
+#14 0x56431952a3e4 <unknown>
+#15 0x56431952e3d7 <unknown>
+#16 0x564319538b20 <unknown>
+#17 0x56431952f023 <unknown>
+#18 0x5643194fd1aa <unknown>
+#19 0x5643195536b8 <unknown>
+#20 0x564319553847 <unknown>
+#21 0x564319563243 <unknown>
+#22 0x7f8b4f090402 <unknown>
+------------------------------------------------------------------------------
+[ WARN ] Multiple tests with name 'Shipment2' executed in suite 'Fullflow'.
+Shipment2                                                             | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <li data-v-7bb16432="" class="nav-item">...</li> is not clickable at point (136, 265). Other element would receive the click: <th class="vuetable-th-slot-image" style="width: 50px;">...</th>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x56431956a4e3 <unknown>
+#1 0x564319299c76 <unknown>
+#2 0x5643192db9d4 <unknown>
+#3 0x5643192d9cbd <unknown>
+#4 0x5643192d7d2e <unknown>
+#5 0x5643192d710f <unknown>
+#6 0x5643192cc1da <unknown>
+#7 0x5643192f5012 <unknown>
+#8 0x5643192cbb03 <unknown>
+#9 0x5643192f51de <unknown>
+#10 0x56431930d30e <unknown>
+#11 0x5643192f4de3 <unknown>
+#12 0x5643192ca2dd <unknown>
+#13 0x5643192cb34e <unknown>
+#14 0x56431952a3e4 <unknown>
+#15 0x56431952e3d7 <unknown>
+#16 0x564319538b20 <unknown>
+#17 0x56431952f023 <unknown>
+#18 0x5643194fd1aa <unknown>
+#19 0x5643195536b8 <unknown>
+#20 0x564319553847 <unknown>
+#21 0x564319563243 <unknown>
+#22 0x7f8b4f090402 <unknown>
+------------------------------------------------------------------------------
+[ WARN ] Multiple tests with name 'Open Upsale' executed in suite 'Fullflow'.
+Open Upsale                                                           | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <a data-v-7bb16432="" href="/app/settings" class="nav-link actives">...</a> is not clickable at point (136, 760). Other element would receive the click: <div class="modal-content" style="">...</div>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x56431956a4e3 <unknown>
+#1 0x564319299c76 <unknown>
+#2 0x5643192db9d4 <unknown>
+#3 0x5643192d9cbd <unknown>
+#4 0x5643192d7d2e <unknown>
+#5 0x5643192d710f <unknown>
+#6 0x5643192cc1da <unknown>
+#7 0x5643192f5012 <unknown>
+#8 0x5643192cbb03 <unknown>
+#9 0x5643192f51de <unknown>
+#10 0x56431930d30e <unknown>
+#11 0x5643192f4de3 <unknown>
+#12 0x5643192ca2dd <unknown>
+#13 0x5643192cb34e <unknown>
+#14 0x56431952a3e4 <unknown>
+#15 0x56431952e3d7 <unknown>
+#16 0x564319538b20 <unknown>
+#17 0x56431952f023 <unknown>
+#18 0x5643194fd1aa <unknown>
+#19 0x5643195536b8 <unknown>
+#20 0x564319553847 <unknown>
+#21 0x564319563243 <unknown>
+#22 0x7f8b4f090402 <unknown>
+------------------------------------------------------------------------------
+Fullflow                                                              | FAIL |
+22 tests, 3 passed, 19 failed
+==============================================================================
+Output:  /home/automatetest/Desktop/winwinwin/results/output.xml
+Log:     /home/automatetest/Desktop/winwinwin/results/log.html
+Report:  /home/automatetest/Desktop/winwinwin/results/report.html

@@ -5,7 +5,7 @@ ${urlprod}                  https://gosaas.app/login
 ${email}                    //*[@id="LoginForm"]/div[1]/input
 ${password}                 //*[@id="LoginForm"]/div[2]/input
 ${loginbutton}              //*[@id="LoginForm"]/div[4]/button
-${winwinwinshop}            //*[contains(text(), "winwinwin shop")]
+${winwinwinshop}            //*[contains(text(), "automatetest")]
 ${normalshop}               //*[contains(text(), "Hamster Shop")]
 ${searchshop}               /html/body/section/div[2]/div[2]/div/div[1]/div/div[2]/div/div/div[1]/div[1]/div/input
 ${clicksearch}              /html/body/section/div[2]/div[2]/div/div[1]/div/div[2]/div/div/div[1]/div[1]/div/span/button
@@ -228,7 +228,7 @@ Kerry Shipment 1
     Click element                       ${settingshipdetail}
     sleep   10s
     Mouse Over                          ${makedefaultkerry2}
-    sleep   1s
+    sleep   2s
     Click element                       ${makedefaultkerry2}
     sleep   3s
     Wait until element is visible       ${confirmbutton}
@@ -266,7 +266,7 @@ Kerry Shipment 2
     Click element                       ${settingshipdetail}
     sleep   10s
     Mouse Over                          ${makedefaultkerry3}
-    sleep   1s
+    sleep   2s
     Click element                       ${makedefaultkerry3}
     sleep   3s
     Wait until element is visible       ${confirmbutton}
@@ -305,7 +305,7 @@ Kerry Shipment 3
     Click element                       ${settingshipdetail}
     sleep   10s
     Mouse Over                          ${makedefaultkerry4}
-    sleep   1s
+    sleep   2s
     Click element                       ${makedefaultkerry4}
     sleep   3s
     Wait until element is visible       ${confirmbutton}
@@ -344,7 +344,7 @@ Kerry Shipment 4
     Click element                       ${settingshipdetail}
     sleep   10s
     Mouse Over                          ${makedefaultkerry5}
-    sleep   1s
+    sleep   2s
     Click element                       ${makedefaultkerry5}
     sleep   3s
     Wait until element is visible       ${confirmbutton}
@@ -383,7 +383,7 @@ Kerry Shipment 5
     Click element                       ${settingshipdetail}
     sleep   10s
     Mouse Over                          ${makedefaultkerry1}
-    sleep   1s
+    sleep   2s
     Click element                       ${makedefaultkerry1}
     sleep   3s
     Wait until element is visible       ${confirmbutton}
@@ -423,7 +423,7 @@ Thaipost Shipment 1
     Click element                       ${settingshipdetail}
     sleep   10s
     Mouse Over                          ${makedefaultthaipost2}
-    sleep   1s
+    sleep   2s
     Click element                       ${makedefaultthaipost2}
     sleep   3s
     Wait until element is visible       ${confirmbutton}
@@ -461,7 +461,7 @@ Thaipost Shipment 2
     Click element                       ${settingshipdetail}
     sleep   10s
     Mouse Over                          ${makedefaultthaipost3}
-    sleep   1s
+    sleep   2s
     Click element                       ${makedefaultthaipost3}
     sleep   3s
     Wait until element is visible       ${confirmbutton}
@@ -500,7 +500,7 @@ Thaipost Shipment 3
     Click element                       ${settingshipdetail}
     sleep   10s
     Mouse Over                          ${makedefaultthaipost4}
-    sleep   1s
+    sleep   2s
     Click element                       ${makedefaultthaipost4}
     sleep   3s
     Wait until element is visible       ${confirmbutton}
@@ -539,7 +539,7 @@ Thaipost Shipment 4
     Click element                       ${settingshipdetail}
     sleep   10s
     Mouse Over                          ${makedefaultthaipost5}
-    sleep   1s
+    sleep   2s
     Click element                       ${makedefaultthaipost5}
     sleep   3s
     Wait until element is visible       ${confirmbutton}
@@ -578,7 +578,7 @@ Thaipost Shipment 5
     Click element                       ${settingshipdetail}
     sleep   10s
     Mouse Over                          ${makedefaultthaipost1}
-    sleep   1s
+    sleep   2s
     Click element                       ${makedefaultthaipost1}
     sleep   3s
     Wait until element is visible       ${confirmbutton}
@@ -618,7 +618,7 @@ Flash Shipment 1
     Click element                       ${settingshipdetail}
     sleep   10s
     Mouse Over                          ${makedefaultflash2}
-    sleep   1s
+    sleep   2s
     Click element                       ${makedefaultflash2}
     sleep   3s
     Wait until element is visible       ${confirmbutton}
@@ -656,7 +656,7 @@ Flash Shipment 2
     Click element                       ${settingshipdetail}
     sleep   10s
     Mouse Over                          ${makedefaultflash3}
-    sleep   1s
+    sleep   2s
     Click element                       ${makedefaultflash3}
     sleep   3s
     Wait until element is visible       ${confirmbutton}
@@ -695,7 +695,7 @@ Flash Shipment 3
     Click element                       ${settingshipdetail}
     sleep   10s
     Mouse Over                          ${makedefaultflash4}
-    sleep   1s
+    sleep   2s
     Click element                       ${makedefaultflash4}
     sleep   3s
     Wait until element is visible       ${confirmbutton}
@@ -734,7 +734,7 @@ Flash Shipment 4
     Click element                       ${settingshipdetail}
     sleep   10s
     Mouse Over                          ${makedefaultflash5}
-    sleep   1s
+    sleep   2s
     Click element                       ${makedefaultflash5}
     sleep   3s
     Wait until element is visible       ${confirmbutton}
@@ -773,7 +773,7 @@ Flash Shipment 5
     Click element                       ${settingshipdetail}
     sleep   10s
     Mouse Over                          ${makedefaultflash1}
-    sleep   1s
+    sleep   2s
     Click element                       ${makedefaultflash1}
     sleep   3s
     Wait until element is visible       ${confirmbutton}
@@ -813,7 +813,7 @@ Ninja Shipment 1
     Click element                       ${settingshipdetail}
     sleep   10s
     Mouse Over                          ${makedefaultninja2}
-    sleep   1s
+    sleep   2s
     Click element                       ${makedefaultninja2}
     sleep   3s
     Wait until element is visible       ${confirmbutton}
@@ -851,7 +851,7 @@ Ninja Shipment 2
     Click element                       ${settingshipdetail}
     sleep   10s
     Mouse Over                          ${makedefaultninja3}
-    sleep   1s
+    sleep   2s
     Click element                       ${makedefaultninja3}
     sleep   3s
     Wait until element is visible       ${confirmbutton}
@@ -890,7 +890,7 @@ Ninja Shipment 3
     Click element                       ${settingshipdetail}
     sleep   10s
     Mouse Over                          ${makedefaultninja4}
-    sleep   1s
+    sleep   2s
     Click element                       ${makedefaultninja4}
     sleep   3s
     Wait until element is visible       ${confirmbutton}
@@ -929,7 +929,7 @@ Ninja Shipment 4
     Click element                       ${settingshipdetail}
     sleep   10s
     Mouse Over                          ${makedefaultninja5}
-    sleep   1s
+    sleep   2s
     Click element                       ${makedefaultninja5}
     sleep   3s
     Wait until element is visible       ${confirmbutton}
@@ -968,7 +968,7 @@ Ninja Shipment 5
     Click element                       ${settingshipdetail}
     sleep   10s
     Mouse Over                          ${makedefaultninja1}
-    sleep   1s
+    sleep   2s
     Click element                       ${makedefaultninja1}
     sleep   3s
     Wait until element is visible       ${confirmbutton}
@@ -1003,17 +1003,17 @@ Click Sale Page
 Add Salepage
     Wait until element is visible           ${addsalepage}
     Click element                           ${addsalepage}
-    sleep   1s
+    sleep   2s
     ${windows}=                             Get Window Handles
     Switch Window                           ${windows}[1]
-    sleep   1s
+    sleep   2s
     Wait until element is visible           ${paymentsetting}
     Click element                           ${paymentsetting}
     sleep   2s
     Click element                           ${checkboxtransfer}
     sleep   2s
     Click element                           ${checkboxslip}
-    sleep   1s
+    sleep   2s
     Wait until element is visible           ${settingsalepage}
     Click element                           ${settingsalepage}
     sleep   2s
@@ -1030,9 +1030,9 @@ Add Salepage
     Wait until element is visible           ${firstproduct_salepage}
     Click element                           ${firstproduct_salepage}
     sleep   2s
-    Press Keys                              xpath=//body        \ue00f
-    Press Keys                              xpath=//body        \ue00f
-    Press Keys                              xpath=//body        \ue00f
+    # Press Keys                              xpath=//body        \ue00f
+    # Press Keys                              xpath=//body        \ue00f
+    # Press Keys                              xpath=//body        \ue00f
     sleep   2s
     # Drag And Drop                            ${widget1}             ${dropwidget}
     # Drag And Drop                            ${widget2}             ${dropwidget}
@@ -1055,13 +1055,12 @@ Confirm buy COD
     sleep   5s
     Click element                           ${secondlist}
     sleep   2s
-    Press Keys                              xpath=//body        \ue00f
-    Press Keys                              xpath=//body        \ue00f
-    Press Keys                              xpath=//body        \ue00f
+    # Press Keys                              xpath=//body        \ue00f
+    # Press Keys                              xpath=//body        \ue00f
+    # Press Keys                              xpath=//body        \ue00f
     sleep   2s
-    Wait until element is visible           ${clickcod}
     Click element                           ${clickcod}
-    sleep   1s
+    sleep   2s
     Wait until element is visible           ${fullname}
     Input Text                              ${fullname}         John Cena
     Wait until element is visible           ${telephone}
@@ -1070,12 +1069,11 @@ Confirm buy COD
     Input Text                              ${address}          150/51
     Wait until element is visible           ${subdistrict}
     Input Text                              ${subdistrict}      สุรศักดิ์
-    sleep   1s
+    sleep   2s
     Click element                           ${checkoutaddress}
-    sleep   1s
-    Press Keys                              xpath=//body        \ue00f
-    sleep   1s 
-    Wait until element is visible           ${orderbuy}
+    sleep   2s
+    # Press Keys                              xpath=//body        \ue00f
+    sleep   2s 
     Click element                           ${orderbuy}
     sleep   2s
     Close window
@@ -1094,34 +1092,32 @@ Confirm buy transfer
     sleep   2s
     Click element                           ${secondlist}
     sleep   2s
-    Press Keys                              xpath=//body        \ue00f
-    Press Keys                              xpath=//body        \ue00f
+    # Press Keys                              xpath=//body        \ue00f
+    # Press Keys                              xpath=//body        \ue00f
+    # Press Keys                              xpath=//body        \ue00f
+    sleep   2s
+    Click element                           ${clickpaybank}
+    sleep   2s
+    Choose File                             ${uploadslip}          ${testpic2}
+    sleep   2s
     Press Keys                              xpath=//body        \ue00f
     sleep   2s
-    Wait until element is visible           ${clickpaybank}
-    Click element                           ${clickpaybank}
-    sleep   1s
-    Choose File                             ${uploadslip}          ${testpic2}
-    sleep   1s
-    Press Keys                              xpath=//body        \ue00f
-    sleep   1s
-    Wait until element is visible           ${fullname}
+    # Wait until element is visible           ${fullname}
     Input Text                              ${fullname}         John Cena
-    sleep   1s
+    sleep   2s
     Wait until element is visible           ${telephone}
     Input Text                              ${telephone}        0924213399
     Wait until element is visible           ${address}
     Input Text                              ${address}          150/51
     Wait until element is visible           ${subdistrict}
     Input Text                              ${subdistrict}      สุรศักดิ์
-    sleep   1s
+    sleep   2s
     Click element                           ${checkoutaddress}
-    sleep   1s
+    sleep   2s
     Press Keys                              xpath=//body        \ue00f
-    sleep   1s
+    sleep   2s
     Click element                           ${subdistrict}
-    sleep   1s
-    Wait until element is visible           ${orderbuy}
+    sleep   2s
     Click element                           ${orderbuy}
     sleep   2s
     Close window
@@ -1236,7 +1232,7 @@ Shipment
     sleep   5s
     Wait until element is visible       ${selectshipment}
     Click element                       ${selectshipment}
-    sleep   1s
+    sleep   2s
     Wait until element is visible       ${selectshipment2}
     Click element                       ${selectshipment2}
     sleep   2s
@@ -1248,8 +1244,8 @@ Shipment
     sleep   5s
     Click element                       ${paymentship}
     sleep   10s
-    Wait until element is visible       ${confirmreadyship}
-    Click element                       ${confirmreadyship}
+    # Wait until element is visible       ${confirmreadyship}
+    # Click element                       ${confirmreadyship}
     sleep   5s
 
 Upsale

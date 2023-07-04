@@ -43,27 +43,24 @@ Add Order 1
     Click element                       ${userbox}
     sleep   4s
     Click element                       ${firstuser}
-    Press Keys                           xpath=//body        \ue00f
+    #Press Keys                           xpath=//body        \ue00f
     sleep   4s
     Click element                       ${selectproduct}
-    Wait until element is visible       ${basicproduct}
+    sleep   3s
     Click element                       ${basicproduct}
-    Wait until element is visible       ${firstproduct}
+    sleep   3s
     Click element                       ${firstproduct}
-    Wait until element is visible       ${confirmselectproduct}
+    sleep   3s
     Click element                       ${confirmselectproduct}
-    Press Keys                           xpath=//body        \ue00e
+    #Press Keys                           xpath=//body        \ue00e
     sleep   4s
-    Wait until element is visible       ${addpayment}
     Click element                       ${addpayment}
     sleep   4s
     Wait Until Page Contains Element    ${uploadfield}
     sleep   4s
     Choose File                         ${uploadfield}          ${testpic2}
+    #Press Keys                           xpath=//body        \ue00f
     sleep   3s
-    Press Keys                           xpath=//body        \ue00f
-    sleep   3s
-    Wait until element is visible       ${paymentcompleted}
     Click element                       ${paymentcompleted}
     Wait until element is visible       ${confirmandreorder}
     Click element                       ${confirmandreorder}
@@ -79,7 +76,7 @@ Add Order 2
     sleep   4s
     Wait until element is visible       ${firstuser}
     Click element                       ${firstuser}
-    Press Keys                          xpath=//body        \ue00f
+    #Press Keys                          xpath=//body        \ue00f
     sleep   3s
     Wait until element is visible       ${searchproduct}
     Click element                       ${searchproduct}
@@ -107,16 +104,16 @@ Add Order 3
     sleep   3s
     Wait until element is visible       ${checkboxcod}
     Click element                       ${checkboxcod}
-    Press Keys                          xpath=//body        \ue00f
+    #Press Keys                          xpath=//body        \ue00f
     sleep   3s
     Click element                       ${selectproduct}
-    Wait until element is visible       ${basicproduct}
+    sleep   3s
     Click element                       ${basicproduct}
-    Wait until element is visible       ${firstproduct}
+    sleep   3s
     Click element                       ${firstproduct}
-    Wait until element is visible       ${confirmselectproduct}
+    sleep   3s
     Click element                       ${confirmselectproduct}
-    Press Keys                           xpath=//body        \ue00e
+    #Press Keys                           xpath=//body        \ue00e
     sleep   4s
     Wait until element is visible       ${confirmandreorder}
     Click element                       ${confirmandreorder}
@@ -136,16 +133,16 @@ Add Order 4
     Wait until element is visible       ${cod}
     Click element                       ${cod}
     sleep   3s
-    Press Keys                          xpath=//body        \ue00f
+    #Press Keys                          xpath=//body        \ue00f
     sleep   3s
     Click element                       ${selectproduct}
-    Wait until element is visible       ${basicproduct}
+    sleep   3s
     Click element                       ${basicproduct}
-    Wait until element is visible       ${firstproduct}
+    sleep   3s
     Click element                       ${firstproduct}
-    Wait until element is visible       ${confirmselectproduct}
+    sleep   3s
     Click element                       ${confirmselectproduct}
-    Press Keys                           xpath=//body        \ue00e
+    #Press Keys                           xpath=//body        \ue00e
     sleep   4s
     Wait until element is visible       ${confirmorder}
     Click element                       ${confirmorder}
@@ -224,10 +221,10 @@ Shipment1
     Click element                       ${confirmselectship}
     sleep   5s
     Click element                       ${paymentship}
-    sleep   10s
-    Wait until element is visible       ${confirmreadyship}
-    Click element                       ${confirmreadyship}
-    sleep   10s
+    sleep   5s
+    # Wait until element is visible       ${confirmreadyship}
+    # Click element                       ${confirmreadyship}
+    Reload Page
 
 Shipment2
     sleep   5s
@@ -248,10 +245,10 @@ Shipment2
     Click element                       ${confirmselectship}
     sleep   5s
     Click element                       ${paymentship}
-    sleep   10s
-    Wait until element is visible       ${confirmreadyship}
-    Click element                       ${confirmreadyship}
-    sleep   20s
+    sleep   5s
+    # Wait until element is visible       ${confirmreadyship}
+    # Click element                       ${confirmreadyship}
+    Reload Page
 
 Shipment3
     sleep   5s
@@ -272,10 +269,10 @@ Shipment3
     Click element                       ${confirmselectship}
     sleep   5s
     Click element                       ${paymentship}
-    sleep   10s
-    Wait until element is visible       ${confirmreadyship}
-    Click element                       ${confirmreadyship}
-    sleep   20s
+    sleep   5s
+    # Wait until element is visible       ${confirmreadyship}
+    # Click element                       ${confirmreadyship}
+    Reload Page
 
 Shipment4
     sleep   5s
@@ -297,9 +294,9 @@ Shipment4
     sleep   5s
     Click element                       ${paymentship}
     sleep   10s
-    Wait until element is visible       ${confirmreadyship}
-    Click element                       ${confirmreadyship}
-    sleep   10s
+    # Wait until element is visible       ${confirmreadyship}
+    # Click element                       ${confirmreadyship}
+    Reload Page
 
 
 ***Test Cases ***
