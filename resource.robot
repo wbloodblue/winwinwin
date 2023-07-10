@@ -1012,8 +1012,6 @@ Add Salepage
     sleep   2s
     Click element                           ${checkboxtransfer}
     sleep   2s
-    Click element                           ${checkboxslip}
-    sleep   2s
     Wait until element is visible           ${settingsalepage}
     Click element                           ${settingsalepage}
     sleep   2s
@@ -1030,9 +1028,11 @@ Add Salepage
     Wait until element is visible           ${firstproduct_salepage}
     Click element                           ${firstproduct_salepage}
     sleep   2s
-    # Press Keys                              xpath=//body        \ue00f
-    # Press Keys                              xpath=//body        \ue00f
-    # Press Keys                              xpath=//body        \ue00f
+    Press Keys                              xpath=//body        \ue00f
+    sleep   1s
+    Press Keys                              xpath=//body        \ue00f
+    sleep   1s
+    Press Keys                              xpath=//body        \ue00f
     sleep   2s
     # Drag And Drop                            ${widget1}             ${dropwidget}
     # Drag And Drop                            ${widget2}             ${dropwidget}
@@ -1055,9 +1055,9 @@ Confirm buy COD
     sleep   5s
     Click element                           ${secondlist}
     sleep   2s
-    # Press Keys                              xpath=//body        \ue00f
-    # Press Keys                              xpath=//body        \ue00f
-    # Press Keys                              xpath=//body        \ue00f
+    Press Keys                              xpath=//body        \ue00f
+    Press Keys                              xpath=//body        \ue00f
+    Press Keys                              xpath=//body        \ue00f
     sleep   2s
     Click element                           ${clickcod}
     sleep   2s
@@ -1066,20 +1066,20 @@ Confirm buy COD
     Wait until element is visible           ${telephone}
     Input Text                              ${telephone}        0924213399
     Wait until element is visible           ${address}
-    Input Text                              ${address}          150/51
+    Input Text                              ${address}          150
     Wait until element is visible           ${subdistrict}
     Input Text                              ${subdistrict}      สุรศักดิ์
     sleep   2s
     Click element                           ${checkoutaddress}
     sleep   2s
-    # Press Keys                              xpath=//body        \ue00f
+    Press Keys                              xpath=//body        \ue00f
     sleep   2s 
     Click element                           ${orderbuy}
     sleep   2s
     Close window
     sleep   2s
     Switch Window                           ${windows}[0]
-    sleep   5s
+    sleep   10s
 
 Confirm buy transfer
     Wait until element is visible           ${viewsalepage}
@@ -1092,13 +1092,13 @@ Confirm buy transfer
     sleep   2s
     Click element                           ${secondlist}
     sleep   2s
-    # Press Keys                              xpath=//body        \ue00f
-    # Press Keys                              xpath=//body        \ue00f
-    # Press Keys                              xpath=//body        \ue00f
+    Press Keys                              xpath=//body        \ue00f
+    sleep   1s
+    Press Keys                              xpath=//body        \ue00f
+    sleep   1s
+    Press Keys                              xpath=//body        \ue00f
     sleep   2s
     Click element                           ${clickpaybank}
-    sleep   2s
-    Choose File                             ${uploadslip}          ${testpic2}
     sleep   2s
     Press Keys                              xpath=//body        \ue00f
     sleep   2s
@@ -1108,7 +1108,7 @@ Confirm buy transfer
     Wait until element is visible           ${telephone}
     Input Text                              ${telephone}        0924213399
     Wait until element is visible           ${address}
-    Input Text                              ${address}          150/51
+    Input Text                              ${address}          150
     Wait until element is visible           ${subdistrict}
     Input Text                              ${subdistrict}      สุรศักดิ์
     sleep   2s
@@ -1123,7 +1123,7 @@ Confirm buy transfer
     Close window
     sleep   2s
     Switch Window                           ${windows}[0]
-    sleep   5s
+    sleep   10s
 
 Upsale cod
     Wait until element is visible           ${upsalemenu}
@@ -1152,10 +1152,10 @@ Upsale cod
     sleep   3s
     Wait until element is visible           ${upsaleproduct3}
     Click element                           ${upsaleproduct3}
-    sleep   3s
+    sleep   10s
     Wait until element is visible           ${confirmupsale}
     Click element                           ${confirmupsale}
-    sleep   3s
+    sleep   10s
     Wait until element is visible           ${option}
     Click element                           ${option}
     sleep   3s
@@ -1193,10 +1193,10 @@ Upsale transfer
     sleep   3s
     Wait until element is visible           ${upsaleproduct3}
     Click element                           ${upsaleproduct3}
-    sleep   3s
+    sleep   10s
     Wait until element is visible           ${confirmupsale}
     Click element                           ${confirmupsale}
-    sleep   5s
+    sleep   10s
     Wait until element is visible           ${upsalebutton}
     Click element                           ${upsalebutton}
     sleep   3s
@@ -1204,24 +1204,22 @@ Upsale transfer
     Click element                           ${addpaymenttransfer}
     sleep   5s
     Wait Until Page Contains Element        ${uploadfield}
-    sleep   2s
+    sleep   5s
     Choose File                             ${uploadfield}          ${testpic2}
-    sleep   2s
-    Wait Until Page Contains Element        ${selectbankupsale}
+    sleep   5s
     Click element                           ${selectbankupsale}
-    sleep   2s
-    Wait until Page Contains Element        ${firstbank}
+    sleep   5s
     Click element                           ${firstbank}
-    sleep   2s
+    sleep   5s
     Wait until element is visible           ${confirmpaymentbutton}
     Click element                           ${confirmpaymentbutton}
     sleep   5s
     Wait until element is visible           ${upsalebutton}
     Click element                           ${upsalebutton}
-    sleep   2s
+    sleep   10s
     Wait until element is visible           ${confirmallpayment}
     Click element                           ${confirmallpayment}
-    sleep   2s
+    sleep   10s
     Wait until element is visible           ${confirmallpayment2}
     Click element                           ${confirmallpayment2}
     sleep   10s

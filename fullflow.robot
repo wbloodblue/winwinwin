@@ -43,7 +43,7 @@ Add Order 1
     Click element                       ${userbox}
     sleep   4s
     Click element                       ${firstuser}
-    #Press Keys                           xpath=//body        \ue00f
+    Press Keys                           xpath=//body        \ue00f
     sleep   4s
     Click element                       ${selectproduct}
     sleep   3s
@@ -52,16 +52,17 @@ Add Order 1
     Click element                       ${firstproduct}
     sleep   3s
     Click element                       ${confirmselectproduct}
-    #Press Keys                           xpath=//body        \ue00e
+    Press Keys                           xpath=//body        \ue00e
     sleep   4s
     Click element                       ${addpayment}
     sleep   4s
     Wait Until Page Contains Element    ${uploadfield}
     sleep   4s
     Choose File                         ${uploadfield}          ${testpic2}
-    #Press Keys                           xpath=//body        \ue00f
+    Press Keys                           xpath=//body        \ue00f
     sleep   3s
     Click element                       ${paymentcompleted}
+    sleep   2s
     Wait until element is visible       ${confirmandreorder}
     Click element                       ${confirmandreorder}
     sleep   4s
@@ -76,7 +77,7 @@ Add Order 2
     sleep   4s
     Wait until element is visible       ${firstuser}
     Click element                       ${firstuser}
-    #Press Keys                          xpath=//body        \ue00f
+    Press Keys                          xpath=//body        \ue00f
     sleep   3s
     Wait until element is visible       ${searchproduct}
     Click element                       ${searchproduct}
@@ -104,7 +105,7 @@ Add Order 3
     sleep   3s
     Wait until element is visible       ${checkboxcod}
     Click element                       ${checkboxcod}
-    #Press Keys                          xpath=//body        \ue00f
+    Press Keys                          xpath=//body        \ue00f
     sleep   3s
     Click element                       ${selectproduct}
     sleep   3s
@@ -113,7 +114,7 @@ Add Order 3
     Click element                       ${firstproduct}
     sleep   3s
     Click element                       ${confirmselectproduct}
-    #Press Keys                           xpath=//body        \ue00e
+    Press Keys                           xpath=//body        \ue00e
     sleep   4s
     Wait until element is visible       ${confirmandreorder}
     Click element                       ${confirmandreorder}
@@ -133,7 +134,7 @@ Add Order 4
     Wait until element is visible       ${cod}
     Click element                       ${cod}
     sleep   3s
-    #Press Keys                          xpath=//body        \ue00f
+    Press Keys                          xpath=//body        \ue00f
     sleep   3s
     Click element                       ${selectproduct}
     sleep   3s
@@ -142,7 +143,7 @@ Add Order 4
     Click element                       ${firstproduct}
     sleep   3s
     Click element                       ${confirmselectproduct}
-    #Press Keys                           xpath=//body        \ue00e
+    Press Keys                           xpath=//body        \ue00e
     sleep   4s
     Wait until element is visible       ${confirmorder}
     Click element                       ${confirmorder}
@@ -187,14 +188,19 @@ Confirm Order 2
     Choose File                         ${uploadfield}          ${testpic2}
     sleep   5s
     Wait until element is visible       ${confirmpaymentbutton}
+    sleep   1s
     Click element                       ${confirmpaymentbutton}
     sleep   10s
     Wait until element is visible       ${paymentbutton}
+    sleep   1s
     Click element                       ${paymentbutton}
+    sleep   1s
     Wait until element is visible       ${confirmallpayment}
+    sleep   1s
     Click element                       ${confirmallpayment}
     sleep   5s
     Wait until element is visible       ${confirmallpayment2}
+    sleep   1s
     Click element                       ${confirmallpayment2}
     sleep   10s
     Close window
@@ -369,32 +375,34 @@ Click Shipment Flash
 #     Ninja Shipment 5
 #     Packing
 
-Open Upsale
-    Upsale
+# Open Upsale
+#     Upsale
 
-Click Salepage
-    Click Sale Page
+# Click Salepage
+#     Click Sale Page
 
-Add Salepage
-    Add Salepage
+# Add Salepage
+#     Add Salepage
 
-Confirm Order
-    Confirm buy COD
-    Confirm buy transfer
+# Confirm Order cod
+#     Confirm buy COD
 
-Upsale transfer
-    Upsale transfer
+# Confirm Order tf
+#     Confirm buy transfer
 
-Upsale cod
-    Upsale cod
+# Upsale transfer
+#     Upsale transfer
 
-Shipment1
-    Shipment
-    Packing
+# Upsale cod
+#     Upsale cod
 
-Shipment2
-    Shipment
-    Packing
+# Shipment1
+#     Shipment
+#     Packing
 
-Open Upsale
-    Upsale
+# Shipment2
+#     Shipment
+#     Packing
+
+# Close upsale
+#     Upsale
