@@ -1,5 +1,5 @@
 *** Settings ***
-Library         SeleniumLibrary      timeout=20
+Library         SeleniumLibrary      timeout=60
 Resource        resource.robot
 
 *** Keywords ***
@@ -192,15 +192,15 @@ Confirm Order 2
     Click element                       ${confirmpaymentbutton}
     sleep   10s
     Wait until element is visible       ${paymentbutton}
-    sleep   1s
+    sleep   3s
     Click element                       ${paymentbutton}
-    sleep   1s
+    sleep   3s
     Wait until element is visible       ${confirmallpayment}
-    sleep   1s
+    sleep   3s
     Click element                       ${confirmallpayment}
     sleep   5s
     Wait until element is visible       ${confirmallpayment2}
-    sleep   1s
+    sleep   3s
     Click element                       ${confirmallpayment2}
     sleep   10s
     Close window
@@ -259,7 +259,7 @@ Shipment2
 Shipment3
     sleep   5s
     Click element                       ${shipmentmenu}
-    sleep   4s
+    sleep   5s
     Click element                       ${shipmentmenu}
     sleep   4s
     Wait until element is visible       ${selectshipment}

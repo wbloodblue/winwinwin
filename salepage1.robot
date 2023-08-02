@@ -48,19 +48,19 @@ Confirm Order cod
 Confirm Order tf
     Confirm buy transfer
 
-# Upsale transfer
-#     Upsale transfer
+Upsale transfer
+    Upsale transfer
 
-# Upsale cod
-#     Upsale cod
+Upsale cod
+    Upsale cod
 
-# Shipment1
-#     Shipment
-#     Packing
+Shipment1
+    Shipment
+    Packing
 
-# Shipment2
-#     Shipment
-#     Packing
+Shipment2
+    Shipment
+    Packing
 
-Close upsale
+Close upsale1
     Upsale

@@ -216,7 +216,7 @@ Kerry Shipment 1
     ${windows}=                         Get Window Handles
     Switch Window                       ${windows}[1]
     sleep   10s
-    Capture Page Screenshot
+    #Capture Page Screenshot
     sleep   5s
     Close window
     sleep   2s
@@ -254,7 +254,7 @@ Kerry Shipment 2
     ${windows}=                         Get Window Handles
     Switch Window                       ${windows}[1]
     sleep   10s
-    Capture Page Screenshot
+    #Capture Page Screenshot
     sleep   5s
     Close window
     sleep   2s
@@ -293,7 +293,7 @@ Kerry Shipment 3
     ${windows}=                         Get Window Handles
     Switch Window                       ${windows}[1]
     sleep   10s
-    Capture Page Screenshot
+    #Capture Page Screenshot
     sleep   5s
     Close window
     sleep   2s
@@ -332,7 +332,7 @@ Kerry Shipment 4
     ${windows}=                         Get Window Handles
     Switch Window                       ${windows}[1]
     sleep   10s
-    Capture Page Screenshot
+    #Capture Page Screenshot
     sleep   5s
     Close window
     sleep   2s
@@ -371,7 +371,7 @@ Kerry Shipment 5
     ${windows}=                         Get Window Handles
     Switch Window                       ${windows}[1]
     sleep   10s
-    Capture Page Screenshot
+    #Capture Page Screenshot
     sleep   5s
     Close window
     sleep   2s
@@ -411,7 +411,7 @@ Thaipost Shipment 1
     ${windows}=                         Get Window Handles
     Switch Window                       ${windows}[1]
     sleep   10s
-    Capture Page Screenshot
+    #Capture Page Screenshot
     sleep   5s
     Close window
     sleep   2s
@@ -449,7 +449,7 @@ Thaipost Shipment 2
     ${windows}=                         Get Window Handles
     Switch Window                       ${windows}[1]
     sleep   10s
-    Capture Page Screenshot
+    #Capture Page Screenshot
     sleep   5s
     Close window
     sleep   2s
@@ -488,7 +488,7 @@ Thaipost Shipment 3
     ${windows}=                         Get Window Handles
     Switch Window                       ${windows}[1]
     sleep   10s
-    Capture Page Screenshot
+    #Capture Page Screenshot
     sleep   5s
     Close window
     sleep   2s
@@ -527,7 +527,7 @@ Thaipost Shipment 4
     ${windows}=                         Get Window Handles
     Switch Window                       ${windows}[1]
     sleep   10s
-    Capture Page Screenshot
+    #Capture Page Screenshot
     sleep   5s
     Close window
     sleep   2s
@@ -566,7 +566,7 @@ Thaipost Shipment 5
     ${windows}=                         Get Window Handles
     Switch Window                       ${windows}[1]
     sleep   10s
-    Capture Page Screenshot
+    #Capture Page Screenshot
     sleep   5s
     Close window
     sleep   2s
@@ -606,7 +606,7 @@ Flash Shipment 1
     ${windows}=                         Get Window Handles
     Switch Window                       ${windows}[1]
     sleep   10s
-    Capture Page Screenshot
+    #Capture Page Screenshot
     sleep   5s
     Close window
     sleep   2s
@@ -644,7 +644,7 @@ Flash Shipment 2
     ${windows}=                         Get Window Handles
     Switch Window                       ${windows}[1]
     sleep   10s
-    Capture Page Screenshot
+    #Capture Page Screenshot
     sleep   5s
     Close window
     sleep   2s
@@ -683,7 +683,7 @@ Flash Shipment 3
     ${windows}=                         Get Window Handles
     Switch Window                       ${windows}[1]
     sleep   10s
-    Capture Page Screenshot
+    #Capture Page Screenshot
     sleep   5s
     Close window
     sleep   2s
@@ -722,7 +722,7 @@ Flash Shipment 4
     ${windows}=                         Get Window Handles
     Switch Window                       ${windows}[1]
     sleep   10s
-    Capture Page Screenshot
+    #Capture Page Screenshot
     sleep   5s
     Close window
     sleep   2s
@@ -761,7 +761,7 @@ Flash Shipment 5
     ${windows}=                         Get Window Handles
     Switch Window                       ${windows}[1]
     sleep   10s
-    Capture Page Screenshot
+    #Capture Page Screenshot
     sleep   5s
     Close window
     sleep   2s
@@ -801,7 +801,7 @@ Ninja Shipment 1
     ${windows}=                         Get Window Handles
     Switch Window                       ${windows}[1]
     sleep   10s
-    Capture Page Screenshot
+    #Capture Page Screenshot
     sleep   5s
     Close window
     sleep   2s
@@ -839,7 +839,7 @@ Ninja Shipment 2
     ${windows}=                         Get Window Handles
     Switch Window                       ${windows}[1]
     sleep   10s
-    Capture Page Screenshot
+    #Capture Page Screenshot
     sleep   5s
     Close window
     sleep   2s
@@ -878,7 +878,7 @@ Ninja Shipment 3
     ${windows}=                         Get Window Handles
     Switch Window                       ${windows}[1]
     sleep   10s
-    Capture Page Screenshot
+    #Capture Page Screenshot
     sleep   5s
     Close window
     sleep   2s
@@ -917,7 +917,7 @@ Ninja Shipment 4
     ${windows}=                         Get Window Handles
     Switch Window                       ${windows}[1]
     sleep   10s
-    Capture Page Screenshot
+    #Capture Page Screenshot
     sleep   5s
     Close window
     sleep   2s
@@ -956,7 +956,7 @@ Ninja Shipment 5
     ${windows}=                         Get Window Handles
     Switch Window                       ${windows}[1]
     sleep   10s
-    Capture Page Screenshot
+    #Capture Page Screenshot
     sleep   5s
     Close window
     sleep   2s
@@ -987,51 +987,51 @@ Packing
     Click element                       ${readyship}
     Wait until element is visible       ${confirmreadyship}
     Click element                       ${confirmreadyship}
-    sleep   3s
+    sleep   5s
     Wait until element is visible       ${ordermenu}
     Click element                       ${ordermenu}
-    sleep   3s
+    sleep   5s
 
 Click Sale Page
     Wait until element is visible           ${salepagemenu}
     Click element                           ${salepagemenu}
-    sleep   2s
+    sleep   5s
     Wait until element is visible           ${salepage}
     Click element                           ${salepage}
-    sleep   2s
+    sleep   5s
 
 Add Salepage
     Wait until element is visible           ${addsalepage}
     Click element                           ${addsalepage}
-    sleep   2s
+    sleep   5s
     ${windows}=                             Get Window Handles
     Switch Window                           ${windows}[1]
-    sleep   2s
+    sleep   5s
     Wait until element is visible           ${paymentsetting}
     Click element                           ${paymentsetting}
-    sleep   2s
+    sleep   5s
     Click element                           ${checkboxtransfer}
-    sleep   2s
+    sleep   5s
     Wait until element is visible           ${settingsalepage}
     Click element                           ${settingsalepage}
-    sleep   2s
+    sleep   5s
     Wait until element is visible           ${salepagename}
     ${random_number}=    Evaluate    random.randint(1000, 9999)
     ${randomname}=    Catenate    winwinwin    ${random_number}
     Input text                              ${salepagename}         ${randomname}
-    sleep   2s
+    sleep   5s
     Click element                           ${1steporder}
-    sleep   2s
+    sleep   5s
     Wait until element is visible           ${salepageproduct}
     Click element                           ${salepageproduct}
-    sleep   2s
+    sleep   5s
     Wait until element is visible           ${firstproduct_salepage}
     Click element                           ${firstproduct_salepage}
+    sleep   5s
+    Press Keys                              xpath=//body        \ue00f
     sleep   2s
     Press Keys                              xpath=//body        \ue00f
-    sleep   1s
-    Press Keys                              xpath=//body        \ue00f
-    sleep   1s
+    sleep   2s
     Press Keys                              xpath=//body        \ue00f
     sleep   2s
     # Drag And Drop                            ${widget1}             ${dropwidget}
@@ -1047,20 +1047,22 @@ Add Salepage
 Confirm buy COD
     Wait until element is visible           ${viewsalepage}
     Click element                           ${viewsalepage}
-    sleep   2s
+    sleep   5s
     ${windows}=                             Get Window Handles
     Switch Window                           ${windows}[1]
-    sleep   2s
+    sleep   5s
     Click element                           ${firstlist}
     sleep   5s
     Click element                           ${secondlist}
-    sleep   2s
-    Press Keys                              xpath=//body        \ue00f
-    Press Keys                              xpath=//body        \ue00f
+    sleep   5s
     Press Keys                              xpath=//body        \ue00f
     sleep   2s
+    Press Keys                              xpath=//body        \ue00f
+    sleep   2s
+    Press Keys                              xpath=//body        \ue00f
+    sleep   5s
     Click element                           ${clickcod}
-    sleep   2s
+    sleep   5s
     Wait until element is visible           ${fullname}
     Input Text                              ${fullname}         John Cena
     Wait until element is visible           ${telephone}
@@ -1069,15 +1071,15 @@ Confirm buy COD
     Input Text                              ${address}          150
     Wait until element is visible           ${subdistrict}
     Input Text                              ${subdistrict}      สุรศักดิ์
-    sleep   2s
+    sleep   5s
     Click element                           ${checkoutaddress}
-    sleep   2s
+    sleep   5s
     Press Keys                              xpath=//body        \ue00f
-    sleep   2s 
+    sleep   5s
     Click element                           ${orderbuy}
-    sleep   2s
+    sleep   5s
     Close window
-    sleep   2s
+    sleep   5s
     Switch Window                           ${windows}[0]
     sleep   10s
 
@@ -1247,15 +1249,16 @@ Shipment
     sleep   5s
 
 Upsale
+    sleep   3s
     Wait until element is visible       ${settingmenu}
     Click element                       ${settingmenu}
-    sleep   3s
+    sleep   5s
     Click element                       ${openupsale1}
-    sleep   2s
+    sleep   10s
     Wait until element is visible       ${openupsalebar}
     Click element                       ${openupsalebar}
-    sleep   2s
+    sleep   10s
     Click element                       ${saveopenupsale}
-    sleep   2s
+    sleep   10s
 
 
