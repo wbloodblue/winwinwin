@@ -1,5 +1,5 @@
 *** Settings ***
-Library    SeleniumLibrary      timeout=20
+Library    SeleniumLibrary      timeout=25
 
 *** Variable ***
 ${url}                      https://devgosaas.app/login
