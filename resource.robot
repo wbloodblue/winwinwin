@@ -9,9 +9,10 @@ ${winwinwinshop}            //*[contains(text(), "automatetest")]
 ${normalshop}               //*[contains(text(), "Hamster Shop")]
 ${searchshop}               /html/body/section/div[2]/div[2]/div/div[1]/div/div[2]/div/div/div[1]/div[1]/div/input
 ${clicksearch}              /html/body/section/div[2]/div[2]/div/div[1]/div/div[2]/div/div/div[1]/div[1]/div/span/button
+
 ${confirmbutton}            //html/body/div[2]/div/div[6]/button[1]
-${confirmpack}              //*[@id="modalNearExpirePlan"]/div/div/div[3]/button[1]
-${confirmplan}              //*[@id="modalNearExpirePlan"]/div/div/div[1]/button
+# ${confirmpack}              //*[@id="modalNearExpirePlan"]/div/div/div[3]/button[1]
+# ${confirmplan}              //*[@id="modalNearExpirePlan"]/div/div/div[1]/button
 ${ordermenu}                //html/body/section/div[2]/div[2]/div[2]/div/ul/li[3]/a
 ${createorder}              //html/body/section/div[2]/div[4]/div[4]/div/div[2]/div/div[1]/div[2]/div/div/div[1]/div[1]/button
 ${fromfacebook}             //*[@id="order_form_modal"]/div/div[3]/form/div[2]/div[1]/div[2]/div/div/div[2]/div/div/div/div/div[1]/label/div
